@@ -1,0 +1,55 @@
+[fuzzers]
+    # sub-tables use "." to connect
+    [fuzzers.EQUAFL]
+        # the content in data files are "time(sec):data number"
+        data_files = [
+            "raw_fuzz/108076/equafl1",
+            "raw_fuzz/108076/equafl2",
+            "raw_fuzz/108076/equafl3",
+            "raw_fuzz/108076/equafl4",
+            "raw_fuzz/108076/equafl5"
+        ]
+        line_style = "solid"
+        line_color = "xkcd:scarlet"
+
+    [fuzzers.Firm-AFL]
+        # the content in data files are "time(sec):data number"
+        data_files = [
+            "raw_fuzz/108076/firmafl1",
+            "raw_fuzz/108076/firmafl2",
+            "raw_fuzz/108076/firmafl3",
+            "raw_fuzz/108076/firmafl4",
+            "raw_fuzz/108076/firmafl5"
+        ]
+        line_style = "dashed"
+        line_color = "xkcd:slate blue"
+
+    [fuzzers.AFL-Full]
+        # the content in data files are "time(sec):data number"
+        data_files = [
+            "raw_fuzz/108076/full1",
+            "raw_fuzz/108076/full2",
+            "raw_fuzz/108076/full3",
+            "raw_fuzz/108076/full4",
+            "raw_fuzz/108076/full5"
+        ]
+        line_style = "dashdot"
+        line_color = "xkcd:olive yellow"
+
+[misc]
+    # should be one of the followings: "sec", "s", "min", "m", "hour", "h"
+    bucket = "s"
+    # confidence interval to be used
+    confidence_lvl = 0.95
+    out_dir = "test/out"
+    ylabel = "Vuls found"
+    file_postfix = "-edge-time"
+    project = "mjs"
+    # max_time is in hours
+    max_time = 0.1
+    stat_type = "overall"
+    large_font = true
+    no_legend = false
+    y_start_0 = true
+    x_log_scale = false
+    y_log_scale = false
