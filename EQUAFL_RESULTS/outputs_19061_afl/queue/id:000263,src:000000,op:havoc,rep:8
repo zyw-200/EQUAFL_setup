@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,app192.168.0.1tml+xml,applicathon/xml;q=0.9,imKge/webp,*/*;q=0.8
+Accept-Language2 en-US$en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tert=test
+

@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.nnnnnnnnnnnnnnnnn…nnn1
+Accept: text/html,application/xhtml defRate
+Keep-Alive: keep-image/webp,*/*;q=0.8í
+Accept-Language: en-US,en;q=0.5
+Accept
+Encoÿng: gzip, defRate
+Keep-Alive: keep-aliveTTP
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

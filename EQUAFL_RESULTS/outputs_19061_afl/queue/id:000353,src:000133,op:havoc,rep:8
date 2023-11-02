@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: texX/otml,appli@ation/xhtml+”ml,application/xml;q=0.9e
+User-agent: kee0.8
+Accept-Language: en-US,en;q=0.5
+Ac^ept-Encoding: gzip, deflate
+User-agent: keep-alive
+Upgradeookie: uid=CFYCmNixEa
+
+tes‚=test
+

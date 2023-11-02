@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Hosfds:     8.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imageUpgrade-Insecure-Requests/webp,*/*;q=0.8
+Accept-LHTTP/1.1
+Hosfds:     8.0.1
+anguage: en-US,en;q=0.5
+Accept-Encoding: gzip, defla0.1
+Accept: text/te
+Ponnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

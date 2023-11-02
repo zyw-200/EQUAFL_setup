@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicati
+.8
+Aopplication/xml;q=0.9,image/webp,*/*;q=0FYCmNixEa
+	file %s has modification time in the future
+test=test
+.8
+Accept-Language: en-US,en;q=0.5
+Acncoding: gzip, deflate
+Cosnection: keep-alive
+Upg,application/qhtml+rade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+	
+test=test
+

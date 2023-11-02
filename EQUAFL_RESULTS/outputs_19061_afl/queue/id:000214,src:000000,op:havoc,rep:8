@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/ing:ml,appliFation/xml;q=0.M,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encèding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CF/CmNixEa
+open
+test=test
+Û

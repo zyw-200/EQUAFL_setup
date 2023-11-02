@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 892.168.0.1
+Accept: text/hdml,application/xhtml+xml,application@xml;q=0st: 192.168D0.1
+Accp,*/*;q=0.8
+/ccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: }eep-tlitlive
+Upgrade/1.1
+Host: 192.16: gzip, deflated=CFYCmNixEa
+
+test=test
+cp /bin/reboot var/reboot

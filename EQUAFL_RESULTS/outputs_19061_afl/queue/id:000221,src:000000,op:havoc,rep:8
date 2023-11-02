@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+H/sys/snmptrap/switch/apMtRdoChanlChgTrapSwitchost: 192.168.0.1
+Accept: tex…2.168.0.1
+Accept: tex…/html,pplication/xml;q=0.9,image/000000000000000000000webp,*;q=*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests:ex…2.168.0.1
+Accept: tex…/1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

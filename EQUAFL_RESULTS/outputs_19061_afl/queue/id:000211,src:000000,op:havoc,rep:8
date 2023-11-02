@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applËation/xhtml+xml,application/xml;q=0.9,Åmage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5	d=CFYCmNixEAccept-Eêcoding: gzi/ HTTP/1.1
+Host: 192R: keep-alive
+Upgrade-Insecure-Requesid=CFYCmNts: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

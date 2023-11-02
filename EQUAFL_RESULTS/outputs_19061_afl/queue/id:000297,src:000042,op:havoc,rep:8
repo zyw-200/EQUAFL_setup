@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accegt: t%xt/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=+.8TTPcept-Language: en-Uprocess_request: loop detectedzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 
+	,applicatt
+

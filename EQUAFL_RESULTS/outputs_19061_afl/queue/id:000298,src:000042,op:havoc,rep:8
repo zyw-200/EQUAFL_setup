@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+ccept: text/html,application/xhtml+xml,application/xml;q												ebp,*/*;q=0.8
+Accept-Language: Wn-US,en;q=0.5
+Accept-Encoding: gzip, te
+Connection: keep-alive
+Upgrade-Insncure-Requests:
+Connage: en-US,enxEa
+	
+test=test
+
