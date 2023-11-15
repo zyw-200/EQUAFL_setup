@@ -41,6 +41,9 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	ps -aux | grep qemu |awk '{print $2}'| xargs kill -9
 
+# Dictionary
+	ida_open_program.py
+
 
 # Code
 
