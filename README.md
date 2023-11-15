@@ -25,8 +25,9 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	cd /home/yaowen/firmadyne
 	python EQUAFL_setup.py 19061
-	python vul_run.py 19061 1 0  dir 1 afl
-	python vul_run.py 19061 2 1  dir 2 afl++
+	python vul_run.py 19061 1 0 0 #dir 1 afl keywords_ori
+	python vul_run.py 19061 2 0 1 #dir 2 afl keywords_static
+	python vul_run.py 19061 3 1 0 #dir 3 afl++ keywords_ori
 
 	16157 WN2000RPTv1	
 	108076 WNDRMACv2
@@ -41,8 +42,12 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	ps -aux | grep qemu |awk '{print $2}'| xargs kill -9
 
-# Dictionary
+# EQUAFL++
 	ida_open_program.py
+	analysis.py
+	require lib_arg_num, which stores the argument number of the library function
+	keywords: keywords/httpd/19061 (original keyords) keywords/httpd/19061_static (keywords after static analysis)
+
 
 
 # Code

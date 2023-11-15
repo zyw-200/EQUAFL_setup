@@ -636,9 +636,10 @@ if res == 0:
 	mkdir_str = "mkdir %s" %output_dir
 	os.system(mkdir_str)
 
-output_file = "%s/%s" %(output_dir, image_id)
-keywords_set = set()
-
+code_seg_name = ".text"
+#code_seg_name = "LOAD"
+# output_file = "%s/%s" %(output_dir, image_id)
+output_file = "%s/%s_static" %(output_dir, image_id)
 
 lib_functions = {}
 print_debug = 0
@@ -661,36 +662,8 @@ print len(ori_set | strs_set)
 total_strs =  ori_set | strs_set
 
 
-
-
-# ----------------------------------------------------
-time_start=time.time()
-
-
-ori_fp = open(output_file, "w+")
-already_handle = set()
-i =0
-for strs in total_strs:
-	final_strs = strs_filter(strs)
-	for final_str in final_strs:
-		if final_str in already_handle:
-			continue
-		already_handle.add(final_str)
-		new_line = "extstr" + "%d" %i + "="
-		new_line+= "\""
-		new_line+= final_str
-		new_line+= "\"\n"
-		#ori_fp.write(pair[0]+"\n")
-		print i, new_line
-		ori_fp.write(new_line)
-		i=i+1
-final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
-ori_fp.write(final_line)
-ori_fp.close()
-
-
-# static analysis
 lib_arg_num_file = "/home/yaowen/EQUAFL_setup/EQUAFL++/lib_arg_num"
+# static analysis
 lib_arg_num = {}
 fp = open(lib_arg_num_file, "r")
 for line in fp.readlines():
@@ -701,57 +674,100 @@ for line in fp.readlines():
 	#print(lib_func, arg_num)
 fp.close()
 
-total_strs_addr_set = set()
-for strs in total_strs:
-	if strs in ori_set:
-		str_addr = index_strings(sc, strs, 0)
-	else:
-		str_addr = index_strings(strs_addr_set, strs, 1)
-	assert(str_addr!=0)
-	final_strs = strs_filter(strs)
-	for final_str in final_strs:
-		#print final_str, str_addr
-		total_strs_addr_set.add((final_str,str_addr))
 
-func_name_list = []
-ea = BeginEA()
-for funcea in Functions(SegStart(ea), SegEnd(ea)):
-	functionName = GetFunctionName(funcea)
-	func_name_list.append(functionName)
+# ----------------------------------------------------
+# obtain original string
+def obtain_str(output_file):
+	time_start=time.time()
 
-code_seg_name = ".text"
-#code_seg_name = "LOAD"
+	ori_fp = open(output_file, "w+")
+	already_handle = set()
+	i =0
+	for strs in total_strs:
+		final_strs = strs_filter(strs)
+		for final_str in final_strs:
+			if final_str in already_handle:
+				continue
+			already_handle.add(final_str)
+			new_line = "extstr" + "%d" %i + "="
+			new_line+= "\""
+			new_line+= final_str
+			new_line+= "\"\n"
+			#ori_fp.write(pair[0]+"\n")
+			print i, new_line
+			ori_fp.write(new_line)
+			i=i+1
+	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
+	ori_fp.write(final_line)
+	ori_fp.close()
 
-already_handle_str = set()
-for pair in total_strs_addr_set:
-	if pair[0] in ori_set and pair[0] in func_name_list:
-		continue
-	if pair[0] in already_handle_str:
-		continue
-	already_handle_str.add(pair[0])
-	for key_load_addr in str_ref_addr(pair[1], code_seg_name):
-		dst = GetOpnd(key_load_addr, 0)
-		if print_debug:
-			print("+++++++++++++", s, "%x "%key_load_addr, dst)
-		res = taint_analysis(key_load_addr, dst, code_seg_name)
-		if res == 0:
-			pass	
-			#print("+++++++++++++", s, "%x "%key_load_addr, dst) 
-			#print("\n")
-		if res == 2:
-			#print("&&&&&&&&&&", s, "%x "%key_load_addr, dst) 
-			keywords_set.add(pair[0])
+	time_end=time.time()
+	print('totally cost',time_end-time_start)
+
+# obtain string after static analysis
+def filter_str_w_static(code_name, output_file):
+	time_start=time.time()
+
+	keywords_set = set()
+
+	total_strs_addr_set = set()
+	for strs in total_strs:
+		if strs in ori_set:
+			str_addr = index_strings(sc, strs, 0)
+		else:
+			str_addr = index_strings(strs_addr_set, strs, 1)
+		assert(str_addr!=0)
+		final_strs = strs_filter(strs)
+		for final_str in final_strs:
+			#print final_str, str_addr
+			total_strs_addr_set.add((final_str,str_addr))
+
+	func_name_list = []
+	ea = BeginEA()
+	for funcea in Functions(SegStart(ea), SegEnd(ea)):
+		functionName = GetFunctionName(funcea)
+		func_name_list.append(functionName)
+
+	already_handle_str = set()
+	for pair in total_strs_addr_set:
+		if pair[0] in ori_set and pair[0] in func_name_list:
+			continue
+		if pair[0] in already_handle_str:
+			continue
+		already_handle_str.add(pair[0])
+		for key_load_addr in str_ref_addr(pair[1], code_seg_name):
+			dst = GetOpnd(key_load_addr, 0)
+			if print_debug:
+				print("+++++++++++++", s, "%x "%key_load_addr, dst)
+			res = taint_analysis(key_load_addr, dst, code_seg_name)
+			if res == 0:
+				pass	
+				#print("+++++++++++++", s, "%x "%key_load_addr, dst) 
+				#print("\n")
+			if res == 2:
+				#print("&&&&&&&&&&", s, "%x "%key_load_addr, dst) 
+				keywords_set.add(pair[0])
 
 
-fp = open(output_file, "w+")
-for keyword in keywords_set:
-	fp.write(keyword+"\n")
-fp.close()
+	fp = open(output_file, "w+")
+	i = 0
+	for keyword in keywords_set:
+		new_line = "extstr" + "%d" %i + "="
+		new_line+= "\""
+		new_line+= keyword
+		new_line+= "\"\n"
+		fp.write(new_line)
+		i = i + 1
+	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
+	fp.write(final_line)
+	fp.close()
 
 
-time_end=time.time()
-print('totally cost',time_end-time_start)
+	time_end=time.time()
+	print('totally cost',time_end-time_start)
 
+
+filter_str_w_static(code_seg_name, output_file)
 #---------------------------------------------
 
 idc.Exit(0)
