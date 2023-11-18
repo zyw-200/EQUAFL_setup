@@ -10,6 +10,7 @@ from miasm2.expression.simplifications import expr_simp
 from miasm2.core.interval import interval
 import copy
 import re
+from collections import deque
 
 
 def auto_depgraph(source_arg, addr_arg):
@@ -640,6 +641,9 @@ code_seg_name = ".text"
 #code_seg_name = "LOAD"
 # output_file = "%s/%s" %(output_dir, image_id)
 output_file = "%s/%s_static" %(output_dir, image_id)
+output_info_file = "%s/%s_info" %(output_dir, image_id)
+output_file_sorted = "%s/%s_static_sorted" %(output_dir, image_id)
+output_file_sorted_debug = "%s/%s_static_sorted_debug" %(output_dir, image_id)
 
 lib_functions = {}
 print_debug = 0
@@ -705,10 +709,10 @@ def obtain_str(output_file):
 	print('totally cost',time_end-time_start)
 
 # obtain string after static analysis
-def filter_str_w_static(code_name, output_file):
+def filter_str_w_static(code_name, output_file, output_info_file):
 	time_start=time.time()
 
-	keywords_set = set()
+	keywords_dict = {}
 
 	total_strs_addr_set = set()
 	for strs in total_strs:
@@ -746,12 +750,11 @@ def filter_str_w_static(code_name, output_file):
 				#print("\n")
 			if res == 2:
 				#print("&&&&&&&&&&", s, "%x "%key_load_addr, dst) 
-				keywords_set.add(pair[0])
-
+				keywords_dict[pair[0]] = pair[1]
 
 	fp = open(output_file, "w+")
 	i = 0
-	for keyword in keywords_set:
+	for keyword in keywords_dict:
 		new_line = "extstr" + "%d" %i + "="
 		new_line+= "\""
 		new_line+= keyword
@@ -763,11 +766,341 @@ def filter_str_w_static(code_name, output_file):
 	fp.close()
 
 
+	fp_info = open(output_info_file, "w+")
+	for keyword in keywords_dict:
+		new_key_line = keyword + ":" + str(keywords_dict[keyword]) + "\n"
+		fp_info.write(new_key_line)
+	fp_info.close()
+
+	time_end=time.time()
+	print('totally cost',time_end-time_start)
+
+# def get_ancestor_functions(addr): #addr; the addr of function start
+#     """
+#     Get a list of ancestor functions starting from the function containing the specified address.
+#     """
+#     func_set = set()
+#     ref_addr_set = str_ref_addr(addr, code_seg_name) #get reffrom addr
+#     ref_addr_list = list(ref_addr_set)
+#     all_ref_addr_list = list(ref_addr_set)
+#     while len(ref_addr_list):
+#     	addr = ref_addr_list[0]  #reffrom addr
+#     	del ref_addr_list[0]
+#         func = idaapi.get_func(addr)
+#         if func:
+#             func_addr = func.startEA #refto addr
+#             func_set.add(func_addr)
+#             from_addr_set = str_ref_addr(func_addr, code_seg_name)
+#             for from_addr in from_addr_set:
+#             	if from_addr not in all_ref_addr_list:
+#             		ref_addr_list.append(from_addr)
+#             		all_ref_addr_list.append(from_addr)
+
+#     return func_set
+
+
+# def get_ancestor_functions_ext(addr): #addr; the addr of string
+# 	func_set = set()
+# 	ref_addr_list = [addr]
+# 	all_ref_addr_list = [addr] #record addr of string and all parent function addr
+# 	while len(ref_addr_list):
+# 		addr = ref_addr_list[0] #refto addr
+# 		del ref_addr_list[0]
+# 		from_addr_set = str_ref_addr(addr, code_seg_name)
+# 		for from_addr in from_addr_set:
+# 			func = idaapi.get_func(from_addr)
+# 			if func:
+# 				func_addr = func.startEA #refto addr
+# 				func_set.add(func_addr)
+# 				if func_addr not in all_ref_addr_list:
+# 					ref_addr_list.append(func_addr)
+# 					all_ref_addr_list.append(func_addr)
+
+# 	return func_set
+
+
+# def count_parent_funcs(keyword_addr):
+# 	main_address = idc.LocByName("main")
+# 	print("main addr ", main_address)
+# 	call_seq_func_addr = get_ancestor_functions_ext(keyword_addr)
+# 	if main_address in call_seq_func_addr:
+# 		return len(call_seq_func_addr)
+# 	else:
+# 		return -1
+
+
+def get_function_callers(addr): ## addr; the addr of string or the function
+	callers = set()
+	from_addr_set = str_ref_addr(addr, code_seg_name)
+	for from_addr in from_addr_set:
+		func = idaapi.get_func(from_addr)
+		if func:
+			func_addr = func.startEA #refto addr
+			callers.add(func_addr)
+	return callers
+
+def get_function_callers_with_pos(addr): ## addr; the addr of string or the function
+	callers = set()
+	from_addr_set = str_ref_addr(addr, code_seg_name)
+	for from_addr in from_addr_set:
+		func = idaapi.get_func(from_addr)
+		if func:
+			func_addr = func.startEA #refto addr
+			callers.add((func_addr, from_addr))
+	return callers
+
+def get_all_function_callers_with_pos(addr):
+	queue = deque([(addr, 0)])
+	visited = set([addr])
+	caller_dict = {}
+
+	while queue:
+		func_addr, pos = queue.popleft()
+
+		# Get direct callers
+		callers_info = get_function_callers_with_pos(func_addr)
+
+		# Enqueue unvisited callers
+		for caller, pos in callers_info:
+			if caller not in visited:
+				visited.add(caller)
+				queue.append((caller, pos))
+				caller_dict[caller] = pos
+
+	return caller_dict
+
+def shortest_path_length(start_ea):
+	target_ea = idc.LocByName("main")
+	# Use BFS to find the shortest path
+	queue = deque([(start_ea, 0)])
+	visited = set([start_ea])
+
+	while queue:
+		current_ea, length = queue.popleft()
+
+		if current_ea == target_ea:
+			return length
+
+		# Get direct callers
+		callers = get_function_callers(current_ea)
+
+		# Enqueue unvisited callers
+		for caller in callers:
+			if caller not in visited:
+				visited.add(caller)
+				queue.append((caller, length + 1))
+
+	return 100  # No path found
+
+
+# obtain string after static analysis and sorted with call length
+def filter_str_w_static_sorted(code_name, input_file, output_file):
+	time_start=time.time()
+
+	keywords_dict = {}
+	keywords_callLen_dict = {} # record the call len for each keyword
+
+	with open(input_file) as fp:
+		lines = fp.readlines()
+		for line in lines:
+			strs = line.rsplit(":", 1)
+			print(strs)
+			keyword = strs[0]
+			addr = int(strs[1])
+			keywords_dict[keyword] = addr
+
+	for keyword in keywords_dict:
+		keyword_addr = keywords_dict[keyword]
+		call_len = shortest_path_length(keyword_addr)
+		keywords_callLen_dict[keyword] = call_len
+
+	sorted_item = sorted(keywords_callLen_dict.items(), key=lambda x:x[1], reverse=False)
+
+	fp = open(output_file, "w+")
+	i = 0
+
+	for keyword, call_len in sorted_item:
+		new_line = "extstr" + "%d" %i + "="
+		new_line+= "\""
+		new_line+= keyword
+		new_line+= "\"%d\n" %call_len
+		fp.write(new_line)
+		i = i + 1
+	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
+	fp.write(final_line)
+	fp.close()
+
+
 	time_end=time.time()
 	print('totally cost',time_end-time_start)
 
 
-filter_str_w_static(code_seg_name, output_file)
-#---------------------------------------------
+# within the same function
+def get_intra_controflow_dep(input_addr, target_addr):
+	input_block = get_block(input_addr)
+	target_block = get_block(target_addr)
+	target_block_addr = target_block.startEA
 
-idc.Exit(0)
+	queue = deque([input_block])
+	visited = set([input_block.startEA])
+
+	while queue:
+		curr_block = queue.popleft()
+		for succ in curr_block.succs():	
+			succ_addr = succ.startEA
+			if target_block_addr == succ_addr:
+				return 1
+
+			if succ_addr not in visited:
+				visited.add(succ_addr)
+				queue.append(succ)
+	return 0
+
+# get the common parent and the call pos in the function.
+# func_dict store the func call list of recv as key and the call pos as value
+def get_common_parent(func_dict, target_addr):
+	queue = deque([(target_addr, 0, 0)])
+	visited = set([target_addr])
+
+	while queue:
+		func_addr, pos, length = queue.popleft()
+
+		if func_addr in func_dict:
+			return func_addr, pos, length
+
+		# Get direct callers
+		callers_info = get_function_callers_with_pos(func_addr)
+
+		# Enqueue unvisited callers
+		for caller, pos in callers_info:
+			if caller not in visited:
+				visited.add(caller)
+				queue.append((caller, pos, length + 1))
+
+	return None, None, None
+
+# func_dict store the func call list of recv as key and the call pos as value
+def get_inter_controflow_dep_helper(func_dict, target_addr):
+	common_func, call_pos, call_len = get_common_parent(func_dict, target_addr)
+	if common_func:
+		dep_res = get_intra_controflow_dep(func_dict[common_func], call_pos)
+		if dep_res:
+			return call_len
+		else:
+			return 1000
+	else:
+		return 100
+
+def get_inter_controflow_dep(recv_addr, target_addr):
+	caller_dict = get_all_function_callers_with_pos(recv_addr)
+	# for func in caller_dict:
+	# 	print(hex(func), ":", hex(caller_dict[func]))
+	call_len = get_inter_controflow_dep_helper(caller_dict, target_addr)
+	return call_len
+
+
+
+# obtain string after static analysis and sorted with dependency with input recv
+# will output the string that with 100 (no common parent) and 1000 (no sequential control flow) call len.
+def filter_str_w_static_dep_debug(code_name, input_file, output_file, recv_addr):
+	time_start=time.time()
+
+	keywords_dict = {}
+	keywords_callLen_dict = {} # record the call len for each keyword
+
+	with open(input_file) as fp:
+		lines = fp.readlines()
+		for line in lines:
+			strs = line.rsplit(":", 1)
+			print(strs)
+			keyword = strs[0]
+			addr = int(strs[1])
+			keywords_dict[keyword] = addr
+
+	for keyword in keywords_dict:
+		keyword_addr = keywords_dict[keyword]
+		call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		keywords_callLen_dict[keyword] = call_len
+
+	sorted_item = sorted(keywords_callLen_dict.items(), key=lambda x:x[1], reverse=False)
+
+	fp = open(output_file, "w+")
+	i = 0
+
+	for keyword, call_len in sorted_item:
+		new_line = "extstr" + "%d" %i + "="
+		new_line+= "\""
+		new_line+= keyword
+		new_line+= "\"%d\n" %call_len
+		fp.write(new_line)
+		i = i + 1
+	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
+	fp.write(final_line)
+	fp.close()
+
+
+	time_end=time.time()
+	print('totally cost',time_end-time_start)
+
+def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
+	time_start=time.time()
+
+	keywords_dict = {}
+	keywords_callLen_dict = {} # record the call len for each keyword
+
+	with open(input_file) as fp:
+		lines = fp.readlines()
+		for line in lines:
+			strs = line.rsplit(":", 1)
+			print(strs)
+			keyword = strs[0]
+			addr = int(strs[1])
+			keywords_dict[keyword] = addr
+
+	for keyword in keywords_dict:
+		keyword_addr = keywords_dict[keyword]
+		call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		keywords_callLen_dict[keyword] = call_len
+
+	sorted_item = sorted(keywords_callLen_dict.items(), key=lambda x:x[1], reverse=False)
+
+	fp = open(output_file, "w+")
+	i = 0
+
+	for keyword, call_len in sorted_item:
+		if call_len < 100:
+			new_line = "extstr" + "%d" %i + "="
+			new_line+= "\""
+			new_line+= keyword
+			new_line+= "\"\n"
+			fp.write(new_line)
+			i = i + 1
+	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
+	fp.write(final_line)
+	fp.close()
+
+
+	time_end=time.time()
+	print('totally cost',time_end-time_start)
+
+# filter_str_w_static(code_seg_name, output_file, output_info_file)
+# cfs = get_ancestor_functions(0x4137c0) 
+# cfs = get_ancestor_functions_ext(0x423BD4) #upload_ca
+# print(cfs)
+
+# count_pars = call_seq_len(0x423BD4)
+# print("parent funcs", seq_len)
+
+
+# call_len = shortest_path_length(0x423BD4)
+# print("call seq", call_len)
+
+# filter_str_w_static_sorted(code_seg_name, output_info_file, output_file_sorted)
+recv_addr = 0x40957C
+# dist = get_inter_controflow_dep(0x40957C,0x423BD4)
+# print("distance: ", dist)
+filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
+# filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
+
+#---------------------------------------------
+# idc.Exit(0)
