@@ -433,7 +433,7 @@ def process_ins_to_blockend(ins_addr, taint_regs, start_addr, code_seg_name):
 			if res == 0:
 				return (nexts, taint_regs, "go on")
 			elif res == 1:
-				return ([], taint_regs, "target node %s" %next_blocks[0])
+				return ([], taint_regs, "targetnode %d %s" %(ins_addr, next_blocks[0]))
 			elif res == 2:
 				return (nexts, taint_regs, "go on")
 			elif res == 3:
@@ -499,10 +499,12 @@ def taint_analysis(load_addr, taint_reg, code_seg_name):
 
 		succs, taint_regs, desc = process_ins_to_blockend(handle_block, taint_regs, start_addr, code_seg_name)
 		#print("%x "%handle_block, taint_regs, [hex(int(succ)) for succ in succs])
-		if desc.find("target node")!=-1:
+		if desc.find("targetnode")!=-1:
 			if print_debug:
 				print(desc)
-			return 2
+			strs = desc.split(" ")
+			print("strs ", strs)
+			return int(strs[1]) #the addr before calling strcmp/strcasecmp
 		elif cmp(desc, "go on") == 0:
 			if len(taint_regs) == 0:
 				continue
@@ -516,7 +518,7 @@ def taint_analysis(load_addr, taint_reg, code_seg_name):
 			print(desc, "%x" %handle_block, taint_regs)
 			print("taint error*********************")
 			return 0
-	return 1
+	return -1
 
 def is_ASCII(strs):
 	for i in range(0, len(strs)):
@@ -620,10 +622,11 @@ def strs_filter(strs):
 
 idaapi.autoWait()
 print(os.path.abspath(__file__)) 
-assert(len(idc.ARGV) == 3)
+assert(len(idc.ARGV) == 4)
 print sys.argv[0], idc.ARGV[1], os.getcwd()
 image_id = idc.ARGV[1]
 type_name = idc.ARGV[2]
+option = idc.ARGV[3]
 keyword_dir = "/home/yaowen/firmadyne/keywords"
 output_dir = "/home/yaowen/firmadyne/keywords/%s" %(type_name)
 
@@ -637,16 +640,15 @@ if res == 0:
 	mkdir_str = "mkdir %s" %output_dir
 	os.system(mkdir_str)
 
-code_seg_name = ".text"
-#code_seg_name = "LOAD"
-# output_file = "%s/%s" %(output_dir, image_id)
-output_file = "%s/%s_static" %(output_dir, image_id)
+
+output_file = "%s/%s" %(output_dir, image_id)
+output_file_static = "%s/%s_static" %(output_dir, image_id)
 output_info_file = "%s/%s_info" %(output_dir, image_id)
 output_file_sorted = "%s/%s_static_sorted" %(output_dir, image_id)
 output_file_sorted_debug = "%s/%s_static_sorted_debug" %(output_dir, image_id)
 
 lib_functions = {}
-print_debug = 0
+print_debug = 1
 
 ori_set = set()
 strs_set = set()
@@ -701,6 +703,8 @@ def obtain_str(output_file):
 			print i, new_line
 			ori_fp.write(new_line)
 			i=i+1
+	cmd_line = "cmd_str=\"xxxxxx\"\n"
+	ori_fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	ori_fp.write(final_line)
 	ori_fp.close()
@@ -748,9 +752,10 @@ def filter_str_w_static(code_name, output_file, output_info_file):
 				pass	
 				#print("+++++++++++++", s, "%x "%key_load_addr, dst) 
 				#print("\n")
-			if res == 2:
+			if res > 0:
 				#print("&&&&&&&&&&", s, "%x "%key_load_addr, dst) 
-				keywords_dict[pair[0]] = pair[1]
+				# keywords_dict[pair[0]] = pair[1]
+				keywords_dict[pair[0]] = res
 
 	fp = open(output_file, "w+")
 	i = 0
@@ -761,6 +766,8 @@ def filter_str_w_static(code_name, output_file, output_info_file):
 		new_line+= "\"\n"
 		fp.write(new_line)
 		i = i + 1
+	cmd_line = "cmd_str=\"xxxxxx\"\n"
+	fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -894,6 +901,7 @@ def shortest_path_length(start_ea):
 
 
 # obtain string after static analysis and sorted with call length
+# !!! discarded as the call length is meaningless
 def filter_str_w_static_sorted(code_name, input_file, output_file):
 	time_start=time.time()
 
@@ -926,6 +934,8 @@ def filter_str_w_static_sorted(code_name, input_file, output_file):
 		new_line+= "\"%d\n" %call_len
 		fp.write(new_line)
 		i = i + 1
+	cmd_line = "cmd_str=\"xxxxxx\"\n"
+	fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -979,6 +989,30 @@ def get_common_parent(func_dict, target_addr):
 
 	return None, None, None
 
+def get_common_parents(func_dict, target_addr):
+	queue = deque([(target_addr, 0, 0)])
+	visited = set([target_addr])
+
+	common_parents = []
+
+	while queue:
+		func_addr, pos, length = queue.popleft()
+
+		if func_addr in func_dict:
+			common_parents.append((func_addr, pos, length))
+
+		# Get direct callers
+		callers_info = get_function_callers_with_pos(func_addr)
+
+		# Enqueue unvisited callers
+		for caller, pos in callers_info:
+			if caller not in visited:
+				visited.add(caller)
+				queue.append((caller, pos, length + 1))
+
+	return common_parents
+
+
 # func_dict store the func call list of recv as key and the call pos as value
 def get_inter_controflow_dep_helper(func_dict, target_addr):
 	common_func, call_pos, call_len = get_common_parent(func_dict, target_addr)
@@ -991,11 +1025,33 @@ def get_inter_controflow_dep_helper(func_dict, target_addr):
 	else:
 		return 100
 
+#dealing with the situation that have multiple parents
+def get_inter_controflow_dep_helper_ext(func_dict, target_addr):
+	min_call_len = 1000
+	common_parents = get_common_parents(func_dict, target_addr)
+	if len(common_parents) == 0:
+		return 100
+	for common_func, call_pos, call_len in common_parents:
+		dep_res = get_intra_controflow_dep(func_dict[common_func], call_pos)
+		if dep_res: # has control dep, then obtain the len
+			if call_len < min_call_len:
+				min_call_len = call_len
+	return min_call_len
+
+
 def get_inter_controflow_dep(recv_addr, target_addr):
 	caller_dict = get_all_function_callers_with_pos(recv_addr)
 	# for func in caller_dict:
 	# 	print(hex(func), ":", hex(caller_dict[func]))
 	call_len = get_inter_controflow_dep_helper(caller_dict, target_addr)
+	return call_len
+
+#dealing with the situation that have multiple parents
+def get_inter_controflow_dep_multi_parents(recv_addr, target_addr):
+	caller_dict = get_all_function_callers_with_pos(recv_addr)
+	# for func in caller_dict:
+	# 	print(hex(func), ":", hex(caller_dict[func]))
+	call_len = get_inter_controflow_dep_helper_ext(caller_dict, target_addr)
 	return call_len
 
 
@@ -1019,7 +1075,8 @@ def filter_str_w_static_dep_debug(code_name, input_file, output_file, recv_addr)
 
 	for keyword in keywords_dict:
 		keyword_addr = keywords_dict[keyword]
-		call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		# call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		call_len = get_inter_controflow_dep_multi_parents(recv_addr, keyword_addr)
 		keywords_callLen_dict[keyword] = call_len
 
 	sorted_item = sorted(keywords_callLen_dict.items(), key=lambda x:x[1], reverse=False)
@@ -1034,6 +1091,8 @@ def filter_str_w_static_dep_debug(code_name, input_file, output_file, recv_addr)
 		new_line+= "\"%d\n" %call_len
 		fp.write(new_line)
 		i = i + 1
+	cmd_line = "cmd_str=\"xxxxxx\"\n"
+	fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -1059,7 +1118,8 @@ def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
 
 	for keyword in keywords_dict:
 		keyword_addr = keywords_dict[keyword]
-		call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		# call_len = get_inter_controflow_dep(recv_addr, keyword_addr)
+		call_len = get_inter_controflow_dep_multi_parents(recv_addr, keyword_addr)	
 		keywords_callLen_dict[keyword] = call_len
 
 	sorted_item = sorted(keywords_callLen_dict.items(), key=lambda x:x[1], reverse=False)
@@ -1075,6 +1135,8 @@ def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
 			new_line+= "\"\n"
 			fp.write(new_line)
 			i = i + 1
+	cmd_line = "cmd_str=\"xxxxxx\"\n"
+	fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -1083,7 +1145,39 @@ def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
 	time_end=time.time()
 	print('totally cost',time_end-time_start)
 
-# filter_str_w_static(code_seg_name, output_file, output_info_file)
+
+if int(image_id) == 19061:
+	recv_addr = 0x40957C
+	code_seg_name = ".text"
+elif int(image_id) == 18627:
+	recv_addr = 0x40daf8
+	code_seg_name = ".text"
+elif int(image_id) == 16157:
+	recv_addr = 0x40c684
+	code_seg_name = "LOAD"
+elif int(image_id) == 20880:
+	recv_addr = 0x408f60
+	code_seg_name = ".text"
+elif int(image_id) == 108076:
+	recv_addr = 0
+elif int(image_id) == 16835:
+	recv_addr = 0
+else:
+	print(recv_addr)
+
+if int(option) == 0:
+	obtain_str(output_file)
+elif int(option) == 1:
+	filter_str_w_static(code_seg_name, output_file_static, output_info_file)
+elif int(option) == 2:
+	filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
+else:
+	obtain_str(output_file)
+	filter_str_w_static(code_seg_name, output_file_static, output_info_file)
+	filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
+	# filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
+
+
 # cfs = get_ancestor_functions(0x4137c0) 
 # cfs = get_ancestor_functions_ext(0x423BD4) #upload_ca
 # print(cfs)
@@ -1096,10 +1190,10 @@ def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
 # print("call seq", call_len)
 
 # filter_str_w_static_sorted(code_seg_name, output_info_file, output_file_sorted)
-recv_addr = 0x40957C
+# recv_addr = 0x40957C
 # dist = get_inter_controflow_dep(0x40957C,0x423BD4)
 # print("distance: ", dist)
-filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
+# filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
 # filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
 
 #---------------------------------------------

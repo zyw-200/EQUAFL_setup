@@ -91,15 +91,15 @@ script_dir = "/home/yaowen/EQUAFL_setup/EQUAFL++"
 assert(len(sys.argv)==4)
 
 
-#python2 ida_open_program.py 19061 httpd /home/yaowen/firmadyne/image_19061/
 
 image_id = sys.argv[1]
 test_name = sys.argv[2]
 image_dir = sys.argv[3]
+option = 3
 prog_name, type_name =  find_program(image_dir, test_name)
-cmdstr = "%s -c -A -S\"%s/analysis.py %s %s\" %s/%s" %(ida_source, script_dir, image_id, type_name, image_dir, prog_name)
-# cmdstr = "%s -S\"%s/analysis.py %s %s\" %s/%s" %(ida_source, script_dir, image_id, type_name, image_dir, prog_name)
-print cmdstr
+# cmdstr = "%s -c -A -S\"%s/analysis.py %s %s %s\" %s/%s" %(ida_source, script_dir, image_id, type_name, option, image_dir, prog_name)
+cmdstr = "%s -S\"%s/analysis.py %s %s %s\" %s/%s" %(ida_source, script_dir, image_id, type_name, option, image_dir, prog_name)
+# print cmdstr
 os.system(cmdstr)
 
 

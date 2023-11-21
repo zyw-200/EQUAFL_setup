@@ -164,18 +164,24 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 			copy_str = "cp dependence/qemu-mipsel %s/afl-qemu-trace" %(image_dir)
 		elif qemu_num == 1:
 			copy_str = "cp dependence/qemu-mipsel-recv %s/afl-qemu-trace" %(image_dir)
+		elif qemu_num == 2:
+			copy_str = "cp dependence/qemu-mipsel-cmd %s/afl-qemu-trace" %(image_dir)
 		os.system(copy_str)
 	elif "mipseb" in text:
 		if qemu_num == 0:
 			copy_str = "cp dependence/qemu-mips %s/afl-qemu-trace" %(image_dir)
 		elif qemu_num == 1:
 			copy_str = "cp dependence/qemu-mips-recv %s/afl-qemu-trace" %(image_dir)
+		elif qemu_num == 2:
+			copy_str = "cp dependence/qemu-mips-cmd %s/afl-qemu-trace" %(image_dir)
 		os.system(copy_str)
 	elif "armel" in text:
 		if qemu_num == 0:
 			copy_str = "cp dependence/qemu-arm %s/afl-qemu-trace" %(image_dir)
 		elif qemu_num == 1:
 			copy_str = "cp dependence/qemu-arm-recv %s/afl-qemu-trace" %(image_dir)
+		elif qemu_num == 2:
+			copy_str = "cp dependence/qemu-arm-cmd %s/afl-qemu-trace" %(image_dir)
 		os.system(copy_str)
 
 
@@ -216,6 +222,8 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 		cmdstr = "cp dependence/afl-fuzz++ %s/afl-fuzz" %image_dir
 	elif fuzzer_num == 2:
 		cmdstr = "cp dependence/afl-fuzz++-new %s/afl-fuzz" %image_dir
+	elif fuzzer_num == 3:
+		cmdstr = "cp dependence/afl-fuzz-new %s/afl-fuzz" %image_dir
 	os.system(cmdstr)
 
 	config_file = "%s/USER_config" %image_dir
@@ -232,7 +240,7 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 		cmd = "chroot . ./afl-fuzz -m none -Q -i ./inputs -o ./outputs_fuzzer -x keywords %s @@" %full_name
 	else:
 		#cmd = "chroot . ./afl-fuzz -m none -t 800000+ -Q -i ./inputs -o ./outputs -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
-		if fuzzer_num == 0: #afl
+		if fuzzer_num == 0 or fuzzer_num == 3: #afl
 			cmd = "chroot . ./afl-fuzz -m none -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
 		elif fuzzer_num == 1 or fuzzer_num == 2: #afl++, enable deterministic 
 			cmd = "chroot . ./afl-fuzz -m none -D -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
