@@ -1,0 +1,12 @@
+GET /HTTP/1GET /sys_list_error.php HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applic2.168.0.1
+Accept: textation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: HTTP/1.1
+: 0.10.5
+Acc: ge-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

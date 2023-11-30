@@ -1,0 +1,11 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range::f
+Upgradfff:Accept: tccccccccccccccccccccccccccccccccpplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connect‚on: keep-alive
+Upgrade-Insecure-Requeÿÿs: 1
+Cookie: uid=CFYCmNixEa
+
+t

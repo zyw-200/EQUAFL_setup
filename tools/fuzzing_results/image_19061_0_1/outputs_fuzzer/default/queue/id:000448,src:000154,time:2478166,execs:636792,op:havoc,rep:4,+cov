@@ -1,0 +1,8 @@
+GET %s  / HTTP/1.1
+Host:
+Connection:  1/wlan/inf:1/mulk
+Connection:  1/wlan/inf:1/multi/index:%d/acl
+Cookie: ui
+
+t
+

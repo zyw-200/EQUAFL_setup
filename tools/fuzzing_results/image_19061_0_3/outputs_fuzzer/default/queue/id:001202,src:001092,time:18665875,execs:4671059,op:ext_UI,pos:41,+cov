@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+: 1C1
+If-Modified-Since:no input 19teui
+
+t

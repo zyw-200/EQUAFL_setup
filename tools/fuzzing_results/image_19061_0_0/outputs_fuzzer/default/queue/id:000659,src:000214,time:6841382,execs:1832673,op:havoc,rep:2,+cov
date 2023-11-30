@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 1/ HTTP/1.1
+Referer: 9mz
+Connection: =0.9,image/webp,*/*;q=0.8
+Age: .5
+te
+Connection: keep-alive
+s:@1Connectionid=CF
+
+t
+

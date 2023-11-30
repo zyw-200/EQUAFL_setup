@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+: gzate,*/* / HTTP/1.1
+: gzate
+
+Connection:,*/* / HTTP/1.1
+: gzate
+ie:Šuiì
+t
+

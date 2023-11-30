@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+HosHostt: ml+xml¬applic;qTTP=0.9ml,application-xhtmlplication/xml;q=0.9,image/w;q=0.8
+Accepš-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+en-US,en;q=0.5Connection: keep-alive
+Upgrade-Insecure-Requests:       7         <     1
+Cookie: uid=CFMCmNixEa
++
+test=test
+

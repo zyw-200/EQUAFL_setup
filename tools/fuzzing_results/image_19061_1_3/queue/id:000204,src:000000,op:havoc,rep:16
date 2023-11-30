@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0..TTPHost: 192.168.0.1Upgrade-Ins1
+Accept: text-html,applicacation/xml;q=0.9,image/webp,*/*;q=0.8
+AccepSanitizePatht-Language: en-US,en;q=0.5
+Ac„ept-Encoding: gzip, 
+/1.TTPHost: 192.168.0.1Upgrade-Insecure-Reflate
+1
+Host: 192.168.0..TTPHost:
+test=test
+

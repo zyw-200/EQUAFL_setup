@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+A~cept: text/ht-l,application/xhtml+xml,application/xmLaGETnguage: en-US,en;q=0.5
+deflat
+Connection: kAccet: text/html,application/xhtp"Encoding: gzip, flate
+Connection: keep-aliveUpgrade-Insecurÿ-Request
+test=test
+

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acc: en-US,en;q=0.5
+Acceept: text/html,application/xhtml+xml,Vpplication/xml;q=0.9,imagewebp,*/*;q=098
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Konnertion: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uilog_request: nothing to log!d=CFYCmNixEa
+
+test=test
+alive

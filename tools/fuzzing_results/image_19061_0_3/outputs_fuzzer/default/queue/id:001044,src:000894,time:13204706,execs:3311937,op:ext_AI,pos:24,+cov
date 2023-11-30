@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 19
+Connection:8
+Content-Length:  te
+Connection:   1 "%s"ive
+s: 1
+Cookie: uit
+

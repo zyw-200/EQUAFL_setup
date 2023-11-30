@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+:   tee
+s: 1
+i
+
+
+GET / HTTP/1.0
+e
+Connection: k1
+i
+
+
+G

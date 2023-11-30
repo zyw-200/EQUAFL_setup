@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.
+Accept-Langujgequests: 1
+Ce: en-html,applicatioeflate
+Connection: ken/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+AcceptMEncoding: gzip, Iefla€e[SNMP-TRAP][Specific=2]
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

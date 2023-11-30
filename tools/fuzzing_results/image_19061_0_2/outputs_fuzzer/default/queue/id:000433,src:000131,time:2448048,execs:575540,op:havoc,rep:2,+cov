@@ -1,0 +1,10 @@
+GET /q=0.9,i HTTP/1.1
+:   te
+Connection: kee/1.1
+Authorization:   te
+Cp-alive
+s: 1
+Cookie: ui
+
+t
+

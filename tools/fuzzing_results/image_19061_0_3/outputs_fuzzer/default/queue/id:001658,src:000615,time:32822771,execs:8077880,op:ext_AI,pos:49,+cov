@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 191
+A/.1
+If-Range: 1xt/ês
+If-Modified-Since: 1ali
+
+t
+

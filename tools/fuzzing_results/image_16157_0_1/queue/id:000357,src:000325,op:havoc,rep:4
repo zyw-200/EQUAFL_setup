@@ -1,0 +1,11 @@
+GET /wl_ssid HTTP/1.1
+REFERER:ost: 192.168.0.1
+Accept: text/html,application
+SOAPACTION:'ëeep-alive
+Upgr0.9,image/Úebp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+SOAPACTION:'ëeep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

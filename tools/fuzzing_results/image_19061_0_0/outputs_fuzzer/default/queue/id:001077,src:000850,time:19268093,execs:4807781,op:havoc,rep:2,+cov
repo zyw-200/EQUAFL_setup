@@ -1,0 +1,11 @@
+GET /xgi HTTP/1.1
+H: tex*;q=0.8
+Acc1
+Host: ex*;q=0.8
+Acc1
+Host: 192g: g
+Connection: keep-alive
+Upre-Rsts: 1
+Cookie: Ea
+
+All

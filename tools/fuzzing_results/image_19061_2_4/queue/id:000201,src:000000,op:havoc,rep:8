@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AcceUpgrade-Insecure-Requestspt: teest=tes,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+AccepËLanguage:
+Cookie:PATH uid=CFYCmN en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConnectioS: 168.0.1
+AcceUpgrade-Insecure-Rekeep-alive
+Upgrade-Insecure-Qequests: 1
+Cookie:PATH uid=CFYCmNixEa
+
+test=test
+

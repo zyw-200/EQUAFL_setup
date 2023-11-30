@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+: gzate
+Connection:,*
+Connection:p,s: 1
+Content-Type: %s
+

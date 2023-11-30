@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+: 
+Connection:
+i
+
+
+GET / HTTP/1.1
+Expect:ection: k,
+i
+
+
+G

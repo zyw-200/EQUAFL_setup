@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+t: text/html,application/xhtml+xml,applicatiost: 192.n/xml;q=0.9,image/webp,*/*;q=0.8
+AccAccept-Encoding: gzip, defAccept-Encodinglate
+Connection: k
+
+aliveY
+Upgrade-Insecure-Requests: 1
+CTokie: uid=CFYCmNixEa
+
+test=test
+

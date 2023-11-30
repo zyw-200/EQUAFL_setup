@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hoslllllt: 192.168.0.1
+AcCept: text/html,application/xhtml+xml,appliation/xml;q=0.9,image/webp,*/*;q=0.8
+A/1.1
+Host: 9ü.ÿ68.0.alive1
+Ac.9,i, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNi€Ea
+
+test=test
+

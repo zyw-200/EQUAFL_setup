@@ -1,0 +1,10 @@
+GET /sys_stunnel_process.php?reboot=1 HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,apxlication4xhtml+xml,application/xml;q=0.y,image/webp,*/*;q=0.8
+Accept-Lancuage: en-US,e.0.1
+Accept: text/html,applica deflate!TP/1.1
+Ho: keep-ge: en-US,e.0.1
+Accept: text/htalive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNt
+

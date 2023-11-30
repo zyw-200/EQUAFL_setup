@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.::ffff:168.0.1
+Host:t: text/html,application/xhtml+xml,application/xml;q=0.9,dmage/webp,*/*;q=0.nguage: en-US,en;q=0.5
+Accept-Encodin1
+Host: 192.::fffg: gzip, deflate
+Connection: keep-alive
+Upgradp-alive
+Upgrade-ts: 1
+Cookie: uid=CFYCmNixEa
+
+test=test

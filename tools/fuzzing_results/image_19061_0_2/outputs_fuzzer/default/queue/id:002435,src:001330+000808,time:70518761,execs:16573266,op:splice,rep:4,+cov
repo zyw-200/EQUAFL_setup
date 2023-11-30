@@ -1,0 +1,18 @@
+GET /TP{ / HTTP/1.1
+Host: 1êate
+:   tee
+s:1
+i
+
+GET / HTTP/1.1
+:   tee
+s: 1
+i
+
+
+GET / HTTP/1.1
+Host: 192.168.0.1 Accept:text/html,application/xhtml@xml,appliUpTPzn/xml:q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;
+
+GET / HTTP/1.1
+Host: $$$$$$$$$$$$$$$$$$$$$$$$$

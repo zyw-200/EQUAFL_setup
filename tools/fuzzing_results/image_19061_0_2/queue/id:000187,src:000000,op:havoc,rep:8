@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 1L2.168.0.1
+Accept:application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;Q=0.8
+Accept:Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecur^-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=testconvert_cgi_headers: illegal content-length headHr "%.*s"
+

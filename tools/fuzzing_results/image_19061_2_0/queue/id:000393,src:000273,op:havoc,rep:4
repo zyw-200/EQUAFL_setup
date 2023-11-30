@@ -1,0 +1,12 @@
+GET HTTP//.. HTTP/1.tiT HTTP//.. HTTP/1.1
+Host: 11
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,]pplicatiT HTTP//.. HTTP/1.1
+Host: 192.1on/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lanq=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test

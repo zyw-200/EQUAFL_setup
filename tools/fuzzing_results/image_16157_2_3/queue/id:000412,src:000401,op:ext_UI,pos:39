@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:Š: t8
+SOAPACTION::@: 191
+Accept: t8
+SOAPACTION::A8
+SOAPACTION:::serv:service: dq=0.5
+Ac-diAN:::
+USpt: t8
+SOAPACTION:::servgcem

@@ -1,0 +1,10 @@
+GET / H=0.9,imasGET I HTTP/1.1
+: 1Expect:xTTP/1.1
+Host: 191
+A/: 1.1
+
+
+
+HET / HTTP/1.1
+
+Connection:clRseHO

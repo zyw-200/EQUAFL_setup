@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Lenpth: 20
+Cookontent_Lenpth: 20
+Cookie: ut
+

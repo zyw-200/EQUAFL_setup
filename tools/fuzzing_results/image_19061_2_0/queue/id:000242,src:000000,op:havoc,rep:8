@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept:Authorization text/html,application/xhtml+xml,application/xml;q=0.9,image/wetest=test
+bp,*/*;q=0.8
+Accept-Languen-US,en;q=0.5age: en-US,en;q=0.5
+Accept-Encoding: izip, deflate
+ConnectionO keep-alive
+Upgrade-Insecure-Òequests: 1NOTIFYie: uid=CFYCmNixEa
+
+

@@ -1,0 +1,15 @@
+GET TTP/ml HTTP/1.1
+HTP
+Host: e
+1.1: 1
+i
+
+GET 2 HTTP/1.1
+:   tee 1
+i- 
+ / H
+Range: e
+s
+Range::t
+
+GE

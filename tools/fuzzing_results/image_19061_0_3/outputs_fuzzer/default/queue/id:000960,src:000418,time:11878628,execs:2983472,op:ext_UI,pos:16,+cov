@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:1
+Coo: g
+tesst
+

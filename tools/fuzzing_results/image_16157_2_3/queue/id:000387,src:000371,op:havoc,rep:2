@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+SOAPACTION::'äq=0.t8
+SOAPACTION::'äq=0.5
+Accept-Enaoding: gzite
+USER_AGENT: keep-alive
+Upgrade/www/cgi-bin/currentsetting.htm

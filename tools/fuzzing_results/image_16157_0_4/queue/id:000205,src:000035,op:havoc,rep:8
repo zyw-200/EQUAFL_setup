@@ -1,0 +1,9 @@
+GET tml,application/xhtml+xml,aˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆp/ HTTP/1.1
+Host: 192.168..1
+Accept: text/html,applicationxhtml+xml,application/xml;q=0.9,image/webpuage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requusts: 1
+Cookie; uid=CFYCmNixEa
+ôest=test
+

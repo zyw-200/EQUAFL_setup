@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Howt: 192.168.0.1
+Accept: ttxt/html,applica…: 1
+Cookie: uid=CFYCmNml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: k
+Upgrade-Insecurd-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

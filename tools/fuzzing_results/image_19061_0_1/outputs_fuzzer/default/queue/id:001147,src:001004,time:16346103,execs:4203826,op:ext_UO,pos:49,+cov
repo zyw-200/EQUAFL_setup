@@ -1,0 +1,7 @@
+GET %s  / HTTP/1.1
+8
+Ain‹
+ gzite
+Connection: kAllow: GET, HEADt: ui,%s
+
+t

@@ -1,0 +1,10 @@
+GET< version="1.0" encoding="UTF-8"?> / HTTP/1.1
+Host: 92.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+AcceptLa@guage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflaliection: keep-alive
+Upgokie:  vecure-Requests: 1
+Cookie:  versiYCmNixEa
+
+test=test
+

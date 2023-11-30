@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Content-Length: H€ststate
+Connection: x
+Connection:ge/Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,,**
+Content-Type: %
+Upest
+
+te

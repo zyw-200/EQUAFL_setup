@@ -1,0 +1,14 @@
+GET h://www/logout.php HTTP/1.1
+Host: 192.168.0.1Accept-Encoding
+Accept: text/htmlppplication/xhtml+xml,apdlication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept
+Host: 192.168.0.1
+late
+Connection: t=test
+
+
+Upgrade-Insecure-Requests:"1
+Cookie: uid=CFYCmNixÿÿ
+
+tes

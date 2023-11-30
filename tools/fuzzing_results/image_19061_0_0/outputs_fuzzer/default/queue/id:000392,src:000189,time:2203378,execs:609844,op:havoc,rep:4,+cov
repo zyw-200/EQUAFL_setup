@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+
+ HTTost0.5
+CGET / HTTP/1/ HTTP/18
+A
+{M
+

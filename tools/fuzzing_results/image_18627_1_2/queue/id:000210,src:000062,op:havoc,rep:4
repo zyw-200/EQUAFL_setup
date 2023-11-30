@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+Accept:EncHTTP/1.1
+Accept:En,sdchzywzywzywzywzyëzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: $0
+Cookie: uid=zywzywzê
+

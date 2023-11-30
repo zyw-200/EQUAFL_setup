@@ -1,0 +1,7 @@
+GET / HTTP/1.1	
+Host: 19te
+Connection: keep-alive
+If-Range: ui,Length:1
+Cookie: hi
+Conne“tion: cst
+

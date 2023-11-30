@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 19ok: d
+
+GET / HTTP/1.5
+Connection: closeHost: 0.1
+Ac: tecod
+
+
+c

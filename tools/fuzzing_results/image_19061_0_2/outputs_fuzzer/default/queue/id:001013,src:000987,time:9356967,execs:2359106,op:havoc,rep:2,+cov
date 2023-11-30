@@ -1,0 +1,7 @@
+GET TP//xgi HTTP/1.1
+Host:
+
+GET / HTTP/1.1
+:   te .
+C˜t: 19ËË
+

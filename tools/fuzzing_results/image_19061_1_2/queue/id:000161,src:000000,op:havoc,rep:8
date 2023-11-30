@@ -1,0 +1,10 @@
+GET / HTTP1.1
+Host: 192.168.0.1
+CmNixEa
+tzstAccept: text/html,apflication/xhtml+xml,application/xml;q=0.9,Tmagge: enChildLog-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+tzst=test
+

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicaHTTP/1.1
+Host: 192.168ng: gzip, deflate
+Connnguÿge: en-US,en;q=0.5
+Accept-age/webp,*/*;q=0.8
+Accept-Laection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCTTPxEa
+
+test=test
+

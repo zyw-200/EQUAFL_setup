@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+:  ReqGET TP/1/ HT.1
+Host
+ CFY
+s: 1
+Cookie: ui
+
+t
+

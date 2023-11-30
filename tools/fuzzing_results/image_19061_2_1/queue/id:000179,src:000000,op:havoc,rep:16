@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AcGETcept:`text/html,application/xhxt/htmX,Fpplication/xml
+Accept-LanguageRUpgracept:`text/html,applicatio‚/xhtmde-Insecure-Reques-Encuding: gzip, deElGqe
+Connection: keep-alive
+Upgrade-Insecure-Requests:Acceptokie: uid=CFYCmNixEa
+
+test=test
+

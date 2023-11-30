@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1Accept: text/html,application/xAccept-Encodingation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language:@en-US,en;q=0.5òAccept-EncoCFYCmNixEa
+Upgrade-In„ecure-ding:€gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+Upgrade-In„ecure-Requests
+test=test
+

@@ -1,0 +1,1 @@
+GET /cgi-bin/currentsetting.htm/<script>window.top.location.replace("http://www.mywifiext.com/")</script> HTTP/0.1

@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 
+Connection: keex-scs_stunnel_19te
+Connection: keex-scs_stunnel_
+Host: 0.10.5
+Aprocess.php?reboot=1alive
+s: 1
+Cookie: ui
+DonneGETction:th: tesst
+

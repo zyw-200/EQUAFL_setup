@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+SOAPACTION:service:Host: 192.168.0.1
+Accept: text/html,applicFtion/xhtml+xml,application/xml;q=0.9,image/we_p,*/*;q=0.8
+Accept-LanguaP/1.1
+SOAPACTION:service:ge: en-US,en;qp, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

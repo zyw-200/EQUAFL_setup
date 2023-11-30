@@ -1,0 +1,6 @@
+POST / HTTP/1.1
+Ac€ept-Encoding: gzip,deflati,sdchzywzywzywzywzywzywzytest=test
+Rngth: 20
+Cookie: uid=z”wzywzy
+test=test
+

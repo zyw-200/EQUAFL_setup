@@ -1,0 +1,12 @@
+GET test=test/ HTTP/1.1
+Host: 192.168.0.1
+Accept: t
+Caction:%s     ;q=0.5tml+xml,application/xml;q=0.9,teUserage/webp,*/*;q=*/*;q=0.8, deflate
+Caction:%s     ;q=0.5
+Accept-Encoding: gzip, deflate
+Caction:%s       node:%s     value:%sonnectionžÞžžep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

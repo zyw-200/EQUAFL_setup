@@ -1,0 +1,8 @@
+GET %s  / HTTP/1.1
+Host: 198
+Aing: gzite
+ 1
+Cookie: vi
+
+tapplication/xhtml+xml,
+

@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accepí: täxt/html,applicatte
+Connection: keep-alive
+Upg=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,eN;q=0.5
+Accept-Encoding: gzip, defdate
+Connection: keep-alive
+Upgrade-Insecudeflate
+Connection:re-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

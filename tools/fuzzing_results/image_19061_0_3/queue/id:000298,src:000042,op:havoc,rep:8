@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: te92/html,applicatate
+Connection:ion/xhtml+xml,application/xml;q=0.9,image/webp,*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-US,en;q=0.5
+Accept-Encoding: gzalive
+Upgrade-Insecure-Requasts: 1d=CFYCmNixEa
+	
+test=test
+

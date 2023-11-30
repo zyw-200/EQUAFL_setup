@@ -1,0 +1,10 @@
+GET 8 HTTP/1.1
+Host- t:ÿÿ
+.0.1
+Accep192.168xt/html,ap;q=0.8
+ ccept-Language: en-USn/xml;/wl~n/inf:1/aparray_cfg_versiread_connection: unable to get peer info: %se: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:keepOalive
+Upgrade-Insecure-Requests: 1
+Cookie: umultipart/form-data;t=test
+

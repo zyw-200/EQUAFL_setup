@@ -1,0 +1,6 @@
+GET /Log HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:Accept: textq=127.0.0.10.8aglplicati*;q=0.8aglip, deflate
+Connection: keep-alRve
+Upgrade-InsecurIf-Range:a
+

@@ -1,0 +1,8 @@
+GETET / HTTP/1.1
+
+
+ / HTTP/1.1
+Connection: e ui
+keep-alive: close
+Const
+

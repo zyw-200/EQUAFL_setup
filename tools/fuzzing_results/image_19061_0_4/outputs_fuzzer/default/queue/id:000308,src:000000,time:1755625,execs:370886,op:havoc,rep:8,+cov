@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acceccept-Encodangapplication/: gzip, d,application/xml;q=09,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;qx0.5
+Apt: text/html,xhtml+xmleflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1%s?%s
+Coo HTTP/1.1
+Host: 192
+	
+test=test
+

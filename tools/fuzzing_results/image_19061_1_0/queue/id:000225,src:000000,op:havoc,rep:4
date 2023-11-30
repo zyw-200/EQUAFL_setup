@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xmlEapplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: enn: ke-US,en;q=0.5
+Connection: keep-alive
+Upgrade
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=:FYCmNixEa
+
+test=test
+

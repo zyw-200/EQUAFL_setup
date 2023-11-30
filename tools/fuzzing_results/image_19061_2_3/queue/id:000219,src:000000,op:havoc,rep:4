@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/htlate
+Connection: keep-alml,application/xht;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Con<?xml version="1.0" encoding="UTF-8"?>Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

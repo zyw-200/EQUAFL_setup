@@ -1,0 +1,11 @@
+GET j HTTP/1.1
+Host:e
+Range:1
+i
+
+GET 0xP/1.1CGI HTTP/1.1
+i
+
+GET 0xP/1.1CGI HTTP/1.1
+Host: $
+U:

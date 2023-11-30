@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: ez-Uip, deflate
+Connection: keep-aliveflate
+Connection: keepe
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+ml,apt=test
+

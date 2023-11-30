@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Content-Type: %s:   tee
+s: 1
+	
+
+
+
+	

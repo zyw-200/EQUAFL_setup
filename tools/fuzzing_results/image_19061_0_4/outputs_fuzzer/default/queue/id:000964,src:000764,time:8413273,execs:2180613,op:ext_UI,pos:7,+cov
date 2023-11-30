@@ -1,0 +1,4 @@
+GET / /.php HTTP/1.1
+Host: 0.
+
+t

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,ap1
+Accebp,*/*;q=0.8en-US,en;qCookie: uid=CFYCmNixza
+HTTPsage/webp,*/*;q=0.8en-US,en;q=0.5
+Accept-Encoding: gzip/ deflate
+Connection: keep-aliveÈUpcure-Requests: 1(Cookie: uid=CFYCmNixza
+HTTPst=testÌ

@@ -1,0 +1,9 @@
+GET / HTTP/1.0
+Host: 198
+Aing: gzite
+Connection: keep-alive
+s: 1
+Cookie: ui
+
+t
+

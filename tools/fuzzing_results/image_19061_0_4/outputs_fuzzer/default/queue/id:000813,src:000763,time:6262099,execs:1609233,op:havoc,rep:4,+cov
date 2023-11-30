@@ -1,0 +1,8 @@
+GET{b / HTTP/1.1
+Host: 01.1
+
+
+teb / HTTP/1.1
+Host: 0.
+
+t

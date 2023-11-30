@@ -1,0 +1,6 @@
+GET /sys_stunnel_process.php?reboot%accept_connection: %d1 HTTP/1.1
+Host: 19te
+Connection: keep-alive
+-Reqs: 1
+Cookie: uit
+

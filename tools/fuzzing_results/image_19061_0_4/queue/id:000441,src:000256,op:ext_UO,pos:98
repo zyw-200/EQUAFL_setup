@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hosë192.168.0.1.1
+Accept: text/html,upplication/xhtml+x
+Connection: keep-alive,ievents:  ,*/*;q«0.8
+Accept-Language:<en-US,en;q=0.5
+Acept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

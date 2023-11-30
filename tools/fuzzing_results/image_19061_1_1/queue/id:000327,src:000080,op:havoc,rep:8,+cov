@@ -1,0 +1,9 @@
+GET / HTTP/1.0
+Host: 192.::ffff:168.0.1
+Accept: text/html,application/xhtml+xml,application/xmldddddddd;q=0.9,image/webp,*/*;q=0.8
+Accept-Languagen-US,en;q=0.50.5
+Accept-Encodigg:gzp-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa(
+test=test
+

@@ -1,0 +1,12 @@
+GET TTP//1 HTTP/1.1
+Host: 1
+Range:8
+Ainã
+ 
+
+GET / HTTP/1.1
+Host: 0.1
+Acc:caod
+ç
+
+c

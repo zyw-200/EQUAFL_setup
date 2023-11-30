@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/ht_l,application/xhtml+xml,application/xmldq=0.9,imeflate
+Connection: keep-alivnguage: en-US,en;q=0.5
+Accepse´vers closedt-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+CookieEa
+alive=test
+

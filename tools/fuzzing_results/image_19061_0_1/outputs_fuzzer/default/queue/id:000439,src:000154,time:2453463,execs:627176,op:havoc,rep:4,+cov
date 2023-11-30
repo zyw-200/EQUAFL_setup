@@ -1,0 +1,9 @@
+GET %s  / HTTP/1.1
+Hoe: ui
+
+tt %s  / HTTP/1.1ion:: keep-alive
+s: 1
+*ookie: ui
+
+t
+

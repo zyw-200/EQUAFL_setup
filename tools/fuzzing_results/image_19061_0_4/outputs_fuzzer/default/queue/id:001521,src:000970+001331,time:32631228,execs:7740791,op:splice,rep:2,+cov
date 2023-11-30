@@ -1,0 +1,9 @@
+GETTTP /HTTP/1.1
+
+
+teb / HTTP/1.0
+GET / HTTP/1.1
+
+HEAD 3* %s startingeb / HTTP/1.1
+Hnnon: xm,i
+Acc1:

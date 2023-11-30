@@ -1,0 +1,10 @@
+GET / HTTP/1. 192.168.0.1
+Accept: t<password>ext/html,applicat,image,**;q=0.8ml+xma+application/xml;q=0.9,irage/webpon/xml;q=0.9,image,*/*;q=0.8
+Accpt-Lan¥uage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connectionÿkeep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

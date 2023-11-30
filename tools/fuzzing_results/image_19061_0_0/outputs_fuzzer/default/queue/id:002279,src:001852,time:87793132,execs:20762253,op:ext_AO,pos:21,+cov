@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:/1.
+Connection:,
+/,s: 1
+Cookie: uiì
+.
+Connection:closE
+Host:'H
+

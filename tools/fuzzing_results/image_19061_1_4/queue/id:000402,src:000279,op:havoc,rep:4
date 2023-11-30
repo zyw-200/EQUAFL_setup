@@ -1,0 +1,11 @@
+GET /www/index.php? HTTP/1.1
+Host: 192.168.0xxxxxxxxxxxxxxxxxxxx.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imageAccept-Language/webp,*/*;q=0.8
+Accept-: 1
+Cookie: uiden;q=0.5
+Accept-Encoding: gzip, deflate
+ConnectNon: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+te

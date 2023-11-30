@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 19mz
+Connection: =0.9,image/webp,*/*;q=0.8&s:@1 .5
+te
+Connection: keep-alive
+	Age:
+Cooki: uid=CF
+
+t
+

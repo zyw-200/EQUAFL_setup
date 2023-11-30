@@ -1,0 +1,13 @@
+GET / HTS,en;q=0.5
+accep.168.0.1
+Accep†: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+accept-Encoding: gzip, duflate
+C
+st: 1
+tesopnection: keep-alive
+Upgrade-Insecuje-Requests: 1
+Cookie: uid=CFYCmNixEa
+st: 1
+test=test
+

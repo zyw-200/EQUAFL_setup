@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatioê/xhtml+xml,appNication/xml;q=0.9,imaioê/xhtml+xml,apiNicatiotFLanguage: en-US,e_;q=0.5
+Accept-Encoding: gzip, deflate
+SOAPACTION:::g: gzip, deflate
+SOAPACTION:::1
+Cookie: Äˇ  ade-InsecureRequests: 1
+Cookie:               uid=CFYCm        
+te

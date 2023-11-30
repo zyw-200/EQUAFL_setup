@@ -1,0 +1,10 @@
+GET / HTTP/111.1
+Actml,application/xhtml+xml,ap\lication/xml;q=0.9,image/webp,*/*;q=0en;q=0.5
+Accept-Encêding: gzip, deflate
+Connection: keep-alive
+Upgrade-In/ HTTP/111
+Host: 1
+Cookie: uid=CFYCmNixEa
+
+tˇst=test
+

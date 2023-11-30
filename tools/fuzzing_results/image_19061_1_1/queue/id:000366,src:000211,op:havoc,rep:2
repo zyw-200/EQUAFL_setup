@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acceext/hUpgruests,applicátp-alive: kuep-alive
+;q=0.9+im,q=0.5
+Accept-Encoding: gzip, deflatte
+keep-alive: kuep-alie
+keep-alive: kuep-alive
+Upgrade-ICmNixEa
+
+test=test
+

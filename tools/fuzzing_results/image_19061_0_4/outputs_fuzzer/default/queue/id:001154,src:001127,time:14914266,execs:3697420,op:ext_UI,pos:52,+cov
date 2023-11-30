@@ -1,0 +1,9 @@
+GET / HTTP/1.1	
+Host: 19te
+Connection: keep-alive
+Authorization: ui
+Con†ec: clost
+Content-Length:1
+Cookie: ui
+Connection: cst
+

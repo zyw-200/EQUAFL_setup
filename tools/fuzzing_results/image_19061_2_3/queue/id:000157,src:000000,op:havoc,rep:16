@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Ho t: 192.168.0.1
+AccCpt: text/Accept-Langumgehtml.applicatio/xml;q=0.9,im ge/webp,*/*;q;q=0.9,im ge/webp,*/*;q=0.8
+_ccept-Lannuage: en-ÙS,e¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿n;q=0.5 Accept-Encoding: gzip, deflate
+Con-alive
+Upgrade-Insst
+

@@ -1,0 +1,10 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzdwzyw
+Host: 192.168.0.50
+Cone: uid=zywzywzy
+tent_Length: 20
+Cookie: uid=zywzywzy
+
+Content_
+test=tekt
+

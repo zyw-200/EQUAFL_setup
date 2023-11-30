@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatiin/xhtll+xml,appliãation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+ÿÿÿpt-ction: keep-alive
+Upgrade-Insecure-ROquests: 1
+œœœœœœœœœœœœœœœœœœœœœœœœœœœCookie: uid=CFYCmNixEa
+
+tect=test
+

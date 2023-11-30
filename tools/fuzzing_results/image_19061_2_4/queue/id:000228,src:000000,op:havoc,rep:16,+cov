@@ -1,0 +1,8 @@
+GET / HTTP/1.3
+x
+bccept-Language: en-US,en;q=0.5
+Accept-Encodin^: late)on: keep-alive
+Upgrade-Insecure-ReqUests: 1
+Cookie: uid=CFYCmNix*a
+ýtest=Žest
+

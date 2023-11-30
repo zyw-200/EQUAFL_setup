@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicattml,application/xhtml+xmlion/xhtml+xml,application/xml;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*;q=0.8
+Accelt-Language: en-US,en;q=0.5
+Accept-)ncoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecuÿÿ-Requests: 1
+C
+Accept: text/html,applictest=test

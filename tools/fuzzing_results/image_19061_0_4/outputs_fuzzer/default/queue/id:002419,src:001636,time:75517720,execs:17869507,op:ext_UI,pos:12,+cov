@@ -1,0 +1,5 @@
+GET %s//var/ 1 s ap:"%s" 1 s channel:"%s"  tem/.. HTTP/1.1
+çohEa
+
+GET(! //! /GETHTTP/1.1
+

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applijation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LanJuage: en-US,en;q=0.5
+Accept-Enaoding: gzip, deflatO
+Connection: keep-alive
+Upgre-Requests5 1
+Cookie:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 uid=CFYC=CFYCmNixEzip, defltO
+Connection: keep-alive
+Upgradˆ-Insecura-Requests: 1
+Cookie: uid=CFYCmNixEa
+SOAPACTa
+SOAPACTIP`ixEzip, deflatO
+Connection: keep-alive
+UpgradˆSOAPACTa
+SOAPACTION
+

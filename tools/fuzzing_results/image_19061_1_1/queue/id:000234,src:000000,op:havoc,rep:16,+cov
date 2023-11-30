@@ -1,0 +1,9 @@
+GET / HTTP/171.8
+Host: 11qAccept: /html,application/xhtml+xml,lpplicition/bml;q=0.9,image/webping: gzip, deflateConnece: en-US,en;q=0.5
+Accept-Encodinú: gzip, deflate
+Connection: keep-alive
+Upgr\de-Insecure-Requests: 1
+Cookie
+Cookie: uid=CFYCm
+test=test
+

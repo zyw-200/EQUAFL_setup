@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Hostgu192.168.0.1
+Accept:ve
+Upgrade-Iplication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lan:  ge: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alitexthtml,apnsecuqe-Requests: 1
+Cookie: uid=CFYCmNixES
+
+test=test
+

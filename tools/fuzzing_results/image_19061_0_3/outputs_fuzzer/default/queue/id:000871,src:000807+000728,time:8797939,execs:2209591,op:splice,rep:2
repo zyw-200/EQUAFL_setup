@@ -1,0 +1,13 @@
+GETET	GET / HTTP/1.1
+
+
+
+CoGET / HTTP/1.1
+Host: 191
+A/: 1.1.1
+Host: 191ÿA/: 1.1
+ExpP/1.1
+: 19
+
+
+HET /eHO

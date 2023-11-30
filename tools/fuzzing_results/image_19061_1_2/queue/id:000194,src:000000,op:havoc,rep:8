@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.16alive
+Accept: text/html,applicationFxhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: e-US,en;q=0.5gzip, deflate
+Accept-Encoding: gzip, deflaie
+Connection: keep-aliv           Insecure-Requests: 1
+Cookie: uid=Cst
+

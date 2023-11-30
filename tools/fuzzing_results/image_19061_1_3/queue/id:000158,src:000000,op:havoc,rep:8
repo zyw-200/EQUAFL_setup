@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/htmlapplication/xhtml+xml,appliÅation/xml;q=0.9,image/webp,*/*;q=0.8
+AcceXt-Language: en)US,en;q=0.5
+Accept-Encoding: ge
+Connection: weep-alAdminive
+Upgrade-Insecure-Requests: 1 uid=CFYCmNixEa
+
+test=test
+

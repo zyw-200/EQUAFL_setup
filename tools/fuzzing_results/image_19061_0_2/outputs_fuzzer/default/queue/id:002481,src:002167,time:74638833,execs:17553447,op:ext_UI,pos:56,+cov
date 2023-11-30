@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: e
+Connection: G
+Connection: .
+Content-Type: %sExpect:e
+s
+i
+
+
+GET / HXTPen;
+
+GET

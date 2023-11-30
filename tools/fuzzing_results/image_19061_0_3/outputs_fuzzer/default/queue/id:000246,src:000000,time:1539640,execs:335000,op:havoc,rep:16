@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1: 1
+Cookie: uid=CFþ
+Accept: text/html,applicationml,applicatio€ÿÿÿl;q=0cation/xhtml+xml,appcicati
+Accept-Language: en-CS,en;q=0.5@
+Accept-EncodinTTPeflate
+Conng: gzip, deflate
+Connection: keep-alivƒ
+UpgradDENYe-Insecure-Requests: 1
+Cookie-Requests: 
+Cookie: TTP=CFYCmNixEa
+
+test=test
+

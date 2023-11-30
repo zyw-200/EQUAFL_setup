@@ -1,0 +1,10 @@
+GET / HKTP/1./ HTTP/1.11
+Host: 0.
+t
+1	
+Host: 19tes
+
+GET/ HTTP/1.11
+Host: 0.
+t
+

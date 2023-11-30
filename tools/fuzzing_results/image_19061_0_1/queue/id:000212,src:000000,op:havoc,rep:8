@@ -1,0 +1,10 @@
+GET / HTTP/APNeiborInterfClearTrap
+AcceprfClearTrap
+Accept: text/httml+xml,applicatgbp,*/*;q=0.8
+AJcept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+î	test=test
+

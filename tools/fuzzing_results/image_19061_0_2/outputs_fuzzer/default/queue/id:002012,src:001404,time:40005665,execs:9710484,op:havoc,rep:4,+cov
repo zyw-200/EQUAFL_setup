@@ -1,0 +1,10 @@
+GET TTP/N HTTP/1.1
+Host: .1.Transfer-Encoding:ost:<.1
+Expect: e
+s: 1
+i
+
+GET /xgi fds:     HTTP/1.1
+Host:<.1
+Expect:   te
+

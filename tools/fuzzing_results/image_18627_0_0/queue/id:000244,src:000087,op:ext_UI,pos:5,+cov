@@ -1,0 +1,5 @@
+POST /HNAP1// HTTP/1.1
+pt-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+soapaction isn't IsDeviceReadyngth: 20
+Cookie: test=test
+

@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+cost: 191
+Ajcept: text/q=0.8
+Anguage: ;q=0.5
+Accbpt-Encoding: =gzip,ÿeflate
+Connection:Authorization gzip, 
+		On						uid=C*YCmNixEa
+
+test=test

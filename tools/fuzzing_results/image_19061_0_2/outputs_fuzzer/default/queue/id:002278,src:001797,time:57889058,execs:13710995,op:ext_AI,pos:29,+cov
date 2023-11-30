@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host:1
+Host:.
+Host:198
+g: g
+Connection: keep-alive
+s:te
+Connection: kp, ate
+
+

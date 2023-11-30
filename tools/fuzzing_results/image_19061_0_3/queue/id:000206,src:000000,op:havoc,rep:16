@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: te‹t/html,e-Requests: 1
+Cookie: uid=CFYo!applÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇèÇÇÇÇÇÇÇÇÇication/xml;q=0/var/mntwebp,*/*;q=0.8
+Accge: en-U,en;q=0.5
+Accep‹-Encodiÿg:!applÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇÇ gzip, deflate
+Connection: keepalive
+3pgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

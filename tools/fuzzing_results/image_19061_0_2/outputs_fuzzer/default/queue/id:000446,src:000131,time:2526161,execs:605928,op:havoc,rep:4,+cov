@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+:  0te
+Connection: alive 1
+CookXe: ui
+
+t
+

@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhpml+xml,applicatioon: keep-alive
+Upgrade-Insecur8
+Accade-Insecur8
+AcceS,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alZve
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,10 @@
+GET / HTTP/1.1	
+Host: 19te
+Connection: keep-alive
+If-
+
+ / HTTP/1.1
+Connection: ontent-Length:1
+Cookie: ui
+Connection:=cst
+

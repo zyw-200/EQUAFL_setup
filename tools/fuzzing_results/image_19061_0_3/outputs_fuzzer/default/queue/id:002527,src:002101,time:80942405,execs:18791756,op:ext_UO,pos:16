@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+/sys/snmptrap/switch/staInterfDetectedTrapSwitch =.
+ATET	GET
+
+
+GET / HTTP/1.9
+Host:pt-: en
+
+

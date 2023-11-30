@@ -1,0 +1,7 @@
+GET / HTTP/1   eimage/webp,*/*;q=0.8
+Accept,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connectlive
+Upgrade-Insecure-Requests: 1
+Cookie: uitest=test
+

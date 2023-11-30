@@ -1,0 +1,8 @@
+GET / HTTP/1.1¾
+Host/n;q=zip, deflate
+SOAPACTION:, deflate
+SOAPACTION: keep-
+SOAPACTION:‘keep-alive
+Upgrade-Ins               uid=CFYCmNixEa
+
+te

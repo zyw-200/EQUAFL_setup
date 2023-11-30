@@ -1,0 +1,13 @@
+GET TP//ext/html HTTP/1.1
+HGET TP//t:þ+/ HTTP/1.UP/1.1
+:   tee
+s: 1
+i
+
+
+GEU / HTTP/1.1
+Host: 1ÿ.168.Cookie.1
+Accept:text/hdml,application/htmkeepl,at-Language: en-US,en;
+
+GET / HTTP/1.1
+Host: $$

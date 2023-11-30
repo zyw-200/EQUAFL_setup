@@ -1,0 +1,23 @@
+GET /var/1 HTTP/1.1
+Host: 1
+Connection: ‹
+ 
+
+GET / HTTP/1.1
+Host: 0.1
+Ac: te
+AccGET / HTTP/1.1
+ing:
+AT3/ HTTCookie:P192.168.0.1st: 
+eG1
+8
+ gzitn:l,imGEe
+Connection: TTP/1.1
+H: 19eGET %s  / HTTP/1.1
+8tAin‹
+ gzi’e
+ConnectionI kep-alG19eGET %
+
+GETe:P192.168.0.1stt: /1.1
+Hosto
+Accept: text/html,applicaCookie:4ml+xml,application/’ml;q=.9,tm

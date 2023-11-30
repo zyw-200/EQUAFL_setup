@@ -1,0 +1,5 @@
+POST / HTTP/1.1
+AUTHORIZATIONAc-Encg: gzyw
+AUTHORIZATIONHost: 168.0.50
+AUTHORIZATIONContent_Length: 2/boaroot/cgi-bin/FWUploadProcess.asp
+

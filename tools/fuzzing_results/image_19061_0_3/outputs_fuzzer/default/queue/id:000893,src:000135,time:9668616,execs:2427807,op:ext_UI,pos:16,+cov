@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Connection: closeHost: 198
+Content-Length:  te
+Connection: keep-alive
+s: 1
+Cookie: uit
+

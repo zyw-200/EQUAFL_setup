@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhRml+xml,application/xml;q=0.9,imagesndbuf/webp,*/*;q=0Error404Fileanguage: enQUERY_STRINGcept-Encoding: gzip, deflate
+Connection:e
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test

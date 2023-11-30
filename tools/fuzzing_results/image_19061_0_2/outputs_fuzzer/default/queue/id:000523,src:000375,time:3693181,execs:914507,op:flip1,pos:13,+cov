@@ -1,0 +1,8 @@
+GET / HTTP/1.0
+If-Range:   te
+Connection: keep-alive
+s: 1
+Cookie: ui
+
+t
+

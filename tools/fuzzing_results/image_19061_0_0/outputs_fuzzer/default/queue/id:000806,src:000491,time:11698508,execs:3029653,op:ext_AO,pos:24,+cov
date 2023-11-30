@@ -1,0 +1,7 @@
+GET /xgi HTTP/1.1
+Host:
+Connection:e
+Connection: k1
+Cookie:eEa
+
+tee

@@ -1,0 +1,10 @@
+GET / HTTP/11
+Host: 192.168.0.1
+Accept: text/html,applicUpgrade-Incure-Requestsation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;qinÜ: gzip, deflate
+Connection: keep-alive
+Upgrade-Insùcure-Rekeepquezts: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+: 1C1
+If-Modified-Since:number too big 19teui
+

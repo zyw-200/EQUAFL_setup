@@ -1,0 +1,21 @@
+GET TP//ext/html HTTP/1.1
+HGET TP//t:age: en-US,en;
+
+GET / HTTP/1.1
+þ+/ HTTP/1.1
+Host: e
+s: 1
+i
+
+GET 2 HTTP/1.1
+:   tee
+s: 1
+i
+
+
+GEU / HTTP/1.1
+Jost: 1ÿ.168.0.1
+Accept:text/html,application/htmkeepl,appliUpaaaaaaaaaaaaaaaaaept-Language: en-US,en;
+
+GET / HTTP/1.1
+Host: $$

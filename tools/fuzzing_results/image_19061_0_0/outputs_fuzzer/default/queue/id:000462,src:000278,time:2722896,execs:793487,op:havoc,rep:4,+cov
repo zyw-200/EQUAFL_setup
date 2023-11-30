@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+. gzate
+Cononetion:,*/*,image/deb
+: gzate
+Connection:close,*/*,ip,s: 1
+Cookie: uiì
+t
+

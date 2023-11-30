@@ -1,0 +1,11 @@
+GET /Log HTTP/1.1
+Host: 1
+Accept: text/tml,applicn9MicroTime
+Accept: text/htmlxhtml+xml,application/Wml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connecton: keep-alive
+Upgrade-InInternalsecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

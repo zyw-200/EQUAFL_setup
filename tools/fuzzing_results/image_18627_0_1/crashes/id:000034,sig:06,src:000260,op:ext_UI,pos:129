@@ -1,0 +1,6 @@
+POST /HNAP1// HTTP/1.1
+pt-ding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+SOAPACTIONContent_Length: 20
+AUTHORIZATIONCookie: uid=zy
+

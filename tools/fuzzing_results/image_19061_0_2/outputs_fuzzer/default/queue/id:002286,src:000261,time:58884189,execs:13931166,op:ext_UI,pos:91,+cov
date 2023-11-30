@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 191
+At: t
+Connection: ke,image/webp,*/*;q=0.8
+Age:ète
+Connection:Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat, keep-alive
+s: 1
+Cookie: ui
+
+t
+

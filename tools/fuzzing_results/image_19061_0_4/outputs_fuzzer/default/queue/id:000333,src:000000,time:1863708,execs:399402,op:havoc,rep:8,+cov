@@ -1,0 +1,11 @@
+GETC HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xmlKq*;q=0.8=0.9,imago/webp,*/*;q=0.8
+Accept-Language: en-US,en;=0.5
+Accept-Encoding: gzip, deflate
+Connection: keekeepp-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test[Generic=
+

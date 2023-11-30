@@ -9,11 +9,19 @@ def test_parallel(num, image_id, option):
 	elif option == 1:
 		fuzzer_num = 3 #afl-new
 		keyword_num = 1 # keywords_static
-		qemu_num = 2 # qemu-cmd
+		qemu_num = 0 # qemu-cmd
 	elif option == 2:
 		fuzzer_num = 3 #afl-new
 		keyword_num = 2 # keywords_static_sorted
-		qemu_num = 2 # qemu-cmd
+		qemu_num = 0 # qemu-cmd
+	elif option == 3:
+		fuzzer_num = 1 # afl++
+		keyword_num = 0
+		qemu_num = 0
+	elif option == 4:
+		fuzzer_num = 2 #afl++-new
+		keyword_num = 2 # keywords_static_sorted
+		qemu_num = 0 # qemu-cmd
 	for i in range(0, num):
 		window_name = f"Docker{i}"
 		docker_command = "docker run -it -v `pwd`:/root -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c \"python vul_run.py %d %d %d %d %d\"" %(image_id, i, fuzzer_num, keyword_num, qemu_num)

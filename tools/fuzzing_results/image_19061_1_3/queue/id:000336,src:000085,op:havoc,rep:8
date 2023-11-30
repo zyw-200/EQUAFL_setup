@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0Backlog.9,image/weP,*/*;q=0.8
+Accept-LanSuage: en-US,en;q=0.5
+Accept-Encoding: gziR, deflate
+Connection: en-Uÿ
+Cookie:dlink_uid uid=CFYCmInsecure-Requests: 1
+Cookie:dlink_uid uid=CFYCmNixEa
+
+test=test

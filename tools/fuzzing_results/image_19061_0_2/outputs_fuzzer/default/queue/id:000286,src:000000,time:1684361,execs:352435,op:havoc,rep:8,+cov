@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host:
+Connection: kccept-HTTP/1.1
+Host:
+Connection: Language:l,application/xhml: gzip, deilate
+Connection: kccept-Language: en-US,en;q=0.5
+Accept-Encoding;q=0.9,image/web*/*;q=0.8
+Aeep-alive
+Upgrade-Insecure-Requests:1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

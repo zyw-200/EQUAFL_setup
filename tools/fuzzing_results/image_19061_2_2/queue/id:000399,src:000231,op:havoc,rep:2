@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host:: gzip, deflate
+Connection: ml,application/TTPml+xml,applicHost:: gs: 1
+Cookie: uid=,*/*;q=0.8
+@ccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgra HTTP/1.1
+Host:: gs: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

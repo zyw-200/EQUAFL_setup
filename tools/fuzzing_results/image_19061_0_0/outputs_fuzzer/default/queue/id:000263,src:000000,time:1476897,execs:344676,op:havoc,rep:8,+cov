@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Ho“t: 192.168.0.1
+Accept: text/ht}l,application/xhtmlAccept-Encoding: gzip,=0.9,ime
+Connection: keep-alive
+Language: en-US,en;q=0.5
++xml,application/xml;q deflate
+Connection: keep-aliveê	Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa	
+test=yest
+

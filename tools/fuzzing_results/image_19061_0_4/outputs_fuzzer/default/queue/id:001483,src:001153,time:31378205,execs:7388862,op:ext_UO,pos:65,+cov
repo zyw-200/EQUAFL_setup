@@ -1,0 +1,5 @@
+GET / HTTP/1.1	
+Host: 19te
+Connection: keep-alive
+If-Range: uisnmptrap -v 1 -c %s %s %s "" 6 %d "" 1 s %s %s onnection: cst
+

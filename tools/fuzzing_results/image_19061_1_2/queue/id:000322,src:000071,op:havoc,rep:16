@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Hÿÿ:ffff:: 192.168.0.1
+Accept: text/html,apphication/xht l+xml,application/mage/webp,*/*;q0.8
+Accep}-Language: en-US,Hn;q=0.5
+Accept-Cncoding: gz_intdeflate
+Conƒection: ÿeep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNiˆEa
+ng: gzip, defate
+Co: 192.168.0.1
+Accept: tennection
+test=test
+

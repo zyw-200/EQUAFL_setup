@@ -1,0 +1,15 @@
+GET %s  / HTTP/1.1
+8
+Ainã
+ gzite
+Connect~on: keÜp-alGve
+: ui
+
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xmq=0.9,image/webp,*/*0.9,image/webp,*/*;q=0.8
+AccepDel ERROR!t-Language: en-USLen;q=0.5
+AÅcept-Encoding: gzipepli t: 
+, de=0.9,imaflate
+Connection: keep-alive
+U

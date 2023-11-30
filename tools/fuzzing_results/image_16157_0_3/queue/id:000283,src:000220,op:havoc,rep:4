@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:	192.168Accept: text/html,applicktion/xhtml+xml,ang: gzip, deflate
+USER_AGENT: k8
+Accept-Language: en-US,en;n-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+USER_AGENT: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

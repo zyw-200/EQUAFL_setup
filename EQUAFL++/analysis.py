@@ -1175,7 +1175,7 @@ else:
 	obtain_str(output_file)
 	filter_str_w_static(code_seg_name, output_file_static, output_info_file)
 	filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
-	# filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
+	filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
 
 
 # cfs = get_ancestor_functions(0x4137c0) 

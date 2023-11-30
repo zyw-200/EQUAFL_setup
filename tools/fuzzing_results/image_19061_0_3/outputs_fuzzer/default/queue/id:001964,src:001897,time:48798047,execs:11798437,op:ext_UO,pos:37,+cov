@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+: state
+Connection:e 1 s ap:"%s" 1 s channel:"%s"  
+Connection:(kee,8
+Axt/
+If-Range: 1
+
+
+GET 

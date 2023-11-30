@@ -1,0 +1,10 @@
+GET %s  / HTTP/1.1
+Cookie: 
+Host: 198
+Aing: Jzite
+Cennection:!keep-alive
+s: 1
+Cookie: ui
+
+t
+

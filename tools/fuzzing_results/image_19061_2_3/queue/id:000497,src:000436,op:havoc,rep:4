@@ -1,0 +1,12 @@
+GET h://www/index.php HTTP/1.1
+If-Range::ffff:1Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,appnge::ffs: 1
+Cookie: uid=CFYClication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConnectionF keep-alive
+Upgrade-Insecure-Requesthp HTTP/1.1
+If-Range::ffs: 1
+Cookie: uid=CFYCmNixEa
+
+t

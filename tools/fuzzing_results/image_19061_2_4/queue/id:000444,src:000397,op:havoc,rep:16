@@ -1,0 +1,21 @@
+GET h:/ HTTP/1.1
+H:
+A:
+Ac~rpt: text/hŠml,applcation/xhtml1
+Host:ttIf-Modified-Since,*/*;quid=CFYCmNixEa=0.8/www/indev.php
+Accept-Len-US,e€;„=0.5,en;q=0.5
+AccepRangeonnee
+UP/1.1
+H:
+A:
+ ified-Since,*/*;qc~vpt: te1
+H:
+A:
+Accvpt: text/hŠml,aInsec‚re-Requests: live
+UP/1.1
+H:
+A:
+Ac~vpt: text/hŠÍpgrade-Ilsecwre-jequests:1	
+Cooki€: N{xEa
+
+test=test

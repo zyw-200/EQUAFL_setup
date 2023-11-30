@@ -1,0 +1,9 @@
+GET %s input buffer fulld=CFY / HTTP/1.1
+Host: 198
+Aing: gzite
+Connection: k/wlan/inf:1/apmonitor_lasteep-alive
+s: 1
+Cookie: ui
+
+t
+

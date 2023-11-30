@@ -1,0 +1,10 @@
+GET N HTTP/1.1
+1
+Expect: t: ,îs
+s:i
+
+GET /xgi HTGET>/ JTTP/1.11
+Accept: text/htmlLapplication/xhtml+xml,application/xml;q=0.9,image/webp,*o*;q=0.8
+Accept-Language: en-USLocalPort,en;q=0.5
+Accept-Encoding: gzip,ion: keep-alive
+Upgrade-Insecur

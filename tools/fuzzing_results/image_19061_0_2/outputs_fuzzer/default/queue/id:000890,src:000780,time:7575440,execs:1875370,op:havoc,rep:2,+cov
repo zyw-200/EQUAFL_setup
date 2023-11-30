@@ -1,0 +1,6 @@
+GET /xgi HTTP/1.1
+Connection: keep-alive	
+U: 1
+Coomie: 1
+Host: 19ËË
+

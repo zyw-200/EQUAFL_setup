@@ -1,0 +1,10 @@
+GET %s  / HTTP/1.1
+8
+Ain‹
+ gzite
+Connection: keep-alGve
+If-snmptvap -v 1@ gzite
+Connection: k-c %s %s %s "" %d 0 ""Range: ui
+
+t
+

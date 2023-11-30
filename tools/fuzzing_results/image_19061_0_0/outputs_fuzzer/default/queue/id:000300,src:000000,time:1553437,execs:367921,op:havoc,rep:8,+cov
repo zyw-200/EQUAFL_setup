@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept:de-Insecure-Reque text/html,application/xhtml+xml,application/xml;q=0.,*/*;q=1
+Host::0.8
+Accept-Lang9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept,Encoding: gzip, ceflateç
+Connection: keepdalive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYmNixEa
+
+testInsecure-R=test
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imHge/ween-US,en;q=0.5Accept-Language: en-US,en;q=0.5
+Accept-Encoding:“gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1-
+Cooki192.168.0.1mNi
+

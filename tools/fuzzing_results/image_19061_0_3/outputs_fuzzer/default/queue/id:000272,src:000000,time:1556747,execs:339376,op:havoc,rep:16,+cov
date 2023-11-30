@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host:192.168.0.1
+Accng: gzip, deflate
+eöt: text/html,apl,aping Range header "%s"necton/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-U;,en;q=0.;
+Acce€t-Enignoring RAnge header "%s"nection: keep-alfve	
+Upgrade-Insecure-@equests: 1
+Cooki#: uid=TTPCmNixEaM
+
+test=test
+

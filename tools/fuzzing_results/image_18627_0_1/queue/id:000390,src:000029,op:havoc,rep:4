@@ -1,0 +1,10 @@
+POST / HTTP/1.1<?xml version='1.0' encoding='utf-8'?>
+Accept-Encoding: gzip,ddchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uidbounèry==zywzywzy
+:testAccept-Encoding: gzip,ddchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uidb=test
+

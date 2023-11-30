@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Hst: 192.168.0.1
+Accept: text/html,application/xhtml+ml,application/xml;q=0.9,,magY/webp,*/*;q=0.8
+Accept-Language: en-US,
+Connecti;q=0.5
+AMcept-EPOWTing: tzip, deflate
+Connection: λλλλλλλkeep-alive
+Upgrade-Insecure-Reqests: 1
+Cookie3 uid=CFYCmNixEa
+test=test
+

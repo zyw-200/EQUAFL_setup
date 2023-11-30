@@ -1,0 +1,19 @@
+GET /debuginfo.htm HTTP/1.1
+Host: 192.168.0.1
+Acóept: text/html,pplication/ndeflate
+Connecton: keep-al.9,imag€ÿwebp,*/*;q=0.8
+Accst: 192.168.0.1
+Acóept: text/html,pplication/ndeflate
+Connecton: keep-al.9,imag€ÿwebp,*/*;q=0.8
+Accept-LanguageD en-U						S,en;q=05
+Accept-Encoding: gzip, deflate
+ConnectoŒ: keep-alive
+Upgrade-Insecure-Requests: 1
+CookiT: uid=CFYCmNixEa
+ept-LanguageD en-U						S,en;q=05
+Accept-Encoding: gzip, deflate
+ConnectoŒ: keep-alive
+Upgrade-Insecure-Requests: 1
+CookiT: uid=CFYCmNixEa
+
+t

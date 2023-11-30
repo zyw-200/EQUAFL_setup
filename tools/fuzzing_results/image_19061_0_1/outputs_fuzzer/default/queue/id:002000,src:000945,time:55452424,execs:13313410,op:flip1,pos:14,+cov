@@ -1,0 +1,9 @@
+GET $ HTTP/1.1	
+Host: 4
+Host: šn
+Ac
+Connection:keep-a 1
+Cookie: Ea
+
+teest	
+

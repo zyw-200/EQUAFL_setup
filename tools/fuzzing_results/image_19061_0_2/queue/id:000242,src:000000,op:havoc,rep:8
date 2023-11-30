@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Hosƒ: 192.168.0.1
+Accept: text/html,application/xhtml+”ml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Laneuage:€en-US,en;q=0.5
+Accept-Encoding: gzip, deflateû	Connection: keep-alive
+Upgrade-Insecure-R-alive
+Upgrade-Inequests: 1
+Cooÿÿe: uid=CFYCmNixEa	
+test=test
+

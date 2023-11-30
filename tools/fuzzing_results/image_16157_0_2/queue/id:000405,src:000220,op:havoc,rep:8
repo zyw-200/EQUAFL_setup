@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+IF_MODMFIED_S*;q=0.8
+Accept-Language: en-US,ennguage: en-US,en;q=0.5
+Accept-Encoding: gzip, de^late
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFY;q=0.5
+AccFpt-Encoding: gzip, deflaÄˇ
+Connection: keep-alive
+Upgrade-Insecure-anguage: en-US,en;q=0.5
+Accept-Encoding:,gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requesçs: 1
+Cookie: uid=CFYCmNixEa
+

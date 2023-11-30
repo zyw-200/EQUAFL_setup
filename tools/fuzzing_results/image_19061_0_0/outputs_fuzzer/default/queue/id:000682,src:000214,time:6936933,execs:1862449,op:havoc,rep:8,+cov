@@ -1,0 +1,11 @@
+GET / HTTP/1.1
++ost: 19mz
+Connection: =0..1
++ost: 19mz
+;q=0.8
+Ageÿÿÿÿ
+te
+Connection: keepCoCookie:okie:Cannot open %s uid=CF
+
+t
+

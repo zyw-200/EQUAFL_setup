@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+IF_MODIFIED_SINCE:service:Host: 192.168.0.1
+IF_MODIFIED_SINCE:application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+IF_MODIFIED_SINCE:n-US,en;q=0.5
+IF_MODIFIED_SINCE:zip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+te

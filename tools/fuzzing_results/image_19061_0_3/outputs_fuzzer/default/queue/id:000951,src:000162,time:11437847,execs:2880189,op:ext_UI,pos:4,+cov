@@ -1,0 +1,9 @@
+GET %s//.. HTTP/1.1
+Host: 0.8
+Accg: g
+Connection: keep-alive
+Upsts: 1
+Cookie: Ea
+
+teest
+

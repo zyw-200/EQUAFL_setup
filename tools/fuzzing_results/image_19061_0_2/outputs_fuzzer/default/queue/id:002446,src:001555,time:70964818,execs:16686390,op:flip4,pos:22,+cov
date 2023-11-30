@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Hos€: 9te
+Connection: keep-alive
+s: /1
+:   te
+Connection: t
+

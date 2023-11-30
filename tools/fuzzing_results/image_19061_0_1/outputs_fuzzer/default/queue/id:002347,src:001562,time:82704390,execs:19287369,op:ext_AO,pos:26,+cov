@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 19ok
+
+
+
+GET / HTTP/1.5
+Host: 0.1
+Ac: tecod
+
+
+c

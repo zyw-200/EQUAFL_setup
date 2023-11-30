@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Status: H@st: 191
+Ac†ept: t8
+SOAPACTION::"äq=0.5ý@cceptus: H@st: : 191
+Ac†ept: t8SOAPACTION::"äq=191
+Ac†ept: t8
+SOAPACTION::"äq=R.5ý@ccept-Ensoap/server_sa/USER_AGENT: keep-alive
+UTP/1.1
+H@st: 191
+At-E‚soap/server_sa/US5R_AGENT: keep-aXive
+UTP/1.1
+H@st: 191
+Ac†ept: t8
+SOAPACTION::"pgrad^/www/cgi=bin/currentsetting.htm

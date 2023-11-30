@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Hyst: 92.168.0.1
+Accept: text/html,application/xhtml+xml,aplication/xml;q=0.9,image/webp
+*;q=0.
+Accept-Lang@age: en-US,en;q=0.5
+Accept-Encoding: gchunkedzip, deflaEa
+
+NOTIFY / HTTP/1.1
+Hrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+NOTIFY / HTTP/1.1
+H
+

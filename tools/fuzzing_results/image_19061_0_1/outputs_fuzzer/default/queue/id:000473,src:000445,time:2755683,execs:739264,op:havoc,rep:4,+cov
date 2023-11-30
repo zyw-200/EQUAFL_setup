@@ -1,0 +1,9 @@
+GET  HTTP/1.1
+ÿÿÿ:TTP
+
+t%s  ////// HTTP/1.1
+sts: 1
+Cookie: ÿÿÿ:TTP
+
+tc k
+t

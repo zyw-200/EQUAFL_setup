@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Hi
+
+GET / HTTP/1.1
+Host: 0.1
+Accept: tex0.8
+Acc:cocõ
+
+
+c

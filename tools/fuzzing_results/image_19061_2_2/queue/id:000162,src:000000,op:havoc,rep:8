@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 19M.168.0.1
+Accept: text/htkl,ipplication/xhtml+xml,e/webp,*/K;q=0.8
+Accept-Lantuage: en-US,en;q=0.5
+Accept-EncodingG gzip, deflate
+Connection: keep-alive
+Upgrade-Insecur             e-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

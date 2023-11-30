@@ -1,0 +1,1 @@
+GET %%s%%s/dir.%d.%ld02X HTTP/1.1

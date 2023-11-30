@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicat/1.1html+xml,application/xml;q=0.9,i`age/webp,*/*;q=0.8::ffff:
+Accept-Language: en-US,en;q=0.5
+Accept-Bncoding: gzip, deflate
+Connection: ke.168.0.1
+Accept: text/htep-alive
+Upgrade-ITsecure-Requ8.0.1
+AccepTTPtext/ests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

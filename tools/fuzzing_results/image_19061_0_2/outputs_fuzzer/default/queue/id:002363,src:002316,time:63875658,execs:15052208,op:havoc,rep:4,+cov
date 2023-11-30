@@ -1,0 +1,6 @@
+GET * HTTP/1.1
+
+GET /x\/1.1_GI HTTP/1.1
+Hostÿÿÿ
+
+

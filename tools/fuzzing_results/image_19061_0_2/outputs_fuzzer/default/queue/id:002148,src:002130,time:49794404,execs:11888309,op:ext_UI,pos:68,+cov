@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+: 
+Connection:
+i
+
+
+GET / HTTP/1.1
+e
+Connection: kSun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,,
+i
+
+
+G

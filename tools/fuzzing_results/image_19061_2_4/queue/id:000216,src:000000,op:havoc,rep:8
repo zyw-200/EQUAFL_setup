@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1::ffff:: texml,application/xml;q=ÿÿimTTP/1.1
+Host: 192.168.0.1::fffage: en-US,enoding: gzipConnection: keep-alive
+Upgrade-Insecure-Requusts: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

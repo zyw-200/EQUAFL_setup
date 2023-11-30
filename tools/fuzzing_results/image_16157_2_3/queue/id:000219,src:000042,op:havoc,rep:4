@@ -1,0 +1,8 @@
+GET /.html/.html HTTP/1.1
+Host: 192.168.8
+Accept-Language: en-0.5
+Accept-Encodtion: kÿ
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

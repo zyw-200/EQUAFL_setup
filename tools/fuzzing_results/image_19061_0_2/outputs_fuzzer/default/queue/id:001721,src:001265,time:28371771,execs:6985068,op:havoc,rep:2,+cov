@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Referer:   tee
+s: 1
+i 
+GET /xP/1.1 HTTP/1.1
+Host:i
+
+GET /xP/1.1 HTTP/1.1
+Ho<At: 
+Host: $i
+
+

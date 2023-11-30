@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hst: 192.168.0.1
+Acce†t: text/html,tpplicat1
+Host: 192.168.0.1ion/xhtml+xml,a.1
+Host: 192.168.0.1Ace/webp,*/*;q=0.gzip, deflate8
+Accept-Language: en-US,en;ÿ€0.5
+Acce-aldve
+Upgrade-I, deflateTTPnnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFY'mNixEa
+test=testp-alive	ý
+

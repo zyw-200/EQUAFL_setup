@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Reeerer:   teH
+s: 1
+i
+
+GET /xP/1.1 HTTP/1.1
+H1
+Referer:              address %s port %s: %s rer:  !teH
+s: 1
+i
+
+GET  Host: $i
+
+

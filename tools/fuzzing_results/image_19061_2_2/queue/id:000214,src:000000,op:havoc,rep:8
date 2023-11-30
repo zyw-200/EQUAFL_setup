@@ -1,0 +1,10 @@
+GET /keext/ht HTTP/1.1
+Host: 192ate
+Connection: keext/html,application/xhtml+xml,applrcation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Laqguage:ept-Encoding: gzip,keep deflate
+Connection: ke†p-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

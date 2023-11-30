@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9
+Connection: ,imagJ/webp,*/*;q=0.8
+AcceptREMOTE_PASSWD-Language: en-;S,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgralog_request: cannot write to log filede-Insecure-Reduests: 1
+C\okie: uid=CFYCmNixEa
+
+test=test
+

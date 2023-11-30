@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acckeep text/html,Vpplication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+PATHAccept-Encoding: gzip, deflate
+Connection:,,,,",,,,,,,,,,,,,,,,, keep-alive
+Upgrade-Insecure-Ze************A***e: uid=CFYCmNixEa
+test
+

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+:   tee
+s: 1
+i
+
+
+GET Õ HTTP/1.0
+:   
+:   tee
+s: 1
+i
+tee
+s: 1
+i
+
+GET / HTTP/1.1
+Hhst: 392.168..1
+Accept:text/html,application/xhtml@xml,appliUpTPzn/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LaZgunge: fn-US,st: $$$$$$,$$$$$$$$$$$$$$$$$$$$ gzip, def“ate€€€€€
+Connection: keep-alive
+cat

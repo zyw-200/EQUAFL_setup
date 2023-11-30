@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:Ú19te
+Connection: keep-alive
+s: 1
+COokie: ut
+Connection: close
+Host:Content-Length: tesst
+

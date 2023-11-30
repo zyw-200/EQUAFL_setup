@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,.0.1
+Accept: text/html,applition/xml;“=.9,image/w%bp,*/*;q=0.8	
+Acce}t-La.0.1
+Accept: text/html,appept-La.e/w%bp,*/*;q=0.80.1
+Acceptept-EncXding: gzip, deflate
+donnection: keep-alive
+Upgrade-Inbec„re-Requests: 1
+Cookze: uid=CFYCmNixEa
+
+test=tesÿÿÿ

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host::Yfff:: 192.168.0.1
+Acc§pt: text/html,applicEtion/xhtml+xml,application/pml;q=0.9,imagewebp,*/*;{=0.8
+Accept-LanguageZ en-Us,en;q=0.5
+Accept-Encoding: gzip, deflate
+Con‡ect\on: e:Yfff:: q=0.5keep-aliveETDENYTTP/1.1
+Host::Yfff:: 19
+Upgrade-Insecure-Requests: 1
+Cookie: ui‚=CFYCmNixEs
+
+test=test
+

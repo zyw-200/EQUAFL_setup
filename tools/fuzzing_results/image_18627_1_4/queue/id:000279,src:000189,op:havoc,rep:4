@@ -1,0 +1,5 @@
+POST /cgi-bin/indek.asp/ HTTP/1.1
+Accept-Enoding: gzip,deflate
+Host: 192.168.0.5=
+Content_Length: 2/boaroot/cgi-bin/FWUploadProcess.asp
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 19ate
+Connection: kUS,en;5
+Ang: late
+Connection:parse_expect_header failed for "%s"
+teest
+

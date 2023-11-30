@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 
+test=te192.168.0.1
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9bp,*/ù;q=0.8
+Accepp-Language: en-US,en;q=0.5
+Accept-Encodin::::::::::::::::::::::::::::::::ep-alive
+UpgradeYCmNixEa
+
+test-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,8 @@
+POST HTTP/%u.%u/ HTTP/1.1
+Accept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uid=zywzywzy
+
+test=test
+

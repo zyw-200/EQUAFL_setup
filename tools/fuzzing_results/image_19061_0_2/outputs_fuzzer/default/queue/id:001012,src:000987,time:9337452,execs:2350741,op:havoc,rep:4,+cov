@@ -1,0 +1,8 @@
+GET TP/gi HTTP/1.1
+Host: .
+Cot: 1/xgi HTTP/1.@
+Host:/xgi HTTP/1.1
+Host: .
+ .
+Cot: 19ËË
+

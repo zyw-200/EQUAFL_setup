@@ -1,0 +1,14 @@
+GET ? HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xdl,aT ? HTTP/1.1
+Host: 192.168.0.2.168.0.1
+Accept: text/htm1pplication/
+Host: 192.168.0.1
+Accept: textAccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cùnnection:Bkeepèlive
+Upgrade-InsecuŽe-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

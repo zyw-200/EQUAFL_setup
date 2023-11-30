@@ -1,0 +1,11 @@
+GET /Log HTTP/1.1
+Host: 192.168.0.1
+Acequests: 1@
+Cookie: uid=CFYCmNixl+xml,al;q=0.9,imagÿÿÿbp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encguage: eoding: gzip, deflate
+eonnecdion: keep-alive
+Upgrade-Insecure-Requests: 1@
+Cookie: uid=CFYCmNixEa
+
+t

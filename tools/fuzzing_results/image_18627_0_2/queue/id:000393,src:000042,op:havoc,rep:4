@@ -1,0 +1,14 @@
+POST / HTTP/1.1
+:ccept-Encoding: gzip,TP/1.1
+:ccept-Encoding: gzip,deflwzywzywzywzywzyw:ccept-Encoding: gzip,TP/1.1
+:ccept-Encoding: gzip,deflwzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: deflwzyw
+Host: 192.168.0.50
+Content_Length: deflwzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uid=zyw{ywzy
+
+uid=zyw{ywzy
+

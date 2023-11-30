@@ -1,0 +1,11 @@
+GET /www/index.php? HTTP/1.1
+Host: 192.168.0.1
+Accq=@.5
+Accept-Encoding: gzip,,pmage/webp,*/*;q=0en-US°en;q=@.5
+Accept-Encoding: gzip, deflate
+a
+
+tConnection: oee-Reqèts: 1
+Cookie: uiW=CFYCmNixEa
+
+te

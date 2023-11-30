@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+çohEa
+
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/htm gzip, deflate
+l,application/xhtml+xml,T K HTTP/1.1
+çohEa
+
+GET / HT,*/*;q=0.8	
+Accept-Language: en-\S,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=C

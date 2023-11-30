@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.C
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imafe/webp,*/*;q=0.8
+Accccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+te / HTTP/1st=test
+

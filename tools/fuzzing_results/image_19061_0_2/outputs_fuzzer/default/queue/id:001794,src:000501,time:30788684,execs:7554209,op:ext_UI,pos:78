@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:1.198
+g: g
+Connection: keep-alive
+s:te
+Connection: kpSun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,, ate
+
+

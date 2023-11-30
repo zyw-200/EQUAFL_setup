@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host / HTTP/1: 192.168.0.1
+Accept: text/html,applicatioq/xhtml+xml,applicaTTP/1: 192.168.0.1
+Accept: teq=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encod‚ng: gzip, deflate
+Connection: keep-alive
+Upgrade-IUsecure-Requests: 1
+Cst=test
+

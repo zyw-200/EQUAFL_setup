@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatioê/xhtml+xml,application/xml;q=0.9,image/weate
+SOAPACTION:: 1
+Cookie:ing: gzip, deflate
+SOAPACTION:: 1
+Cookie:     ade-Insecure-Requests: 1
+Cookie:               uid=CFYCm        
+te

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+SOAPACTION:•ervice:Host: 192.1*8.0.1
+SOAPACTION:1.1
+SOAPACTION:•ervicn/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-arokieive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEad
+
+t

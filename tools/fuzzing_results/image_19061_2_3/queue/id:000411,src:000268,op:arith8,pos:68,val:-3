@@ -1,0 +1,8 @@
+GET l version="1.0" encoding="UTF-8"?>/ HTTP/1
+pt: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8192.1
+Acc{pt-language: en-US,en;q=0.ccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Languag302 Movede: en-US,en;q=id=CFYCmN=CFYCmNŠxEa
+
+ HTTP/1late
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFSCRIPT_NAME
+test=test
+

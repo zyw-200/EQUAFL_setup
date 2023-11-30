@@ -1,0 +1,9 @@
+GET * HTTP/1.1
+H
+Host: .÷:e
+Range:1
+/1.1
+Host: .
+Range:e:1
+
+

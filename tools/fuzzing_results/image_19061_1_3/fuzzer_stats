@@ -1,0 +1,30 @@
+start_time        : 1701065599
+last_update       : 1701152092
+fuzzer_pid        : 71
+cycles_done       : 0
+execs_done        : 13671338
+execs_per_sec     : 297.16
+paths_total       : 634
+paths_favored     : 116
+paths_found       : 633
+paths_imported    : 0
+max_depth         : 9
+cur_path          : 613
+pending_favs      : 13
+pending_total     : 474
+variable_paths    : 6
+stability         : 96.06%
+bitmap_cvg        : 2.71%
+unique_crashes    : 16
+unique_hangs      : 0
+last_path         : 1701151897
+last_crash        : 1701096889
+last_hang         : 0
+execs_since_crash : 8370447
+exec_timeout      : 40
+afl_banner        : httpd
+afl_version       : 2.57b
+target_mode       : qemu 
+command_line      : ./afl-fuzz -m none -Q -i ./inputs -o ./outputs_fuzzer -x keywords ./sbin/httpd -E USER=root -E SHELL=/bin/sh -E PATH=/sbin:/usr/sbin:/bin:/usr/bin -E user_debug=31 -E LD_PRELOAD=/firmadyne/libnvram.so -E TERM=vt102 -E HOME=/ -s wapn24_dkbs_dap2330 -f /var/etc/httpd.cfg @@
+slowest_exec_ms   : 40
+peak_rss_mb       : not available while afl is running

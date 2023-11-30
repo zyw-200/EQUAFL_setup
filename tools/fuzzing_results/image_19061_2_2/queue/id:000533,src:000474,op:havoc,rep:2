@@ -1,0 +1,10 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:Accept: SUBSCRIBEtex11111111111111111111111111111111lication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-RequNOTIFY1
+Cookie: uid=CFYCmNixEa
+
+t

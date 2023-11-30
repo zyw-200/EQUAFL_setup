@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+IF_MODIFIED_SINCE:ost: 192.168.0.1Requests: ext/html,application€ÿÿÿml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Ranguage: en-US,en;q=0.5
+Accept-Encoding: 
+IF_MODIFIED_SINCE:ost: 1 keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

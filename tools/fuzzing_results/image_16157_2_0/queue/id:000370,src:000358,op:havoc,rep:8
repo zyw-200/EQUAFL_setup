@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+SOAPACTION:"ºser:service:service:Dost: 192.168.0.1
+Accept: text/html,application/!html+xml,application/xml;q=0.9,image/web/html/p,*/*;q=0.8
+Accept-ëanguage: en/1.1
+SOAPACTION:"ºs-US,en;q=0.5
+Accept-Encoding: gzip, dHflate
+Conection: keep-alive
+Upgrade-Insecure-Req‘ests: 1
+Cookie: uid=CFYCmNixEa
+

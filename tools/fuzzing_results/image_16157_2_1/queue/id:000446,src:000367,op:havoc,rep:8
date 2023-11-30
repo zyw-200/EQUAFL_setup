@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+IF_MODIFIED_SINCE:seE:service:Host: 192.168.0.1
+IF_MODIFIED_SINCE:application/xhtml+Location: 0.9,image/webp,*/*;q=0.8
+IF_MODIFIEDrvice:Host: 192.168.0.%
+IF_MODIFIED_SINCE:application/xhtml+xml,apl;q=0.9,image/webp,*/*;q=0.8
+IF_MODIFIED_SINCE:n-US,en;q=0.5
+Accept-Encod0.8
+IF_MODIFIED_SINCE:n-US,en;q=0.5
+Accept-Encodining: gzip, deflate
+ConINCE:n-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConnectiNn: keep-alive
+Upgrade-Insecure-Requeÿÿection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+te

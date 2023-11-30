@@ -1,0 +1,8 @@
+GET /_int HTTP/1.1
+Host: 1
+Host: 198
+198
+ 1>/dev/null 2>&1 : uit
+Connection: keep-alive
+r
+

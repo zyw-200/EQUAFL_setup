@@ -1,0 +1,8 @@
+GET .lad/ HTTP/1.1
+/wlnf:11.1
+: returning partial content esnmptrap -v 1 -c %s %s %s "" %d 0 ""
+
+GET / HTTP/1. 1
+Hˆst: 1925
+A
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host:: gzip, deflate
+Connection: ml,applien-US,en;q=0.5ml,application/xml;q=0.9,izage/webp,*/*;q=0.8
+@ccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

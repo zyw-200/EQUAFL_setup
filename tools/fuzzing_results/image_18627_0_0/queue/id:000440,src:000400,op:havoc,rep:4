@@ -1,0 +1,6 @@
+GET  /boaroot/cgn/menu.asp/ HTTP/1.1
+Accept-En;Rding: g
+Host: 1.50
+Content_Length: 20
+Cookie: SßSID=%s;;%s;;%IP1=%s;=zs;CoNID=%s;;%s3=%s;=
+

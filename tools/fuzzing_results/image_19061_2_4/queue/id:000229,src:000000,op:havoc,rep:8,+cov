@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+A168.0.1/q=n-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+keep-alive: keep-alive
+Upgradets: 1
+Cookie: uid=CFYCmNixEa
+
+test=te

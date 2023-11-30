@@ -1,0 +1,4 @@
+GET  /boaroot/cgn/menu.asp/ HTTP/1.1
+Ac-Encg:          .5p
+Content_Lequot; SESSIONID=%s;: uid=
+

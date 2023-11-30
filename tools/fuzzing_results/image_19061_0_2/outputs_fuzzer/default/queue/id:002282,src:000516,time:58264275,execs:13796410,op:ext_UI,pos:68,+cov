@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 19se
+Connection: -al
+s: 1
+Cookie: ui
+ÿ	z
+Connection: close
+
+s: 1

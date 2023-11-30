@@ -1,0 +1,9 @@
+GET /wgw/tm/ HTTP/1.1
+Hont: 192.168.0.1
+Accept: text/html,applicawion/www/cgi-bin/logout.html/xh€€€€€ml,application/xml;q=0.9,Èmage/webp,*/*;q=0.8
+ ccept-Lsnguage: eM-US,en;q=0.5
+Accepgzip, deflatezip, deflate
+Connection: keep-alive
+-Insecurf-Requests: 1
+CoTimeokie: uid=CFYCmNi
+

@@ -1,0 +1,11 @@
+POST / HTTP/1.1
+Ace: uid=zywzywzy
+
+test=test
+
+zywzywzywzywzywzywzywzywzywJHost: 192.168.0.NATENABLE50
+Content_Lencth: 20
+Cookie: uid=zywzywzy
+
+test=test
+

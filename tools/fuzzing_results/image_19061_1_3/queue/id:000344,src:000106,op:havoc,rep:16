@@ -1,0 +1,4 @@
+GET / -TTP/1.1ìHos192.168.0.1aliveAccept: text/htul,application/xhtme/webp2.1en-US,en;q=0.5ccept: text/h,*/*;q=0.8
+Accept-Language: en-Encoding: ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆion: keep,alive
+Upgrade-Insecure-ReBuests< 1
+Cookie: uid=tm

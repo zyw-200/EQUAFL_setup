@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+>appl=0.8
+Accept-image/we: 	q=0.5
+Accept-Encoding: flate
+Connection: pgradre-Requests: 1
+Cookie: uid=CFYCest
+

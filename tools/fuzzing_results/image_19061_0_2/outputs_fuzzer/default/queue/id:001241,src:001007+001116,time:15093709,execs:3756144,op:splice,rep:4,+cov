@@ -1,0 +1,14 @@
+GET TP//ext/html HTTP/1.1
+HGET TP//t:þ+/ HTTP/1.1
+HoConnection: ate
+CoET 2 HTTP/1.O
+:   tee
+s: 1
+i
+
+õGEU / HTTP/1.1
+Host: 1ÿ.168.0.1
+Accept:text/html,application/htmkeepl,aÿpliUpaaaaaaaaaaaaaaaaaept-Language: en-US,en;
+
+GET / HTTP/1.1
+Host: $$

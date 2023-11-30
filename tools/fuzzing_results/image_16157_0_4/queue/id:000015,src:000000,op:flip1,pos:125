@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 191
+Accept: t8
+AcceptLanguage: ;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade--Requests: 1
+Cookie: uit
+

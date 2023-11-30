@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host:192.168..1
+Ackept: tlapplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LanguageiF¨
+Connection:ng: gst-?ncoditiF¨
+Connection:ng: gzip, deflate
+Conneltion: keep-alive
+Umgrade-Insecu=CFYCLNixEa
+
+test=test
+

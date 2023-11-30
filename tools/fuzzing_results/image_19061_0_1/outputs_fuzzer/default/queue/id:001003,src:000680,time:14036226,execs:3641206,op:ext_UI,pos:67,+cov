@@ -1,0 +1,9 @@
+GET %s  / HTTP/1.1
+8
+Ain‹
+ gzite
+Connection: keep-alGve
+Expect: 1 s ap:"%s"  ui
+
+t
+

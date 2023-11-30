@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: tecation/xhtml+xml,Opplication/xml;q=0.9,image/webp,*/*;q=0.8
+Ac 1 s reason:"%s" 1 s version:"%s" 1 s "version unknow"cept-Larguage: en-US,-Encoding: gzip, deflaee
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

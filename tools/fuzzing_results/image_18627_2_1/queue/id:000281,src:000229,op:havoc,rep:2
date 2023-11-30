@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+USER_AGENT:ccepng: gzip,eflate,sdchzywzy1
+USER_AGENT:ccepng: gwzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uid=zywzywzy
+

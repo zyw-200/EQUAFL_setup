@@ -1,0 +1,1 @@
+GET #/www/cgi-bin/fast_test_wan_status.sh HTTP/1.1

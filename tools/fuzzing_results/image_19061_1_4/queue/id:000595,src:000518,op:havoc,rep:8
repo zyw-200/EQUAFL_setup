@@ -1,0 +1,9 @@
+GET On//www/logout.php HTTP/1.1
+If-Range::me198.0.1
+Accept: text/html,appIic€tml+xml,application/xml;]=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Occept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 9
+If-Unmodified-Since:Cookie: uid=CFYCmNixEa
+

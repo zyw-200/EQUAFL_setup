@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 19ate
+Connection: e
+Connection: keeP/1.1
+Host: 19
+Cookie: Ea
+
+teest
+

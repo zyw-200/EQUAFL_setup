@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 1X2.168.0.1
+Accept: text/ht†l,application/xhtml+x gzip, deflate
+Connection: keepml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Aecept-LCnguage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requestsz 1
+NixEa
+
+test=test
+

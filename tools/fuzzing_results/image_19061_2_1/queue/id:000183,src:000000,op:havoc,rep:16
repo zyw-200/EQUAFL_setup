@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 19.168.0.1
+Acication/xhtml+Wml,application/xml;q=0.9,image/Yebp,*/*;q=0.8
+Accept-Layguage:BenAUS,en;q=0.
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgr: uid=C€YCm>ixEa
+t=test
+
+
+

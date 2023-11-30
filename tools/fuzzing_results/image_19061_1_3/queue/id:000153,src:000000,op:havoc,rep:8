@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: O92.168.0.1
+Accegt: text/html,application/xhtml+xml,applicatio/xml;q=0.9,image/webp,*/*;q00.8
+Accept-Language: en-US,en;q=0.5
+9ip, deflate
+Connection: keep-alive
+Upgrade-InseIure-Requests: 1
+Cookie: uid=CFYCmNixEa
+Štest=test
+

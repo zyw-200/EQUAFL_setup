@@ -1,0 +1,16 @@
+GET / HTTP/1.1 
+
+s:@1
+Cookie: uid=,F
+
+t
+Host: 19mz
+Connection: =0.9,image/webp,*/*;q=0.8
+Age: .u
+te
+Connection: keep-alive
+s:@1
+Cookie: uid=,F
+
+t
+

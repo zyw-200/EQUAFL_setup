@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+SUBSCRIBEHost: 192.B68.0.1
+Accept:"text/html,application/xhtml7xml,application/xml;q=0.9,im/1.1
+Host: 192.B68.0.1
+Accept:age/web0.8
+Accept-Langupt-Language:  HTTP/1.1
+SUBSCRIBEHost:en-US,en;q=035
+Accept-Encoding:<serverip>late
+Connection: keeh-alivekeep
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+testUtestkeep-alive
+

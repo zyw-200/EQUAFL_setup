@@ -1,0 +1,7 @@
+GET %s  / HTTP/1.1
+
+Host: 198 keep-alive
+s: 1
+Cookie: ui
+*t
+

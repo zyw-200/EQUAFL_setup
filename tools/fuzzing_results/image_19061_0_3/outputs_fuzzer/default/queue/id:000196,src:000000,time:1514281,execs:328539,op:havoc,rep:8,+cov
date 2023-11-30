@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,apt: t[xt/html,apio†/xhtml+xml,application/xml;q=0.9,im€ge/webpsecure-Requests: 1
+Cookage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive	Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tes =test
+

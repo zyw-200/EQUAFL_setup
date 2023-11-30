@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,
+Accept-Language: ey-US,en;q%0.5keep-a
+Accept-Encoding: gzip, de#Ìflate
+C}…nection:"keep-alive
+Upgrad`-Insecurflate
+C}…nection:e-Requests: 1
+Cookie: usys_stunne•_process.ph@id=CFYCmNixEa
+
+test=test
+

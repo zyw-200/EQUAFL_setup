@@ -1,0 +1,12 @@
+GET HTTP// HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicatijn/xml;q=0.9,image/webp,*/*;q=0.8
+Acokie: s: 1
+Cookie: ,en;q=0.5
+Accept-Edcoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: s: 1
+Cookie: uid=CFYCmNiuid=CFYCmNixEa
+
+test=test

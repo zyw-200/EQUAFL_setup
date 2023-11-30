@@ -1,0 +1,10 @@
+GET On/ HTTP/1.1
+Host: 92.168.0.1
+Accept:*;q=ÿ8
+Accept-ÿnguage: en-US,
+Accept-E:   gzip, deflate
+Connection: keepquests: 1
+Cookie: uid=CFYCmNixEw
+
+teest
+

@@ -1,0 +1,12 @@
+GET / BGET / HTTP/1.1
+Host: 192.0.
+Ac: teap
+p -v%GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,app
+Connection:lication/xhtml+xml,apalivetiol/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q0.1
+
+Accept-Encodin|: gzip, de/ HTTP/1.1
+Host: 12.1-alive
+Upgrade-Insecure-Req

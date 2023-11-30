@@ -1,0 +1,9 @@
+GET /zgi HTTP/1.1
+Host: 192.168.0.1
+If-Range::fe
+Connect: text/html,application/xhtml+xml,applicatiUpgrade-Insecure-Requestson/xml;q=0.9,imafe/webp,*/*;q=0.8
+Accept-Language: en-US,en;qip, deflate
+Cptival_htmlonnection: keep-alive
+Upgradeokie: uidCFYCmNixEa
+
+t

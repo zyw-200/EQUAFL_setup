@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Content-Type: text/html; charset=ISO-8859-1lication/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Type: text/html; charset=ISO-8859-1oding: gzip, deflate
+Content-Type: ep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

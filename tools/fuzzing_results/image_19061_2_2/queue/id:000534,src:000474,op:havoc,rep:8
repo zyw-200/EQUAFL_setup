@@ -1,0 +1,12 @@
+GET /xgi HTTP/1.1
+H: SUBSCRI1
+If-Range::ffff:Acceptncoding: gzip, deflate
+C: SUBSCRIBEtext/html,applicatiMn/xhtml+xml,applicatio/xgi HTTP/1.1
+Host: 192.1
+If-SUBSCRIBE-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Conn‡ction: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

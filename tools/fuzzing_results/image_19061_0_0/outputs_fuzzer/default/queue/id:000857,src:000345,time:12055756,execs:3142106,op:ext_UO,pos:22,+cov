@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:  1 s ap:"%s" 1 s ssid1:"%s" 1 s client:"%s"  keep-alive
+U:e
+Connection: ve
+ 1
+Cookie: Ea
+
+teest
+

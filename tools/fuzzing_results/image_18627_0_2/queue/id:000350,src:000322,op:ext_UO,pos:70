@@ -1,0 +1,8 @@
+POST / HTTP/1.1
+Connection: clo
+Connection: closeHost: 192.168.0.50
+Connection: close0
+Cookie: uid=zywzywzy
+Connection: Keep-Alive
+test=test
+

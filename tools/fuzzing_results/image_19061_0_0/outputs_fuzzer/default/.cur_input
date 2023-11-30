@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+If-Unmodified-Since: gzate
+Connection:,*/*
+Connection:webp,
+Cookie: uiìøt
+

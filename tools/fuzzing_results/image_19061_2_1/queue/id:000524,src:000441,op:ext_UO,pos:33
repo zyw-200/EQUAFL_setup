@@ -1,0 +1,2 @@
+GET /www/logout.php?ind= HTTP    [SNMP-TRAP][Specific=12] te
+

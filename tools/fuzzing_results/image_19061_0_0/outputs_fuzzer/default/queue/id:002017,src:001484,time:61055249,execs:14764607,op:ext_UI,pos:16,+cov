@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Transfer-Encoding: chunkedContent-Length: mz
+Connection: =0.9,
+Connection:/*;8
+Age: .5
+te
+Connection: keep-alive
+s:@1
+Cookie: ui
+

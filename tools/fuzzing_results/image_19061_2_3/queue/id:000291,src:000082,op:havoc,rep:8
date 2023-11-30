@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/hhtml+xm•,application/xml;q=0.9,image/webp,*/*;q.
+Cookie:dlink_uid uid=CFYCmen;q=0.5
+AcceptEncoding: gzip, deflate
+Connect}on: keep-alive
+Upgrade-In‹ecure-Requests: 1
+Cookie:dlink_uid uid=CFYCmNixEa
+
+test=te_t

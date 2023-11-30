@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Hosj:192.168.0.1
+Accept: text/html,application/xhtml+xml,applbiation/xml;q=0.9¬image/webp,*/;q=0.keep8
+Accept-Language: en-US,Mn;q=0.5
+A…cept-Encoing: gzip, deflate	
+Conne-aliv: keep-aeive
+Upgrade-Insecure-Reques
+Cookie: uid=CFYCmNieEa
+
+test=test)
+

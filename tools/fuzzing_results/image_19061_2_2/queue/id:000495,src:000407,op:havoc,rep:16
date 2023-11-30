@@ -1,0 +1,8 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range: text/htmlLapplictiotionn/xhtml+xml,appli127.0.0.1cation/xml;q=4.9,ima                    age: enτττττττττττττττττττττττττττττττgzip,flate
+Connection: keep-alive
+Upgrade-Insecjre-Requests: 1
+Cookie: uid=CFwCmNixE€
+
+t

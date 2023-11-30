@@ -1,0 +1,10 @@
+GET / HTTP/1.1	
+Host: 19teHost:
+Connection: keep-alive
+If-Range: ui/1.11
+Host: tindex
+
+GET/ HTTP/1.11
+Hst: 0.
+t
+

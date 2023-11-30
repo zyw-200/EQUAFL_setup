@@ -1,0 +1,8 @@
+GET /CGIP/1.I %4d HTTP/1.1
+Host:
+i
+
+GET /xP/1.Ö_int HTTP/1.1
+Host: $i
+
+

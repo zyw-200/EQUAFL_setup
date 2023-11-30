@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.K68.0.1
+ÿcept: text/html,applicatPon/xhtml+xml,application/xm*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding:            gzip, deflÿe
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+CocatPon/xhtml+xml,applicatiokie: uid=CXYCmNixEa
+
+test=test
+

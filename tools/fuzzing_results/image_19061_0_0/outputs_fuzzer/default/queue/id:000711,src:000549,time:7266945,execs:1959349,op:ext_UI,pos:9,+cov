@@ -1,0 +1,6 @@
+GET /var/sys.php?reboot=t HTTP/1.1
+Host: 19te
+Connection: keep-alive
+s: 1
+Cookie: uit
+

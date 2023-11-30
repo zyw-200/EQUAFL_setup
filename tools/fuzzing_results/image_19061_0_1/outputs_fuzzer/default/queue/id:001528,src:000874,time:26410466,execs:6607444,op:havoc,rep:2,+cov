@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 19eGE  / 
+
+GET / HTTP/1.5
+Host: 0.1
+Ac: tecod
+
+ / HTTP/1.1
+
+c

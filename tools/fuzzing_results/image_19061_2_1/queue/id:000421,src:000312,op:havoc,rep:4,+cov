@@ -1,0 +1,8 @@
+GET / HTTP/1																									.1
+Host: 192.168.0.1
+At: text/html,application/xhtml+xml,applicAccept-Encoding,image/webp,*/*;q=0.8
+Accept-Language: en-US,yn;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:<?xml version="1.0" encoding="UTF-8"?> keep-alive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cookim: uid=CFYCmpplication/xhtml+x
+

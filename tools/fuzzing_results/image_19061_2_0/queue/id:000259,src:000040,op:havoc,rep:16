@@ -1,0 +1,12 @@
+GET h:/ HTTP/1.1
+Host: Ê92.168.0.1
+Accep HTTP/1.1
+Host: 192.t: text/html,ml+xml,ate
+Connection: keep:alive
+Ubp,*/*c 192.t: text/html,applcbptext/html,applcbpten;q?0.5
+Accept-Ecoding: gzip, deÿlate
+Connection: keep:alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+test=test
+

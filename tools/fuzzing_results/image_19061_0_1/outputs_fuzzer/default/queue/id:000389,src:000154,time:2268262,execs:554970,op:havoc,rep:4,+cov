@@ -1,0 +1,9 @@
+GET %Basics  / HTTP/1.1
+
+Cookie: uiHost: 198
+Aing: gzite
+Conection: keep-alive
+s: 1
+Cookie: ui
+
+tá

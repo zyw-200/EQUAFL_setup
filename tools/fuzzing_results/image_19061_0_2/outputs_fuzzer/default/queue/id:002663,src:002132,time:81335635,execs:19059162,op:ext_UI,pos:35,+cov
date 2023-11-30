@@ -1,0 +1,13 @@
+POSTGET / HTTP/1.1
+: 
+Connection:Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,
+i
+
+
+GET / HTTP/1.1
+e
+Connection: k1
+i
+
+
+G

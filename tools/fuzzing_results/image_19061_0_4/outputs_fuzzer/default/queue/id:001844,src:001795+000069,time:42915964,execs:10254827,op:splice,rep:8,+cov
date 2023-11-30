@@ -1,0 +1,11 @@
+GET  HGET / HTTP/1.1
+Host:168.0.
+Host:1
+Accept: text/html,aapplication/xml;u=0.9,kmage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-/1.1
+çohEa
+
+GET! //wuests: 1
+Cookie: uid=CFY1test=te

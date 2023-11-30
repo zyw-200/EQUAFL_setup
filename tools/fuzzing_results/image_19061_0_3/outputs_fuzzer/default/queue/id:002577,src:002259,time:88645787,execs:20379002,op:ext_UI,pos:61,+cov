@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 191
+A: gz
+Connection:e
+Connection: ,close,aml;q=0.9,im
+If-Modified-Since: 1ali
+
+t
+

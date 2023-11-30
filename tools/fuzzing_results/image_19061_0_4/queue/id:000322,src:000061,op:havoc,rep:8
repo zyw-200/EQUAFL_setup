@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.
+Acceplate
+Connection: keep-alive
+Upt: text/html,application/xhtml+xml,apzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw
+Upgrade-Insecure-Requests: 
+Cookieyyyyyyyyyyyyyyy: uid=CFYCmNixEa
+ HTTP/1.1
+Host: 192.168.0.
+
+test=test
+

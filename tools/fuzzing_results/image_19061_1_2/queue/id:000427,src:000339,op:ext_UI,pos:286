@@ -1,0 +1,11 @@
+GET Accept/ HTTP/1.1
+Host: 192.168.0.1
+Accept: texcation/xhtml+xml,applic@tion/xml;q=0.9,€mage/webp,*/*;q=0.8
+Accept-Languests: 1
+Cookie:dlink_uiduag: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie:dlink_uidmultipart/form-data;DENY uid=CFYCmX gzip, deflateixEa
+
+test=test

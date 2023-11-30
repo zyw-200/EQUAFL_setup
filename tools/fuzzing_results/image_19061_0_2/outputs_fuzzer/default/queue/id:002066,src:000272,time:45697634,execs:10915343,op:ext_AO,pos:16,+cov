@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Content-Type:: t
+Connection: ,aml;92.168.0.1
+A8
+Aefèate
+Connection: keep-alive
+s: 1
+Cookie: uit
+

@@ -1,0 +1,12 @@
+GET / HTTP/2.1
+Host:
+Host: 0.1
+Ac: tecod
+g
+
+GET / HTTP/1.5
+Host: 0.1
+Ac: tecod
+
+
+c

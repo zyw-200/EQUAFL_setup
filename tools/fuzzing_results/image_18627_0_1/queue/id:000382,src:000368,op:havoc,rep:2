@@ -1,0 +1,6 @@
+GET  /boaroot/cgn/index.asp/.. HTTP/1.1
+Accept-Encoding: gzyw
+Host: 1950
+Content_LeOgth: 20
+Cookie:SO;;;;;;;NID=%s;Cookie: SESSIONID=%s;=zywzywzy
+

@@ -1,0 +1,9 @@
+GET /;GI HTTP/1.1
+Host:ee
+s: 1
+i
+
+GET /xP/1ª1_int HTTP/1.1
+Host: $i
+
+

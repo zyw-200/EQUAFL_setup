@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+8ccept: text/pplication/xml;q=0.9,image/webp,*/*;q=0.8
+AccepM-Lpt-Encoding: gzip, deflate
+Connection: keep-alive
+UpgradTTPe-Insecure-Requests: 1
+Cookie: uid=CFY^mNing: gzip, deflate
+Connection:ixEa
+
+test=test
+

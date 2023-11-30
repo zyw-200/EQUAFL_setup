@@ -1,0 +1,17 @@
+GET /www/cgi-bin/currentsetting.htm/ HTTP/1.1
+Host: 19U.168.0.1
+Accept: text/html,application/xhtml+xmlapplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lan^uage: en-U/cgi-bin/5
+Acc: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=Cen;q=0.5n^uage: en-US,en;q=0.5
+Acc: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=Cen;q=0.5
+Accept-Encoding: gzi³
+Accept-Encoding: gzi³³³³³flate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNi
+FYCmNi
+

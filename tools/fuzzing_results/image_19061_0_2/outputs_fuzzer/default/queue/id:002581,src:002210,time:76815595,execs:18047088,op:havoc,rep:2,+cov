@@ -1,0 +1,9 @@
+GET /CGI HTTP/1.1
+Host:eej
+s: 1
+i
+
+GET /xP/1ÿÿÿint HTTP/1.1
+Host: $i
+
+

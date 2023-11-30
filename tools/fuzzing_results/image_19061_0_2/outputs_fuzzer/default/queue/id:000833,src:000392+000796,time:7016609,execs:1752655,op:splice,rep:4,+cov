@@ -1,0 +1,20 @@
+GETupload_picture_error.php / HTTP/1.1
+:   tee
+s: 1
+i
+
+
+GET / HTTP/1.1
+:   tee
+s: 1
+i
+h:
+
+GET / HTt: 192.168.0.1
+Accept:text/html,application/xhtml@xml,appliUpTPzn/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;
+
+GET / HTTP/1.1
+Host: $$$$$$$$$$$$$$$$$$$$$$$$$$$ g…ip, deflate
+Connection: keep-alive
+cat

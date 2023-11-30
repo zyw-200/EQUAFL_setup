@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+H…st: 192.168I0.1
+Accept: text/htion/xUserF.5
+Accept-Encoding: gn/xml;q=09,image/webp,*/*;q=0.8
+Accept-Languagˆ: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+CŽnnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

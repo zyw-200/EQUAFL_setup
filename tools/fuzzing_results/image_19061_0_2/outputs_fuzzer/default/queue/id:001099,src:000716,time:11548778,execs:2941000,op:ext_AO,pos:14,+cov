@@ -1,0 +1,6 @@
+GET / HTTP/1.9
+Connection
+
+ / HTTP/1.911
+Content-Length: Cot
+

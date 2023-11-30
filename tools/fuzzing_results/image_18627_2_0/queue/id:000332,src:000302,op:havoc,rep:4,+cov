@@ -1,0 +1,6 @@
+GET  /cgi-bin/menu.asp/ HTTP/1.1
+Accept-Encoding: gzPp,zywzywzywzywzyw
+Host: 192.168.0.80
+Content_Length: 20
+Cookie:;uid;zçwzywzy
+

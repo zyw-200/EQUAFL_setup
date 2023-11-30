@@ -1,0 +1,9 @@
+GET /_int HTTP/1.1
+He
+Connection:  gzite
+Connection: keepe
+Connection: keep-alive
+s: 1-alive
+s: 1
+Cookie: uit
+

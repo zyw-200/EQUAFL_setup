@@ -1,0 +1,9 @@
+GET /CGI HTTP/1.1
+Host: 192
+Ac: tee
+Connection: keep-alive
+U: 1
+Cookie: uidxEa
+
+test=
+

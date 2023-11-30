@@ -1,0 +1,10 @@
+GET %s  / HTTP/1.1
+Host: 198
+Aing: gzite
+Connection: keep-alive
+s: 1
+Cookie: ui
+
+TET %s  / HTTP/1.1
+Host: 198
+

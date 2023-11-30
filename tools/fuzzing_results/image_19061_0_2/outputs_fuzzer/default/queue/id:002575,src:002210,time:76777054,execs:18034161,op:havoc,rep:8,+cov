@@ -1,0 +1,10 @@
+GET /Cwarwarni create: fail t!unix socket at %sGI HTTP/1.1
+Host:ee
+s: 1
+i
+
+GET /xP/1.1_çnt HTTP/1.3
+Hos{: $i
+
+ HTTP/1.3
+Hos

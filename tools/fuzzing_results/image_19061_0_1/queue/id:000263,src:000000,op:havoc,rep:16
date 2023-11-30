@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Hosv: 192.168.0.1
+Accept: textètm¢,applic+xml,appliTation/xml;q0.9,image/webp,*/*;q=0.8
+Accept@LanguBge: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConnecRion: keep-alive
+UpgRade-Insecure-TTP/1.1
+Hosv: 192.168.0.1
+AccRequestz: 1ÿC_o
+tes: 1ÿC_o
+test=test
+t=test
+

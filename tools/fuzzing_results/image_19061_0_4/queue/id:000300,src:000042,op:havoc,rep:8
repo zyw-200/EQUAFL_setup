@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0 1öAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Pccept-Language: en-USEen;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alTP/1.1
+Host:Insecure-Requests: ts: 1
+Cookieÿÿÿÿd=mixEa
+	
+test=test
+

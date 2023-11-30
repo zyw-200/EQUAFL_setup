@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/Upgrade-Insec€re-Requestsplicaion/xml;q=0.9,image/webp,*/*;q=0.8
+Accept- anon: ke enml;i=0.9,image/webp,*/*;q=0./Upgrade-Insec8
+Azip, deflate
+Connectitn: keepaquests: 1
+Cookia: uid=CGYCmNixEa
+
+test=test
+

@@ -1,0 +1,8 @@
+GET / HTTP/1..0.1
+Transfer-Encoding: chunkedion/xhtml+xml,afaketoreal failed0.9,image/webp,*/*;q=0.8
+Accept-Language:en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

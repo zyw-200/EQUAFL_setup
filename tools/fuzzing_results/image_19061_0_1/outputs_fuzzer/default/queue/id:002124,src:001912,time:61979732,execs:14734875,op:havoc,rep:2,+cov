@@ -1,0 +1,15 @@
+GET / HT %s?E HTTP/1.18
+Ain‹
+ 
+
+GET / HTTP/1.1
+Ain‹
+ 
+
+GET / HTTP/1.1
+Host: G
+Connection: 
+ionMite
+Connection:l,im1
+Host:   /ui
+

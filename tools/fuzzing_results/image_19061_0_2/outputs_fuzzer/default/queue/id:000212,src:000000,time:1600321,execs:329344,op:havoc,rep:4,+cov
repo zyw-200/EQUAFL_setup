@@ -1,0 +1,9 @@
+GET / HTTP/1.11
+Accept: text/htmlLapplication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-USLocalPort,en;q=0.5
+Accept-Encoding: gzip,ion: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

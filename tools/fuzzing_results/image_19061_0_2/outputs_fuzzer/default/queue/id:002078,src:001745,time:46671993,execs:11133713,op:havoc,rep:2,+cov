@@ -1,0 +1,8 @@
+GET */xP/1.1 HTTP/1.1
+Host:ee
+s: .
+i
+
+GET ** tingn/ HTTP/1.1
+Host: $i
+

@@ -1,0 +1,10 @@
+GET On//www/logout.php HTTP/1.1
+Host: 192.168<0.1
+Accept: text/html,appication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connec----------------tion: keep-alive
+äpgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tes

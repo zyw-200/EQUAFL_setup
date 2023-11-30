@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host::ffff:: 12.168.0.1
+Accept: text/html,appli€ÿÿÿon/xhtml+xml,ap;;;;;;;;
+Host::ffin;;;;plication/xml;q=0.9,image/webp,*/*;q=0.8
+Accepv-Language: enMSEARCH=0.5
+AccQptEEncoZ1
+Host::ffing: gzip, deflate
+’’s’’’’’’’’ keep-alive
+Upgrade-Insecure-Requests: 1
+Coxkie: uiC=CFYCmNixEa
+
+test=teGET
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host 192.168.0.1
+AccepAllowDotfilest: gext/htm+xml,application/xml;q=0.9,image/webp,*/*nnngnnnnnnnnnnnnnnnnnnnnnnnnnnnen;q=0.5
+Accept-Encoding: ges…s: 1
+Cookie:dlink_uid uid=CFlive
+Upgrade=es…s: 1
+Cookie:dlink_uid ui-Insecure-Requ 1
+Cookie:dlink_uid uid=es…s: 1
+Cookie:dlink_uid uid=CFYCmNixEa
+
+test=test

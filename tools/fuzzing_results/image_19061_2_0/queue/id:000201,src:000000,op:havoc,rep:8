@@ -1,0 +1,10 @@
+GET / oding: HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Acceçt-Language* en-US,en;q=0.5
+Accept-Encoing: gzip, d¸flate
+Connection: keep-alive
+Upgrade-Insecure-Requests: <password> uid=CFYCœNixEa
+
+test=test
+

@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,deflate,sh: 20
+Cookie: u50
+Content_Length: 20
+Cookie: uid=zywzywh: 20
+Cookie: uid=zywzywzy
+RadiusPort1

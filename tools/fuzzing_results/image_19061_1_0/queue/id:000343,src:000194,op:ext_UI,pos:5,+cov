@@ -1,0 +1,11 @@
+GET /xgi HTTP/1.1
+Host: 192.168cept.0.1
+Accept: text/html,appsication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accåpt-Languuge: en-U
+Upgrade-Insecure-Requests:  gzqp, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNaxEa
+	
+test=test
+

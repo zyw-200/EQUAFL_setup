@@ -1,0 +1,18 @@
+GET - HTTP/GET / 19eGE  / /1 HTTP/1        .1
+Host: 19eG
+
+
+GET / HTTP/1.
+Ac: te
+Acc:8
+Ain‹
+ 
+
+GET / HTTP/1.1
+Host: 0.1ö
+Ain‹
+ 
+
+GET / HTTP/1.Ac: te
+Acq:
+Cookie:ca

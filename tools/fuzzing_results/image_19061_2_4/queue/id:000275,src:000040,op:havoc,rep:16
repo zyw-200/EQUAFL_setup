@@ -1,0 +1,13 @@
+GET h:/ HTTP/1.1
+Host:
+Accvpt: text/häml,application/xhtml1
+Host:
+Accn/xml;q=0.9,image/we^p,*/*;q=0.8/www/index.php
+Accept-Len-US,en;q=0.5,en;q=0.5
+AccepRangeonnection: keep-alive
+Upgrade-Insecure-Requests: live
+Upgrade-Ilsecwre-Requests:1
+Cookie: NixEa
+
+test=test
+

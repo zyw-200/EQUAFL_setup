@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0alive.1
+Accept: text/html,application/xhtul+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LanguaDe2 en-US,en;q=0.5
+Accept-Encoding: gzi, deflate
+Connection: keep-alive
+Upgrade-Insecure-RequestP/1.1
+Host:: uid=CFYCmNixEa
+
+test=test
+

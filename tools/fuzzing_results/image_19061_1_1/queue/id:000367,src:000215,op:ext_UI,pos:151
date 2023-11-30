@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168alive
+Accept: text/html,application/xhtml+xnoneml,application/xml;q=0.9,imôge/ÿbp,*/*;q=0.8flate
+Connection: keep-aegzipbasic , deflatept-Encoding: gz„p, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: õid=CFYCmNixEa
+
+test=test
+

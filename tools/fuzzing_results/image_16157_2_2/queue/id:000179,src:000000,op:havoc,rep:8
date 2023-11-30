@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Ho–t: 192.168.0.1
+Accept: text/html,application/xhml+xml,application/xml;q=0.9,image/ge: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Conneotion: keep-alive
+Upgrade-Insecure-Reÿÿ
+Cookie: uid=CFYCmNixEa
+questÿÿÿ
+Cookie: uid=CFYCmNixEa
+test=test
+

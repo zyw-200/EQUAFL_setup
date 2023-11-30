@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hoaction:%s      ,%sde:%s     value:%sppication/xhtml+xml,application/xml;q=0.9,image/web1
+Iookie: uinnection: keepp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoing: ggzip, deflate
+Coe-Requests: 1
+Cookie: uinnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: ud=CFYCmNixEa
+
+test=test
+

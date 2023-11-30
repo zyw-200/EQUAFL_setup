@@ -1,0 +1,8 @@
+GET / HTTP/1.1	
+Host: 19te
+If-Unmodified-Since: c
+Con: ve
+If-Range: ui
+Con†ecost1
+Cookie: ust
+

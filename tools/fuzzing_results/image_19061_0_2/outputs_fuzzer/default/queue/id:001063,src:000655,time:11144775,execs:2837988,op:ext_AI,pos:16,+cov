@@ -1,0 +1,7 @@
+GET / HTTP/1.1 
+Connection:aB
+Connection:S,zip, 1
+Cookie: Ea
+
+[eest
+

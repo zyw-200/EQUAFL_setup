@@ -1,0 +1,7 @@
+GET / HTTP/1. 198.0.1
+Accepen-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connecgzip, deflateive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CF@CmNixEa
+

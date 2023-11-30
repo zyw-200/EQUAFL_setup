@@ -1,0 +1,6 @@
+POST / HTTP/1.1
+CONTENT_TYPE:/OST / HTTP/1.1
+CONTENT_TYPE://1
+CONTENT_TYPE:ww1
+CONTENT_TYPE://1/1
+CONTE/boaroot/cgi-bin/FWUploadProcess.asp

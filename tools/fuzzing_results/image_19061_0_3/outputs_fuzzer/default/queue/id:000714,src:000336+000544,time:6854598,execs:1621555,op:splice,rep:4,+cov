@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 191
+A/:Connection: 1.1
+Expect:x=0.9,ièasLET / HTTP/1.1
+: 19
+
+
+HET / HTTP/1.1
+
+Conn`ction: clRseHO

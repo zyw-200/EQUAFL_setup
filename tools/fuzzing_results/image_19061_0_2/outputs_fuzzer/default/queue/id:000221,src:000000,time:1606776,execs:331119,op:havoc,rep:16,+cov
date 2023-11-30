@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+€ost; /sys/snmpdAhostip:trap -v 2c -c %s %s "" %sccept: text/html,application/xhtmt+xml,applicati+xml,applicatiom/xmlom/xp,*/*;q?0.8
+Accept-Language: en-US,en;q=0.5ê
+Accept-Encoding: n: keep-a/var/cwmconfig.bincure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

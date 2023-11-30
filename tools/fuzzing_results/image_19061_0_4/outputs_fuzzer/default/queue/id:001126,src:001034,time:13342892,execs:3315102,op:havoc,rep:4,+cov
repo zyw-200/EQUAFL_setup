@@ -1,0 +1,12 @@
+GETTGET /HTTP/1.1
+
+
+ / HTTP/1.18
+Accept-L
+Host: 19te
+Connection: keeM-alive
+s: 1
+Cookie: 
+Connection: close
+Content-Length: tesst
+

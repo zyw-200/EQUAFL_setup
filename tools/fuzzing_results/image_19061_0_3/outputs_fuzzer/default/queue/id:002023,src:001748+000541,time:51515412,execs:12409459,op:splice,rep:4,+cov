@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+K state
+Connection: ,
+Connection:GET / HTTP/1.1
+: 19
+
+
+GET / HTTP/1.1
+
+tion: clRse clRseHo‹t: 198gmtime failed!

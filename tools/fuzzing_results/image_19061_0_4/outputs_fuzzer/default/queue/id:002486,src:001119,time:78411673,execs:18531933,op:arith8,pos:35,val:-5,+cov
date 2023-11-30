@@ -1,0 +1,7 @@
+GET / HTTP/2.1
+: 19te
+Connection:,
+Cê: ui
+Connection: close
+Content-Length:st
+

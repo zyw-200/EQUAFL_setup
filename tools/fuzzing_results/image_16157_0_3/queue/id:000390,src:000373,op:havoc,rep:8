@@ -1,0 +1,6 @@
+GET / HTTP/1.11
+Accept: text/.8
+Accept-Lan</e: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+SOAPACTION:::               uid=CFYCm        
+te

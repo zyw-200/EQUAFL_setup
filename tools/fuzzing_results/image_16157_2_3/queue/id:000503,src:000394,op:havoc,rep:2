@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host:t: t8
+SOAPACTION:::ET / HTTP/1.1
+Host:t: t8
+SOAPACTION::: 191
+Accept: t8
+SOAPACTION:::service: dq=0.5
+SOAPACTION:: gzite
+USER_AGENT: keep-entsetting.1
+Host:t: t8
+SOAPACTION:::ET / HTTP/1.1
+Host:t: t8
+SOAPACTION::: 191
+Accept: t8
+SOAPACTION:::service: dq=0.5
+SOAPACTION:: gzite
+USER_AGENT: keep-entsetting.htm
+ 191
+Accept: t8
+SOAPACTION:::service: dq=0.5.htm
+ 191
+Accept: t8
+SOAPACTION:::service: dq=0.5
+SOAPACTION:: gzite
+USER_AGENT: keep-entsetting.htm

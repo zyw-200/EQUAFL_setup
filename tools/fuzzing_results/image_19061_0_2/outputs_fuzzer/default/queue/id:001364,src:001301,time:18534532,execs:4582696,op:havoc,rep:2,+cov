@@ -1,0 +1,9 @@
+GET TTP/N HTTP/1.1
+Host: .
+st: G
+Co: 
+
+GEGET TTP/N HTTP/1.1
+Host:T  HTTP/1ge: ;
+
+G

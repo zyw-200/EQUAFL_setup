@@ -1,0 +1,9 @@
+GET Deny1F1CGI HTTP/1.* HTTP/1.1
+Host:e
+Range:1
+i
+
+GET Deny1.1CGI HTTP/1.1
+Host+ $i
+
+

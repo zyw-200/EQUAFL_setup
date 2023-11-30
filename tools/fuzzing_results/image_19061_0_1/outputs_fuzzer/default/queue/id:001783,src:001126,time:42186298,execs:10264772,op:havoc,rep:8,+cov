@@ -1,0 +1,8 @@
+GET / HTTP/1.5
+eng:
+Ae
+Connection:  gzite
+Connection:l,snmptrap -v 1 -c %s %s %s "" 6 %d "" 1 s %s %s -
+AeConnection:kie: ui
+
+tö	

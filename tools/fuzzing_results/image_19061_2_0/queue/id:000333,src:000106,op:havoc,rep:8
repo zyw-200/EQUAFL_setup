@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applica’’’’’’’’’’’’’’’’’’’’’’’’’’’tion/xhtml+xml,application/xml;SUBSCRIBEge/webp,*/*;q=0.8
+Abcept-Language:0en-US,en;q=0.5
+Accept-Encoding: gzÄp, deflate
+Connection: keep-alive
+Upgrade-In										secure-Qequests: 1
+Cookie: uid=CFYCmNtest=test
+

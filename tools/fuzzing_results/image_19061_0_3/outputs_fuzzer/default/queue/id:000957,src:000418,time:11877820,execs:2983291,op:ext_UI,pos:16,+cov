@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+keep-alive:1
+Coo: gaiqe
+Coeose
+tesst
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+tml,application/xm;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-I
+Cookie:dlink_uid uid=CFYCmNixEnsecure-Requests: 1
+Cookie:dlink_uid uid=CFYCmNiHostxEa
+
+test=test

@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 191
+Ancoding: gzip, d5
+Accept-Encoding: gzipe
+Connection: ke
+Upgrade-Isecure-Requests: 1
+Cookie:                 
+test=test
+

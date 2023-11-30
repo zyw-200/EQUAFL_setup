@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host:<At: 
+Host:  1
+i
+
+GET /xM/1.1 HTTP/1.1
+Host:At: 
+Host: $î
+
+

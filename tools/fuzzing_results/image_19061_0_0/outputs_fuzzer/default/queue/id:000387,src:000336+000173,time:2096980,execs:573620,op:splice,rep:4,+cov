@@ -1,0 +1,8 @@
+GET / H.GET / HTTP/1.1
+Transfer-Encoding: chunkedHost: 192.168.0.1
+Accept:!text/html,application/xhtml+xml,application/xml;q=0.9,_mage/webp,*/*;q=0.8
+Accept-Language: en-US,enp, deflate
+Connection: keep-alive€ÿÿÿgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test

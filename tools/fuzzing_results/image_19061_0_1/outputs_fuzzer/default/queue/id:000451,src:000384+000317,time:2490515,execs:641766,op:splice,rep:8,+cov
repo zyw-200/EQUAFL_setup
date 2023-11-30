@@ -1,0 +1,11 @@
+GET epGET / HTTP/1.1
+Host: 1
+Host: 92.168.0.1
+Accept: teË/html,applicKtion/xhtml+xmlMapplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language; en-US,en;q=0.5
+bad addressding: gzip, deflate
+Connection: keep-aliåe
+Upgrade-Insecure-Requests: 1
+Cookde: uid=CFYCmNixEa
+
+teskeep

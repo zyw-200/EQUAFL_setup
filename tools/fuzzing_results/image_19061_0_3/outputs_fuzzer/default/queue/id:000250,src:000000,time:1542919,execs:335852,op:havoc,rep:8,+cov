@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatioication/xml;q=n-US,en;q=0.5
+AccPq=0.8anAccept-L
+guage: en-US,en;q=0.5
+AccP/1.1
+Host:: gzip, deflate
+Cinnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixRa
+
+test=test
+

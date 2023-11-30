@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: tte
+Connection: keep-alt-l+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LcnguaCookie: ust: 192.168.0.1
+Accept: tte
+Coid=CFYCmNixEa
+ate
+Connection: keep-alive
+Upgrade-Insecure(Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

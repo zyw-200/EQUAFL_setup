@@ -1,0 +1,2 @@
+GET /proc/sys/net/ipv4/dns_hijack
+A

@@ -1,0 +1,10 @@
+GET /upload_captiva´_html_int HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,
+Cookie:application/xhtml+xml,application/xml;x=0.9,imabe/welogoutbp,*/*;q=0.8
+Accepw-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-akeeplive
+Upgrade-\nsecure-Requests: 1
+Cookie: uid=CF=test
+

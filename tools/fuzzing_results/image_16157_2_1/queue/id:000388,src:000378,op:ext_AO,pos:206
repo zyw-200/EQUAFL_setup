@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+AUTHORIZATION:service:Host: 192.168.0.1
+AUTHORIZATION:tml,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+AUTHORIZATION:e: en-US,en;q=0.5
+AUTHORIZATION:g: gzip, deflate
+AUTHORIZATION:ep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+te

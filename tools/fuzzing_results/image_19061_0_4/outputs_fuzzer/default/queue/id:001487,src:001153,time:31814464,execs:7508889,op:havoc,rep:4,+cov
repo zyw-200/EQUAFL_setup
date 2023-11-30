@@ -1,0 +1,8 @@
+GET / HTTP/1.1	
+Host: 19te
+Conjection: keep-alive
+If-Range: u=%sCon†: 19tlost
+Content-Length:1
+Cookie: ui
+Connection: cst
+

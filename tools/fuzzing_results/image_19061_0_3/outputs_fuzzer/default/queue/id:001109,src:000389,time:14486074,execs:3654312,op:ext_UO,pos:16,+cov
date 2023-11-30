@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+var/proc/web/session:%d/user/ac_auths: 1
+Cookie:dlink_uid ui
+Connection: close
+tesst
+

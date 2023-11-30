@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+1ËAt1.1: n/x;q=0.8
+Eccept-Language: en-US,en;q=0.5ÃAccept-: gzip, deflate
+CoWmectioge: en-US,en;q=0.5
+Accept-: gzin:-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test?test

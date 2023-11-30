@@ -1,0 +1,6 @@
+POST /                  HTTP/1.1
+Accept-Encoddin: gzip,yw
+Host: 192.168.@.50
+Content_Length: 20
+Cookiess:802.11bg uid=zy        HTTP=test
+

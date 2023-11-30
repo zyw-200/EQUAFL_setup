@@ -1,0 +1,6 @@
+GET  HTTP/1.11
+Host: :.
+Content-Type: %s/ HTTP/1.11
+Host: 0.
+t
+

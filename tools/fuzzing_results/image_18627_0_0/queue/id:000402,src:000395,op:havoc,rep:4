@@ -1,0 +1,6 @@
+GET  /boaroot/cgn/menu.asp/ HTTP/1.1
+Accept-Encoding: gyip,
+Host: 1.50
+Content_Length: 20
+Cookie:-CooSIONI]=%s;;%s;]=%s;;%s;Ws=%s;=zywzywzy
+

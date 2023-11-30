@@ -1,0 +1,8 @@
+GET  HTTP/1.11
+Host: :.
+t
+/ HTTP/1.11
+Host: 0/:1/iiii
+GET/ HTTP/1.11
+Host: 0%&t
+

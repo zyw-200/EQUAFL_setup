@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+HostTTP92.168.0.1
+Acn/xhtml+xmlcept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accep4-Langest=testfds:     
+
+AcceptEncoding: gzip, deflate
+C onnection: keep-alie¤
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

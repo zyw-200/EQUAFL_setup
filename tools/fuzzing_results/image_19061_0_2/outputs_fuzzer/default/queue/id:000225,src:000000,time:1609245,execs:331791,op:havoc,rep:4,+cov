@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: tid=/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0 / HTTP/1.1
+Host: 192.16S,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: ate
+Connection: ktÿÿÿtest
+

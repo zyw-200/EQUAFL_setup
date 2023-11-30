@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+::  tost: 1-US,en
+
+GET / HTTP/1.1
+:   tost: 192.168.0F1
+Accept:text/html,applicationF1
+Accept:text/html,applica/xhtml@xml,appliUpTPzn/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;
+
+GET / HT9P/1.1
+Host:$$$$$$$$$$$$$$$$$$$$$$$$$$$ gzip, deflate
+Connection: keep-alive
+cat

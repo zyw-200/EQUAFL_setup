@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Ho[SNMP-TRAP][Specific=12] texé/htl,applicatign/xhtml+xml,aguagetex: en-ate
+Connection:ccept-Language: en-US,en;q=0.5
+AApplyccept-EccOpt-Language: en-ate
+Connection: keep-alive
+Upgrade-Insecure-Reqmests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

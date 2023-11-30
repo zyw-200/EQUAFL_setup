@@ -1,0 +1,10 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Unmodified-Since::ffff:Accept:(text/html,applicati8888888888888888888888888888;q=0.9image/weupload_ca0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t

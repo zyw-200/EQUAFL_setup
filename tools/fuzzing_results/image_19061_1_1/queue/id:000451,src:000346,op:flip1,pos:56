@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Hos gzip, deflate
+Connection: keeml,app,ication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;qxhtml+xml,pt-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test	

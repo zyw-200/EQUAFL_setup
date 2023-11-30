@@ -1,0 +1,8 @@
+GET h://www/index.php HTTP/1.1
+If-Modified-Since::ffff:Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/web
+If-Modified-Since::ffff:Hosten-US,en;q=0.5
+Accept-Encoding: gzip, defla/www/index.php: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

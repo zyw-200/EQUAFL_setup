@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host:	192.16      <NewWirelessMode>%s</NewWirelessMode>8.0.1
+Cccept:	text/html,appli
+Host:	192.168.0.1
+Accet:	texl;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Acce?t-EncoHost:	192.168.0.1
+Acd|ng: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

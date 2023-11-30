@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Referer:   tee
+s: 1
+i
+
+GET /xgi HTTP/1.1
+Host:<At: .1
+Host: $1.1
+:   tee
+s: Con1
+ 
+Host: $
+s: S
+i
+
+

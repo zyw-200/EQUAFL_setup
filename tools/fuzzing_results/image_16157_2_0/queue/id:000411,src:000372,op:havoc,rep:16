@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+SOAPACTION::/ HTTP/1.1
+SOAPACTIONX::	:service:er:seexxhtcation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,}n;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=Crvice:service:Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: kTep-alive
+Xpgrade-Insecure-Requestn: 1
+Cookie: uid=CFYC:	:service:er:servic-US,en;q=0.5
+: 192.168.0.1
+Accept: text/htm1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: kTep-alive
+Xpgrade-Insecure-Requestn: 1
+Cookie: uid=CFYC:	:servie
+Conneation: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

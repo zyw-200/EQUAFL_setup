@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Transfer-Encoding: c
+Connection:l,image/webp,
+/
+Aÿ
+Connection: keep-alive
+s: 1
+Cookie: ui
+
+t

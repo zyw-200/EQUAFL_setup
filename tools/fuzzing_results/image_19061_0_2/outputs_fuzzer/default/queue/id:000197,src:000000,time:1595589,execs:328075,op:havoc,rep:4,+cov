@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.092.1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-
+Accept-Lang
+Connection: keq=0.ip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie:"uid=CFYCmNixEa
+
+test=test
+

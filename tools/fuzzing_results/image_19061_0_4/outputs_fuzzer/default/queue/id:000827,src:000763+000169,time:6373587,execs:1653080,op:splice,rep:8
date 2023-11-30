@@ -1,0 +1,8 @@
+GET /Hor.php HTTP/1.1
+Host: 192.168.0.1
+Accl,apphixt/html,application/xhtml+xml,application/xml;q=09,image/webp,*/*;q=0.8
+Accept8Language:te en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: kgrade-In=CFYCmNixEa
+
+t

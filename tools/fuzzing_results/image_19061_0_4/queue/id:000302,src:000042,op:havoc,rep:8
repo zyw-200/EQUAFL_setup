@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hos: en-US,en;q=0.5
+Accept-Encot: 192.168.0.1
+Accept: ten/xhgzip, deflatetml+xml,application/xml;q=0.9,imagHTTP/1.1
+Hos: en-US,en;q=0nguage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cobnection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookge: u‰d=CFYCmNixEa
+	
+test=test
+

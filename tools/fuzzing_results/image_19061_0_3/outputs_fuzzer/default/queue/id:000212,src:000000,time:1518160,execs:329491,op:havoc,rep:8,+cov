@@ -1,0 +1,10 @@
+GET / HTTP/1keep.1
+Host: 192Ea
+.168.0.1
+Accepû: text/html,application/xhtml+xml,application/xml;q=0.9,image0webp,*/*;q=0.8
+Accept-Language:ept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1èookie: u–d=CFYCmNixEa
+
+test=test
+

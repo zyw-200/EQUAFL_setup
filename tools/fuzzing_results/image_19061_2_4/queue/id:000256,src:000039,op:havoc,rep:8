@@ -1,0 +1,10 @@
+GET< version="1.0" encoding="UTF-8"?> / HTTP/1.1
+Host: 19flate
+Connection: keep-alive2.168.0.1ËAccept: text/Etál,applictext/Etml,on/xhtml+xml,application/xml;q=0.9,image/webp,*/*;uage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+teìt=test
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatio*;q=0.8n/xhtml+x†l,1.1
+Host: 192.168.applicat_on/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConnGction: keep-alive
+Upgrade-Insecureding: gzip, deflate
+CTP/11
+Host: 192.168.0.1t
+

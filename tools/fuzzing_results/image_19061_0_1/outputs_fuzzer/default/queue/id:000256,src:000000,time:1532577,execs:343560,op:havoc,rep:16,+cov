@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,appliqytion/xhtml+xml,g: gzhp, deflate
+Connection: kp,,/*;q=0.keepccept-LangÑage: en-US,en;q=0.5g: gzip, deflate
+Coènection:en;q=0.5
+Accepgrade-Insecure-Requ‹sts: 1
+Cookie: ui =CFYCmN
+
+test=test
+Ò

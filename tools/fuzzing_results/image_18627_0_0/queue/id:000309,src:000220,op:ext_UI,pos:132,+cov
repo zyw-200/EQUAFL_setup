@@ -1,0 +1,6 @@
+GET  /boaroot/cgi-bin/menu.asp/ HTTP/1.1
+Accept-Encoding: gzip,
+Host: 1.50
+Content_Length: 20
+Cookie: uidSet-Cookie: SESSIONID=%s;=zywzywzy
+

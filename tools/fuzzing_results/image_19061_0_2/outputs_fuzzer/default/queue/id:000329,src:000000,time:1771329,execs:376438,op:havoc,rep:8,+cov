@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AccePt: text/html,application/xhtml+xml,application/xml;q=0.9,imge/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5Accept-Encodung: gzip, deflate
+Coniection: keep-alivq
+Upgrade-Insecure-Requestƒ: 1
+Cookie: uid=CFTTP/1.1
+Host: 192.1680.: kYCmNixEa
+
+test=test
+

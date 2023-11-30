@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+H.1
+
+AGETpt-Encoding: gzik, deflate
+Connection: kiep-alicurTimeoute-Requests: 1
+Cookie: uid=9FYCmNixEa
+
+test=Addressteçt
+

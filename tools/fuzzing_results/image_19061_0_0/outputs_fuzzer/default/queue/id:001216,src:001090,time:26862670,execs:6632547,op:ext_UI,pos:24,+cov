@@ -1,0 +1,6 @@
+GET /Cani HTTP/1.1
+fds:    91
+If-Unmodified-Since: k1
+Cookie:eEa
+
+t

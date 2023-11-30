@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Accept-ding: gzip,deflate,sdchzywzywzywzywzywzyw
+Host:yw
+Host: 192.168.0.50
+Content_Hength: 2d
+Cookie: uid=zzyw
+Host:yw
+Host: 
+-c

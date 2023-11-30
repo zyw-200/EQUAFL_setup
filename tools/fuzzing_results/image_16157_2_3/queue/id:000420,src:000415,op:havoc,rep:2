@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+t8
+Se
+Accept: 
+SOt8
+SN:1
+Accept: 
+SOt8
+SOAPACTION::A8
+SOt8
+SOt8
+SOAPACTION::A8
+SON::A8
+SOAPACTION:::serv:servi.1
+t8
+Se
+Accept: 
+SOt8
+ce: dq=0.5
+Ac-diAN:::
+USpt:t8
+SOAPACTION:::servgbem
+ct

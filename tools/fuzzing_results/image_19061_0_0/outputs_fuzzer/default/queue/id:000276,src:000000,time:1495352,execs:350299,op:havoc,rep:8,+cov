@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Hbst: 192.168.0.1
+Accept: text/hTP/1.0î
+Host: 192.168.0.1
+Accetml,application/html+‡ml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: ept-Encoding: gzip, `eflate
+Connection: keep-alivkie: uid=CFYCmecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

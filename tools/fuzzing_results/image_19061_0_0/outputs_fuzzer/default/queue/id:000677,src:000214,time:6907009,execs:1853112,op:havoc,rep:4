@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 
+mz
+Connection: =0.9,icage/webp,*/*;q=0.8
+Age: .5
+te
+Co: keep-alive
+s:@1
+Cookie: uid=CFConnec
+
+t19

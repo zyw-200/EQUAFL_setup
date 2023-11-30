@@ -1,0 +1,7 @@
+GET / HTTP/1.1	
+Host: 19te
+Connection: keep-alive
+If-Range: u403 Fost6Content-Length:1
+Cookie: ui
+Connection: cst
+

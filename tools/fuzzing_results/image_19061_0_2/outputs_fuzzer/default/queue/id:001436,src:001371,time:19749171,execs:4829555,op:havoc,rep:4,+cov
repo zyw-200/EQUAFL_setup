@@ -1,0 +1,18 @@
+GET TTP/N HTTP/1.1
+Host:e
+sA 1
+i
+
+GET /xgi HTTP/1.1
+Host:<.: $
+s: S
+i
+
+:   tee
+s: Con1
+ 
+Host: $
+s: S
+i
+
+

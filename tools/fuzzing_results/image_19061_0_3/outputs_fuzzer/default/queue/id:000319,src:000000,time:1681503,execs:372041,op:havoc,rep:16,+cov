@@ -1,0 +1,9 @@
+GET /	HTTP/1.1
+Host: 192.C68.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accent-LanGuage: e-US,en;q=0.5
+Adcept-Encoding: gzip, deflate
+Connection:)keep-snmptrap -v 1 -c %s %snmptrap -v 1 -c %s %s %s "" %d aliveÁUpgrade-Insocurapplication/xml;q=0.9,image/webpNixEa
+
+tnst=test
+

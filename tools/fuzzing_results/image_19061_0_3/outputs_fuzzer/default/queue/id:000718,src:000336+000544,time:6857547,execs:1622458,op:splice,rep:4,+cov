@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 19€
+A/: 1.1
+Expect:‡=11111111111111111111111111110.9,imasGET / HTTP/1.1
+: 19
+
+ýHET / HTTP/1.1
+
+Connection: clRseHO

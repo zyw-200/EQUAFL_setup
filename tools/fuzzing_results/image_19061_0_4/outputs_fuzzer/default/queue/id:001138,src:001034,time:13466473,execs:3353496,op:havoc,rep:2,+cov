@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 19te
+Connection: kete
+Connection: keep-alive
+
+teb / HTTP close
+Content-Length: tesst
+

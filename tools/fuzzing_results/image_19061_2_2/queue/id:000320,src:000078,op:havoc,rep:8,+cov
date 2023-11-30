@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.::ffff:168.0.1
+Accept: text/html,applic¦tion/xhtml+xml,applOcation/xml;q=0.9uid=CFYCmNixEa*;q=0.8
+AccepTTPt-LanguagNOTIFYe: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:"keep-a<neplic¦tion/xhtml+xml,application
+Cookie: uid=CFYCmNixEa
+
+test=test
+

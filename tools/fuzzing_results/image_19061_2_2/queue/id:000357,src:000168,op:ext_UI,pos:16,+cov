@@ -1,0 +1,5 @@
+GET / HTTP/1.1
+Range: 191
+pt: text/YCmNixEa
+
+test=teste/webp,*/*en-US,en;q=0.5

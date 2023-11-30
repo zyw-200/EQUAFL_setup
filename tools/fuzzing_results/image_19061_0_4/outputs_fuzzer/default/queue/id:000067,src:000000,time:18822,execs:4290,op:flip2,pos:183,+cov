@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 198
+Age: .5
+te	s: 1
+Cookie: ui
+
+t
+

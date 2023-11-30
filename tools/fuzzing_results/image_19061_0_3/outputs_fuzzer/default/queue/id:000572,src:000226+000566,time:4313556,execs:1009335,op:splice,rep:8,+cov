@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+:­19
+
+
+ÿÿGET / HTTP/1.1
+: 19
+
+GET  HTTP/1.1
+
+Connection: Conneanit
+old pkth: %s
+Aing: gzite
+Cgnne

@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acc}pt:€ÿext/html,applic@tion/xhtml+xml,application/xml;q=0.9,image/webp,*/*/html,applic@tion/xhtml+xml,app;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-EConnection: k€ep-alive
+Upgrade-InsTTP/1.1
+Host: 192.168.0e: uid=CFYCmNixEa
+
+test=test
+

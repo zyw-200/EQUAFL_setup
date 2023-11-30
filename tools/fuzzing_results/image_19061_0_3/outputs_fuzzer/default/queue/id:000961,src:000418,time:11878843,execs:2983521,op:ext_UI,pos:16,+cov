@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+If-Unmodified-Since:1
+Coo: gaiqe
+Coeose
+tesst
+

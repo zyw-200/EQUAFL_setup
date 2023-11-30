@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+
+
+
+ HTTP/1.1
+:   te
+Connection: keep-alivC
+s: 1
+Cookie: ui
+
+t
+

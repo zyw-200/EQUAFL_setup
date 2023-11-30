@@ -1,0 +1,11 @@
+GET TTP/N HTTP/1.1
+H
+Connection: G.1
+Referer: Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,   tee
+s: Con1
+ 
+Host: $
+s: S
+i
+
+

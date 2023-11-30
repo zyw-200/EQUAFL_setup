@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept---------ml,application/xhtml+xml,aYplication/xml;p=0.9,image/webp,*/*;q=0.8en-US,en;q=0.5ge: en-US,en;q=0.oding: gzip, deflate
+Conne{tion: keep-alive
+U|grade-Insecure-Requests: 1
+Cookie: uid=C=test
+

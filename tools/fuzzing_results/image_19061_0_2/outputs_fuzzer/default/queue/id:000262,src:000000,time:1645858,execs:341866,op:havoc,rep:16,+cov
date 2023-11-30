@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Hos/wlan/inf:2/multi/index:%d/aclt: 192.168/0.1
+Accept: text/html,application/xhtmlTTP/,applivation/alivexml;q=0.9,imae/webp,*/*;q=0.8
+AOept-Xanguage: en-ÿ,en;q=0.5pgrade-Insecure-Request
+Accept-EncodÝng: gzip, deflate
+Conection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNi       test=test
+

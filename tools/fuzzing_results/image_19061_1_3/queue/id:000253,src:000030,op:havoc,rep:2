@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host:         0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/weben-US,en;q=0.5ccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+testbasic 
+

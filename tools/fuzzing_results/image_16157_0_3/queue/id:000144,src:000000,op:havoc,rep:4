@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+1
+Accept: text/,imn;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmst
+

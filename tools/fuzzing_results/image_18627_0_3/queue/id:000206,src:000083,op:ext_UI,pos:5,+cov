@@ -1,0 +1,6 @@
+POST /HNAP1// HTTP/1.1
+Accept-Encoding: gziflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+SOAPACTIONngth: 20
+Cookie: uid=zywzy
+

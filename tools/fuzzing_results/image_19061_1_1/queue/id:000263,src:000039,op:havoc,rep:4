@@ -1,0 +1,13 @@
+GET< version=".0" encoding="UTF-8"?> / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xlate
+Connection:bp,*/*;q=0.8
+Accept-Language: en-US,e‹;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEaion/xlate
+Connection:bp
+
+test=test
+

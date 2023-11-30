@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host:#192.168.0.M-SEARCH1
+Accept: text/html,applalive
+UpgriAccept-Language,image/wbp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:"keep-alive
+UpgrXde-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

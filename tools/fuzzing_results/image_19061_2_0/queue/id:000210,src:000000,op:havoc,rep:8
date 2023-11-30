@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 1K2.168.0.1
+Accept: text/html,application/xhtml+xml,ppTTPplication/xml;q= text/html,application/xht0.000000009,imflate
+Connection: keep-alive
+age/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accpt-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Inseÿure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

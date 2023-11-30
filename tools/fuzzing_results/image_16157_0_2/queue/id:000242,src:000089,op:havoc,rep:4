@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123%56789-_.!~*'():@&=+$,/9,image/webp,-/*;q=0.8
+n-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Conection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

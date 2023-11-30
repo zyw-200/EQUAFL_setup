@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applAccept-Languageication/xhtml+xml,application/xml;q=0.9,imAccept-Language0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alhve, deflatensecure-Requesps€ÿ1ml+xml,appl
+Cookie: uid=CFYCmNixEa
+
+test=test
+

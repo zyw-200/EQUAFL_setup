@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:: k1
+Host:: keliv de-EncodinU: gzWp, deflate
+C|fnection: keep-aliv deflate
+CInsecure-Ralivets: 1
+Aookie: uid=CFYCmNixEa
+	
+test=test
+

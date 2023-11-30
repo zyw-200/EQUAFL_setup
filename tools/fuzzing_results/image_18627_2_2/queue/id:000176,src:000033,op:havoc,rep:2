@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Accept-Encoding: gzip,ddchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+ContentDLength: 20
+Cookie: uid=zywzywzy
+: 20
+Cookie: uid=zywzywzy
+LLocation: 
+

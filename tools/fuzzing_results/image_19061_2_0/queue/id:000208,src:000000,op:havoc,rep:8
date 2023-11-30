@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: texä/html,application/xhtml+xml,application/xm/html,application/xhtml+xml,appl;q=0.9,image/webp,*/*;q=0.8
+Accypt-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, cure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+
+Accept: texä/ HTTP/1.ltest=test
+

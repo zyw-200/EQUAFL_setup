@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+ks: 1
+Expect:Host: 191
+At: t
+Creceived command: ttttttttt_tt/sys/snmptrap/switch/staInterfClearTrapkeepSwitchttttentering critical section
+

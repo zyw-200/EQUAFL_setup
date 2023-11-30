@@ -1,0 +1,9 @@
+GET / HTTP/1  .1
+Host: 19/sys/snmptrap/switch/apOfflineTrapSwitch2.168.0.1
+Accept: pext/html,application/xhtml1xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Ekcoding: gzip, deflateTTPonnection: keep-alive
+Upgrade-InZecure-Requests
+
+test=test
+

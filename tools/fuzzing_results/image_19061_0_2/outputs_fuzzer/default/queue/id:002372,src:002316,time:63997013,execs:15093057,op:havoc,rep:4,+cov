@@ -1,0 +1,14 @@
+GET *1.1CGI HTTP/1.1
+Host:e
+Ran HTTP/1.1
+Host:e
+inet6Range:1
+i
+
+GET /xP/1.1CGI HTTP/1.1
+Host:e
+Range:
+ HTTP/1.1
+Host: $i
+
+

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host::::
+USpt: t8
+SOAPACTION::::::
+USpt: :1
+Accept: 
+SOAPACTION::A8
+SOt8
+SOt8
+SOAPACTION::A8
+SON::A8
+SOAPACTION:::serv:ser
+SON::A8
+SOAPACTION::::
+USpt: t8
+SOAPACTION:::servgcem

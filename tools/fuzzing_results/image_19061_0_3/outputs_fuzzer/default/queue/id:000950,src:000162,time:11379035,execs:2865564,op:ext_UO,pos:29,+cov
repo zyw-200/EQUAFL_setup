@@ -1,0 +1,8 @@
+GET /.. HTTP/1.1
+Host: 0.8
+If-Unmodified-Since: keep-alive
+Upsts: 1
+Cookie: Ea
+
+teest
+

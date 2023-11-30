@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: uests: 1
+Cookie: uid=CFYCmNxml,application/xml;q=0.9,image/webp,*/*;qI0.8
+At-Language: en-US,en;q=0.5
+Acjept-Encodie
+ConnectionF keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNi
+Acjept-Enc=t: uid=CFYCmNxml,applicaest
+

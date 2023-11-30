@@ -1,0 +1,11 @@
+GET /ept: text/html,application/xhtm HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;’=0.5
+Accept-Encoaing: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

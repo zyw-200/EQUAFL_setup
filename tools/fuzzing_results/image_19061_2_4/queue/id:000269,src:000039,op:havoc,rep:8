@@ -1,0 +1,11 @@
+GET< "UTF-8"?> / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9mNixEa
+test=test
+,image/webp,*/*;q=0.8
+AccÿÿLanguage: en-US,en;ccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-RAAAAAAAAAAAAAAAAAAAAAAequests: 1
+Cookie: uid=CFYCmNixEa
+alive=test
+

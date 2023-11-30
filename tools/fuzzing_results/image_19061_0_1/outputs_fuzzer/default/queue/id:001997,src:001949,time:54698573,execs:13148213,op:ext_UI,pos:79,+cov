@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+ing: ge
+Connection: ve1
+Range: 1
+C*;8
+Aÿÿte
+Connection:Allow: GET, HEAD ve1+
+Range: 1
+
+t
+

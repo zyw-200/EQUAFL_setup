@@ -1,0 +1,12 @@
+GET / HTTP /1.1
+8
+Anã
+ guè
+
+GET / HTTP/1.1
+Hos keept: 0.1
+Accept: tex0.8
+Acc:cod
+
+
+c

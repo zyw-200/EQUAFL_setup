@@ -1,0 +1,10 @@
+GET / HTorLog HTTP/1.1
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xq=0.9,image/webp,*/*;q=0.8guage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Up
+Host:Insecure-Requests: 1ÿ€ookie: uid=CFYCmNixEa
+
+ 1 s ap:"%s" 1 s cha

@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*ê;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Eacoding: gzip, deflate
+Connectilive
+Upgrade-Insecure-RequestUpgrade-Insecure-RequestsxEa
+
+talivgest=test
+

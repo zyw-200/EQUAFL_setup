@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+SOAPACTIONAccept-ding: gzip,dw
+SOAPACTIONHost: 1ywzywzyw
+SOAPACTIONHost: 192.168.0.50
+Content_Length: gzip
+SOAPACTIONHost: 1
+Cookie: u

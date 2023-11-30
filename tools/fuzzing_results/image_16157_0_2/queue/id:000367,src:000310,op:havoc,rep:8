@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Host:			2.168.0.1
+Accept:	text/h~ml,application/xhtml+xml,application/xmlHTTP/1.1
+Host:			2.168.0;q=0.9,image/webp,t-Lpt-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-@nsecure-Requd=CFYCm

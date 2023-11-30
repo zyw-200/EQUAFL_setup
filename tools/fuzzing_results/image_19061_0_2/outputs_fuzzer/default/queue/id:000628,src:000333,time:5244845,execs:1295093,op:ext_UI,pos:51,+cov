@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 19ate
+Connection: kUS,enSun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,;5
+Ang: late
+Connection: keep-{zip, defts: 1
+Cookie: Ea
+
+teest
+

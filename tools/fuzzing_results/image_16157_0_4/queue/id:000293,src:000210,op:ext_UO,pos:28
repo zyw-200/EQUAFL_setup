@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+SOAPACTION:o<script language=javascript type=text/javascript>function cancelevent(){location.href='/cgi-bin/ptimeout.html'}</script>-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

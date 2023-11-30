@@ -1,0 +1,10 @@
+GET / HTTection
+Host: 192.168.0.1
+Accept: text/html,appl€cation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Acc
+Accept-Encoding:nnection: kee gzip, defke
+TTP
+veget_mime: type=%s
+Upgrade-Insecure-Request: gzip, deflates: 1
+Cookie: uid=CFYCmNixEaep-alitest=test
+

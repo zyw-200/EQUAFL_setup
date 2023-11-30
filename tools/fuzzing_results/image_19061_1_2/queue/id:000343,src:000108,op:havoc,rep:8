@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host:iiiii168.0.1
+Accept: text/html,application/xhtml+xml,applicaÿÿ/xml;q=;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding:Upgrade-Insecure-Requests gzip, deflate
+Connection:ep-alive
+Upgrade-Insecure-Rehuests: 1
+Cookie: uid=CFYCmNixEa
+	
+test=testFYCmNixEa
+	
+test
+

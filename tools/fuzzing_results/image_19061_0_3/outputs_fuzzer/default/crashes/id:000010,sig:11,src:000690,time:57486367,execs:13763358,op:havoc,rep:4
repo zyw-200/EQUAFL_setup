@@ -1,0 +1,6 @@
+GET /upload_caktival_acl_int HTTP/1.1
+Host: 198e
+Conection: keep-alive
+s: 1
+CZokie: uit
+

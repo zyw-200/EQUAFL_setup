@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host:gzip,Hdeflate
+Connection:"htMl,applicaGET / HTtion/xhtion/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip,Hdeflate
+Connection:"keep-alivept-Encoding: gzip,Hdeflate
+Conn
+Upgrade-Insecure-Requests: 12
+Cookie: uid=CFYCmNixEa
+
+êest=test
+

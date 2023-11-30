@@ -1,0 +1,1 @@
+GET /device.xml=router_info.xml?HostUpmultipart/form-data;sts: 1

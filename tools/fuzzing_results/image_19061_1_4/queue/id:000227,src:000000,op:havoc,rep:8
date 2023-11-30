@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/Authorizationhtml,application/xhtml+xml,applicati,image/webp,*/*;q=0.8
+Accept-Language: en-US HTTP/1.1
+Host: 192./1.1
+Host: 192.168.SessionMaxt168.0.1gzip, deflate
+Connection: keep-alive
+Upgradcure-Requests: 1
+Cookie: utd=CFYCmNixEa
+test=test
+

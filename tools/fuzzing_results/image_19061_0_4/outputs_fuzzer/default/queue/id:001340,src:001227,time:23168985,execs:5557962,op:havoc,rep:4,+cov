@@ -1,0 +1,10 @@
+GET /eb / HTTP/1.1
+Hnnon:  HTTP-1.1
+
+HEAD eb / HTTP/1.1
+Hnnon: xm,i
+Acc:"nJ
+Connection: keep-alive
+Upest
+
+te

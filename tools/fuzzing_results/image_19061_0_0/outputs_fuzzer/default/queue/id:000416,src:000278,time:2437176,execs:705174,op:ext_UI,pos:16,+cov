@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+If-Range: gzate
+Connection:,*/*,image/webp,s: 1
+Cookie: uiì
+t
+

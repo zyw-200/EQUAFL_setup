@@ -1,0 +1,10 @@
+GET / HTTP/9.1
+Host: 1php
+Connection: keep-alive
+s: 1
+CookieHTTP/1.1
+
+
+teb / HTTP/1.0
+Connection:tesst
+

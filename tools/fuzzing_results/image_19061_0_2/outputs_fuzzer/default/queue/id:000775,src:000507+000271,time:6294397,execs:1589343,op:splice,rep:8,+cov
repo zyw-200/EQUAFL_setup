@@ -1,0 +1,17 @@
+GET / HT /xgi HTTP/1.1
+Hoste
+Upgrade-Insecure: 19GET / HTTP/1.1
+Host: 192.168.0.1
+
+
+
+
+
+st: 192.16re-Requestg: 1Connection:/xhtml+xml,app
+
+st: 192.16re-Requestg:/webp,*/*;q=0.8/
+Accept-Languagee-Requestg: 1: en-US,en;q@0.5
+Accept-Encoding: ÿip, deflate
+Connection: 9eep-aZive
+Upgrade-Insecure-Requests: 1
+Cookie:

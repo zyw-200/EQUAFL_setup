@@ -1,0 +1,10 @@
+GET / HTorLog HTTP/1.1
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,ie-Requests: 1
+CookieAccept-Language: en-US,en;{=0.5
+Accipt-Encoding: gzip, ction: keep-alive
+Upgrade-Insecurmage/webp,*/*;q=0.8
+: uid=CFYCmNixEa
+
+ 1 s ap:"%s" 1 s cha

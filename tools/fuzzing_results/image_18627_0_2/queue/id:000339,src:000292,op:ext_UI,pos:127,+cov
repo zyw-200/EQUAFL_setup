@@ -1,0 +1,6 @@
+GET  /.ASP HTTP/1.1
+Accept-Encoding: gzeflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 00
+Cookie:Set-Cookie: SESSIONID=%s; uid=zywzywzy
+

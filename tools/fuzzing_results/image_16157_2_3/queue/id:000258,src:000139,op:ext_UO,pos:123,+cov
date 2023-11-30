@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 191
+Accept: t8
+At-Language: dq=0.5
+Accept-Enaoding: gzite
+USER_AGENT: keep-alive
+Upgrade/www/cgi-bin/currentsetting.htm

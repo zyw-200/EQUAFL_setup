@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,appUpgrade-Insecure-Requestslicatÿÿÿxhtml+xml,applicatio text/html,applicatÿÿÿxhtml=0.8
+Accept-Language: en-US,en;q=0.5
+Host: 192.168.0.1
+Accept: ate
+Connection: keep-alive
+Upgrade-Insecure-Reque: 1
+Cookie: uid=CFYC`NixEa
+
+test=test
+

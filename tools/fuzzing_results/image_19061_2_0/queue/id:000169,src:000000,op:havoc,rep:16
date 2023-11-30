@@ -1,0 +1,9 @@
+GET / HTTP/C.1
+Host: 192.168.0.1
+A€cept: text/html,applica/xhtml+xml,applicdtion/xml;q=0.2,image/webp,*/*;q=0.8
+Accepkeept-Language: p,*/*,en;q=0.5”
+Accept-Encoding: gzip, d
+Connectiept-Language: en-USgzip, deflate,en;q=0.ecurÿquests: 1
+Cookie: uid=CFYCmNixEa$+
+test=test
+

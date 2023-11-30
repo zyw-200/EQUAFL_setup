@@ -1,0 +1,12 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*ve
+Upgrquests: 1
+Cookie: uid/*;q=0.8/www/index.php
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Host:ction: keep-alive
+Upgrade-Insecure-Rep-alive
+Upgrquests: 1
+Cookie: uid=CFYCmNixHa
+

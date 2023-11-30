@@ -1,0 +1,9 @@
+GET / HTTP/1.9
+:   tee
+s: 1
+iõ
+
+GET / HTTP/1.1
+teei
+
+

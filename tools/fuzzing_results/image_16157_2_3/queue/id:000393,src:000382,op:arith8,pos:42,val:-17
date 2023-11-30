@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host:t: t8
+SOAPACTION:::  91
+Accept: t8
+SOAPACTION:::service: dq=0.5
+Accept-ding: gzite
+USER_AGENT: keep-entsetting.htm

@@ -1,0 +1,14 @@
+GET %s  / HTTP/1.1
+
+Ain‹
+ gjr+ite
+Conn kp.5
+: 1
+Expect: 
+t
+
+
+If-Range: ui
+
+t
+

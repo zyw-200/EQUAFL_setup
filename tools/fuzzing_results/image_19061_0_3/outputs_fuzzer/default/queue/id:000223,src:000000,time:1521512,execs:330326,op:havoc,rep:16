@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.1680.1
+Accept: test/html,application/xhtml+xml,Qpplication/xml;q=0.9,image/webp,*te
+Connection: keep-alive
+Upgf,en;z=0.5
+Acc                gzip, deflate
+nnection 1	Cookieèuid=CFYCmNixEa
+

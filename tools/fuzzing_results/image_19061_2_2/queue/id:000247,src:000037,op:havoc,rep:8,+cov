@@ -1,0 +1,11 @@
+GETleave_csection / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Langzip, deflate[n;q=0.5
+Accept-Encoding: gzip, denH keep-alive
+Upgrade-Insezure-Requests: 1
+Cookie: uid=CFYC‹NixEa
+
+test=tese_csection / HTTP/1.1
+Host:t
+

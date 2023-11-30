@@ -1,0 +1,6 @@
+GET  /.ASP HTTP/1.1
+:ccding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie:&quot; PSW=zywzywzy
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+If-Range:: gzite
+Connection:l,image/webp,
+/
+Aÿ
+Connection: ve1
+s: 1
+Cookie: ui
+
+t
+

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+:   tee
+s: 1TTP
+
+
+GET / HTTP/1.GET / HTTP/1.2
+If-M1
+Host: 192.168J0.1
+Accept:text/html,appli8
+Accept-L / HTTP/1.GET / HTTP/1.1anguagapplication/xml;q=0.9,iUage/webpn-US,en;q=1+xml.5
+Acgept-Encoe: e,*/*;q=0.catjod/xhtml+xml,ding: gzip, deflatUS,en;q=1.5
+Aßkeep-alive
+
+CookieUpTP/1.1
+Connection: close
+Acoo

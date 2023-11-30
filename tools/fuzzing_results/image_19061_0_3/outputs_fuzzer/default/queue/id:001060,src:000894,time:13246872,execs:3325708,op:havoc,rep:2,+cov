@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 198
+Content-Length:  te
+Connection:   1 "%s"ive
+Connection:   1 "%s"
+s: 1
+Cookie:    1 "%s"
+suit
+

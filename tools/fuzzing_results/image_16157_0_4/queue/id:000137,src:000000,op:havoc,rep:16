@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+HInsecure.1610001
+Accept: text/html,}pplicatgon/xhtml+xml,applicationÿÿÿ€;q=0.9,image/we$p,*/*;q=0.8
+Accept-LanguageL en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+onnecnion: keep-alive
+UpgradebogusSHTTP vƒrsion: "%s"ookie: uid=CFYCmNix@a
+test=test
+

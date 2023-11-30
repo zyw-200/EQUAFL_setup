@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+:   tee
+s: 2
+i
+
+
+GET / HTTP/1.3
+d   tee
+s: 1
+i
+
+
+GRT / ITTÄ/1.1
+Host: 192.6Z.0.1$
+Accept:textAhtmÅ,application/H\st:@xml,appl/UpTPzn/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language:#en-US,en;
+
+GèT / HTTP/1.1
+Host: $$$$$$$$$$$$$$$$$$$$$$$$$$$ gzip, deflate
+Connection: keep-alive
+cat

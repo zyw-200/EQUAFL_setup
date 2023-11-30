@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acce…t: text/html,application/xhtml+xml,ap=CFYC/webp,*/*pl1
+ication/xml;q=0.9,image 1
+Cookie: uid=CFYC/webp,*/*;q=0.8
+Accept-: 1
+Cookie: uid=CFYCmNixEa
+ept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: u%s%sFYCmNixEa
+
+test=test
+

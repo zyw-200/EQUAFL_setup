@@ -1,0 +1,11 @@
+GET TTP/N HTTP/1.1
+9 .
+st: G
+Co: 
+
+GET  HTTP/1.1
+Host: uage
+Host: . 
+If-Unmodified-Since: ;
+
+G

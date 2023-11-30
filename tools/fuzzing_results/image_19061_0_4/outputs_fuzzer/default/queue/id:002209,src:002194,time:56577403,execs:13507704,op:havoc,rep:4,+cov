@@ -1,0 +1,6 @@
+GET %s//var?.. HTTP/1.11
+çohE·
+
+HEAD ! //! T %s//var?.. HTTP/1.11
+çohEsy HTTP/1.0
+

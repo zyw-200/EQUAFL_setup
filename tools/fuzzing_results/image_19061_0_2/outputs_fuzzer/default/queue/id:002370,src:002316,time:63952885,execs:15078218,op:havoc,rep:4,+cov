@@ -1,0 +1,10 @@
+GET * HTTP/1.1
+jost:e
+Range:1
+ /xP/1./1.1
+jostP/1.1i
+
+GET /xP/1.1CG= HTTP/1.1
+Host: $i
+
+

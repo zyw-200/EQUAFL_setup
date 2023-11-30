@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+SOAPACTION:::	:service:er:service:service:Hos HTTP/1.1
+SOAPACTION:::1.1
+SOAPACTION:::	:service:er:service:service:Hos HTTP/1.1
+SOAPACTION:::	:service:er:service:service:Host: 192.168.0.1
+Acception/xhtml+xml,application/xmt: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicatio.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,imccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insec˜re-Requests: 1
+Cookie: uid=CFYCmNixEa
+

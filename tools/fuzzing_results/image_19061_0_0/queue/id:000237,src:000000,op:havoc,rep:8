@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 592.168.0.1
+Accept: text/ht€l,applicatin/xhtml+xml,applica-----tion/xml;q=0.9,im™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™age/webp,*/*gzip, deflatet-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-aeive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

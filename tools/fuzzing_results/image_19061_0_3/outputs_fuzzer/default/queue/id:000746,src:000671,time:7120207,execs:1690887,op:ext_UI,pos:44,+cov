@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+: 19te
+Connection: P/1.  
+Content-Length: 8ve
+ : 1 Co
+Connection: close
+tesst
+

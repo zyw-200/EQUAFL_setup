@@ -1,0 +1,9 @@
+GET /HTTP/1.1
+HGET / HTTP/1.1
+Hosdevconf del4-n /dev/mtdblobk/%s -o %d -z %d P/1.1
+Host: 2.1
+
+Accept: tex0cc:cod
+‹
+
+c/sys/snmptzap/switch/stationRepititiv

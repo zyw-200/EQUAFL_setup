@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Expect: 0.10.g
+
+ %4db / HTTP/1.1
+Host: Ea
+

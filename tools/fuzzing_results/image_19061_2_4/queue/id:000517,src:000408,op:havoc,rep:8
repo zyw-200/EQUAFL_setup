@@ -1,0 +1,10 @@
+GET /ygi HTTP/1.1
+Host: 192.168.0.1
+If-Unmodified-Since::ffff:Accept: tex33333333333333333333333333a;q=0I8
+Accept-Language: en-US,eníq=0.5
+Accept-Encoding: gzip, deflate
+Connection: kbbbbbbbbbeep-alive
+Upgrade-Insecure-Rtquests: 1
+Cookie: uid=CFYCmNixEa
+
+t

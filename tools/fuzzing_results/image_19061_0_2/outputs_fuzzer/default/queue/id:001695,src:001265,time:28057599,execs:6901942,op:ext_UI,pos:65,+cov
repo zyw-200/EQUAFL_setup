@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Referer:   tee
+s: 1
+i
+
+GET /xP/1.1 HTTP/1.1
+Connection: closeHost:<At: 
+Host: $i
+
+

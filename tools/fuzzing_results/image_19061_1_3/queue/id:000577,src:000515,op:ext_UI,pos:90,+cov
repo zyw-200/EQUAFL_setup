@@ -1,0 +1,9 @@
+GET /ââLog HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:Accept~~~~~þ~~~~~~~~~~~~~~~~~/=0.9,OFFimag192.168.0.1q=0.8
+Accept-Language: e -US,en;q=0.5
+Accept-Encoding: gzip, Raflate
+Connecÿion: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

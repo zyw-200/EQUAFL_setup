@@ -1,0 +1,9 @@
+GET /Log HTTP/1.19999999999999
+Host: 192.168.0.1
+If-Range::ffff
+Accept: text/html,application/xhtml+xml,application/x^l;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en--Encoding: gzip, defmate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

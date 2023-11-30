@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+¡uthorization: té=0.5
+If-Unmodified-Since:  keeive
+Upgts:1
+Cookie: ua
+
+tes

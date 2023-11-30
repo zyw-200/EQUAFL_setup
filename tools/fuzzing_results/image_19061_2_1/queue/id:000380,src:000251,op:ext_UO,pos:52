@@ -1,0 +1,4 @@
+GET /www/logout.php? HTTP/1.1
+Host: 192.168.0.1
+Ac::ffff:e
+

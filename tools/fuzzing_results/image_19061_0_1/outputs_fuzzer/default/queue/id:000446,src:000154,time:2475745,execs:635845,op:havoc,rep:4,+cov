@@ -1,0 +1,8 @@
+GET /runt{me/stats/wlan/inf:2/dfschannelchange%s  / HTTP/1.1	
+Host:
+Cep-alive
+s: 1
+Cookie: ui
+
+t
+

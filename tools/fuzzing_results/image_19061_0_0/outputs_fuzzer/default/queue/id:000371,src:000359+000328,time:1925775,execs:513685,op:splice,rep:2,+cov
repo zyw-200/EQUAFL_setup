@@ -1,0 +1,10 @@
+GET    GET / HTTP/1.1
+Host: 192.16TTP8.0.1
+Accept: text/html,apinetplication/xhtml+xml,application/,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:keep-alive
+Upgrade-Insecure-Requests: 1
+Host:: uid=CFYCmNixa
+
+test=

@@ -1,0 +1,6 @@
+GET / HTTP/1.8
+Range:CoTb/n: /1.1
+Range:CoTb/n:‚e
+CoTb/n:   n: /1.1
+RangCookie: uct
+

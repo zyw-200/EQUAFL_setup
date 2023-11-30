@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+*ccept: texveTcse
+Acction=0.8
+Accept/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;qleave_cse
+Acction=0.8
+Accept-Language: eL-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: beep-alive
+Upgrade-Insecure-Requests: 1
+Cofkie: uid=CFYCmNixEa
+
+test=test
+

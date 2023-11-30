@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+HHost 192.168.0.1
+AcYept: text/html,applicatio*;q=0.8 en-US,en;q=0.5
+Acce\t-ETcoding
+Accept-ication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LanguagQ: en-US,en;q=0.5
+Acce\t-ETcoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1okie: uid=CFYCmNixEa
+

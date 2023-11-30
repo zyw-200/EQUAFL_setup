@@ -1,0 +1,6 @@
+GET  /.ASP HTTP/1.1
+Accept-Encoding: gzyw
+Host: 192.168.0.w0
+Content_Length: 20
+Cookie:zbon= uid;zywzywboundary= uid;zywzywzHTTP/wywzywarb= uid;`ywzywzHTTPzywzywzyzywzykzyw]ywzywzywzywzywzywzywzywwzywboundar€= uid;zywzywzHTTPzywzywzywzywTP/wywzywary= uid;`ywzywzHTTPzywzywzyzywzywzyw]ywzywzywzywzywzywzywzywwzywboundar€= uid;zywywzywboundary= uid;zywzywzHTTP/wywzywary= uid;= uid;zywzywzy=test
+

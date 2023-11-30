@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 19C.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=..1
+Host: 192.168.0.1
+Accept:9,image/webp,*/*;q=0.8
+Accept-Lauguage: en-US,en;q=0.5
+AccGpt-Encoding: gzip, deflaŠe
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Coo: uid=CFYCmÿxEa
+
+test=test
+

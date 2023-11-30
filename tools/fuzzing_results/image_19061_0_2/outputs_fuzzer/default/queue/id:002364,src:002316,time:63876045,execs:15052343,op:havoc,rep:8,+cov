@@ -1,0 +1,10 @@
+GET * HTTP/1.1
+Host:e
+Range:1
+ 
+
+GEGET * HTTP/1.1
+HosT/Transfer-Encoding:HTP/1.1
+Host: $i
+
+

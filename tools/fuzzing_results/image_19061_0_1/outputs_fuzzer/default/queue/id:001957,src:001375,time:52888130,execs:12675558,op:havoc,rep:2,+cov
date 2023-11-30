@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+ing: gzite
+Connection:
+
+
+GET / HTTP/1.5
+Hooz
+Connection: ve1
+Range: 1
+Cookie: ui
+
+t
+

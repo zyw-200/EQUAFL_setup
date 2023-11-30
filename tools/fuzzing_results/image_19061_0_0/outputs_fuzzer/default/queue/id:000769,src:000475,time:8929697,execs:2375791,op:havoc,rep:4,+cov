@@ -1,0 +1,9 @@
+GET / HTTP/1.1	
+: gzaì
+tonion1
+
+
+ / HTTP/151%s'is not a regular file
+Connection: keep
+C
+

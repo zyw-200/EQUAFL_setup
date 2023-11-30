@@ -1,0 +1,13 @@
+GET ´ HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,appl: 1
+Cookie: uid=i/sys/sNmptrap/switch/staAu
+
+testTrapSwitchction: keep-alive
+Upgrade-Inse/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEathError=test
+

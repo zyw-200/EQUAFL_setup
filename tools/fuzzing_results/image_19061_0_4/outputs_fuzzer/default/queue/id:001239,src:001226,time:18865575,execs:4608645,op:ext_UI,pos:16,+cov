@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Content-Length: Transfer-Encoding: ced
+ 1
+H: xm,i
+Acc1:"n
+Connection: keep-alive
+t
+

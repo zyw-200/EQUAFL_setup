@@ -1,0 +1,8 @@
+GET N HTTP/1.1
+Host: .. t: G.1
+Referer:   t
+Host:<.1
+Expect:   te
+
+
+Host:<.1

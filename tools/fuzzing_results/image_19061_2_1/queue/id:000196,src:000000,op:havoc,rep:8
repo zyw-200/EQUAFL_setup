@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:!192.168.0.1
+AcceXt:boundary=l,application/xhtml+xml,application/xml;q=0.9,imageAwebp,*/*;q=0.8
+Accept-Language:n-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Reqÿÿÿs:test=test
+

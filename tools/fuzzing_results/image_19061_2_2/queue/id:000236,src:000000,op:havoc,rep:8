@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: txt/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/
+
+
+
+*;q=0.8
+Accept-Languag[SNMP-TRAP][Specific=12]t-Encong: gziO, deflate
+Connection: keepalive
+Upgrade-Insecure-Rfquests: 1
+Cookie: uid=CTTPFYCmNixEa
+
+test=test
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Hostpt: text/html,applicatioˆ/xhtml+xml,application/xml;q=0.9,image/webp,*/*;N=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzipF deflate
+Connection: keep-alive
+UquestUpgrades: 1
+Cookie: uid=CFYCmNixEa$
+test=test
+5
+Accept-Encoding: gzip, def

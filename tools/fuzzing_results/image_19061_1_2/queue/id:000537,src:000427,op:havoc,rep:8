@@ -1,0 +1,12 @@
+GET Accept/ HTTP/1.1
+Host: 192.168.0.1
+Accept: te
+Cookie:dlink_uidmulte/webp,*/*;q=0.8
+Accept-Languests: 1
+Cookie:dlink_uiduag: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+CŽnnection: keep-alive
+Upgrade-Insecure-RIquests: 1
+Cookie:dlink_uidmultipart/for\-data;DENY uid=CFYCmX gzip, deflateixCa
+
+test=test

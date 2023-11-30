@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host:test=test 192.168.0.1
+AcceOt: text/html,appli^ation/xhtml+xml,apgzip, deflatg;q=0.9,imabe/webO,*/*;q=6.8
+Accypt-Language: laie
+Keep-Alive: keepccept-EncodiSg: gzip, deflaie
+Keep-Alive: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYxEa
+
+sest=test)

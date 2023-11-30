@@ -1,0 +1,10 @@
+GET /www/login_fail.php/ HTTP/																								1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/Šml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,eng: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+t€st=test
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host:debugging turned off 192.168.0.1
+Accept: teêt/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*Qq=0.8
+Accept-Languag\: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecignoring Range header "%s"ure-Requests: 1
+Cookie: uid=CGYCm1ixEa
+
+test=test
+Ò

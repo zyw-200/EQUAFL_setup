@@ -1,0 +1,11 @@
+GET php?* HTTP/1.1
+Host: GE1
+If-Unmodified-Since:Referer:   tee
+s: 1
+i
+
+GET .xgi HTTP/1.1
+Host:<At: t
+/1.   ž
+i
+

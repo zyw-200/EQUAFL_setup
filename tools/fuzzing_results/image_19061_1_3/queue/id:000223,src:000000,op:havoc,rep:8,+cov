@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: Úext/html,application/xhtmu+xml,applkcation/xml;q=0.9,image/webp,*/*;q=0.8-US,en;q=0.
+Accept-Encoding: gzip, deDlate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+	est=Žest
+

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Connection: et%s"ive
+s: 1
+Cookie: uit
+-Length:  te
+Connection:   1 "%s"ive
+s: 1
+Cookie: uit
+ "%s"ive
+s: 1
+Cookie: uit
+

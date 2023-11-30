@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host:
+test=test
+
+ 19 HTTP/1.11
+At: t
+Conte %s    HTTP/1.1
+Halive
+s: 10
+Co
+t
+

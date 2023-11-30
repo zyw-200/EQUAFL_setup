@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Acce‘t: text/=0.8
+Acguage: eq=0.5
+Acoding: gzip€ deflate
+Connection: nsecusts: ,basic ,,,,,,,,,,,,,,,,,1
+Cook^e: uid=CF
+
+test=test
+

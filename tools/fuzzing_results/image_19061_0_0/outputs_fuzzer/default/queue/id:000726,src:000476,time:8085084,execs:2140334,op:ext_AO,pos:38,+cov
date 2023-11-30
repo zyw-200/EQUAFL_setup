@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+: gzate
+Connection:,*
+Connection:p,s: 1
+Cookie: uiì
+.
+Connection:clos1
+Host:'H
+

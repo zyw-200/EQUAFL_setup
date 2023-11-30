@@ -1,0 +1,12 @@
+POSTGET / HTTP/1.1
+: 
+Connection:
+i
+
+
+GET / HTTP/1.1
+e
+Connection: close
+
+
+G

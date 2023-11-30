@@ -1,0 +1,12 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatiÿÿÿ
+Host: 192.168.0.1
+Accept: texhtml+xml,application/xml;q=0.9,imageRwebp,*/*;q=0.8
+Accept=Language: en-US,en;q=0.5
+Accept-dncoding: gzip, deflate
+Connection: ÿeÿp-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNiœEa
+
+t

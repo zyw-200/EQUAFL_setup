@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hot2 192.168.0.1
+Accept: text/html,n: keep-alivehtml+xml,: text/hion/xml;.8
+ q=0.9,mage/webp,*/*;q=0.8
+ 192.168.0.1Accet-Langufge: eî-US,enction: keep-alive
+Upgragzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+ú
+testuplVad_stunnel_cert=test
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accepë: text/html,application/x–tml+xml,applNcation/xml;q=0.9,image/webp,*/*;q=0.8
+Accep,en;q=0.5
+Accept-Eqqqqqqqqqqqqqqqqqqqqqqqqqonnection: keep-alive
+Upgrade-Insecu
+Accep,en;q=0.5
+Accept-Eqqqre-Requests: 1
+Cookhe: 
+test=test
+

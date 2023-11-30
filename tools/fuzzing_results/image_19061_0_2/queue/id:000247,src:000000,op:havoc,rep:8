@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Ho=CFYst: 192.168.0.1
+Accept: text/html,applicatoon/xhtml+ÿml,application/xml;q=0.9,imabe/webp,*/*;q=0*8
+ALanguage: en-US,en;q=0.5
+Accept-Encoding: gzip, $eflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+
+

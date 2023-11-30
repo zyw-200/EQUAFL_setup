@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: te*/*;q=0.8
+Accept-xt/htm<groupname>on/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-LFYCmNixEa
+Connection: close
+t-Encoding: gzip, deflcte
+Connection: keep-alive
+Upgrade-Insecure-RvquestFamilys: 1
+Cookie: uid=CFYCmNixEa
+Connection: close
+test=tesd
+

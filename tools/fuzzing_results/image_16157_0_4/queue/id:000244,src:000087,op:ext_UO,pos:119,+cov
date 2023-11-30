@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Content-Type: text/html; charset=ISO-8859-1ation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+CONTENT-TYPE: text/xml; charset="UTF-8"-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

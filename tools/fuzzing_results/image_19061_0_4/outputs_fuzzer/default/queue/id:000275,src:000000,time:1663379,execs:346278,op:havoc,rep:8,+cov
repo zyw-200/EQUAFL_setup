@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1$Accept: text/html,application/xhtml+xml,application/xguage: en-US,en;q=ml;q=.9,image
+Host: 192.168.
+Accept-Language: en-US,en;q=0.5
+Accete
+Connetion: keep-alive
+Upgrade-Insecure-Req,applicationuests: 1
+Cookie: uid=CFYCmNsxEa
+
+test=test
+

@@ -1,0 +1,6 @@
+GET  /boaroocgi-bin/menu>asp</soap:Envelope>/ HTTP/1.1
+Accept-Encoding: gzip,zywzywÿwzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uid=zywzywzy
+

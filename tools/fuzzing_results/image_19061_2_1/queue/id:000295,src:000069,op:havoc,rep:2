@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host::ffff:: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicationTP/1.1
+Host::ffff:: 192.168..8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: / HTTP/1.1
+Host::ffff:: uid=CFYCmNixEa
+
+test=test
+

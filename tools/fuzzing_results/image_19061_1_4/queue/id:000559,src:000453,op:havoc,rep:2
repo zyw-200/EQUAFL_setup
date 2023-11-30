@@ -1,0 +1,11 @@
+GET /www/ind%1CGI27.0./www/ind%1CGI27.0.0.1x.php/ HTTP/1.1
+Host: 192.168.0.1
+Ac: text/html,application/xhtml+xml,applicatiAccept-Languageage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

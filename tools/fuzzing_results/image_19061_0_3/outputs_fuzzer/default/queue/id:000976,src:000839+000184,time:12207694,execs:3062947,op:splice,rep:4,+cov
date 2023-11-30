@@ -1,0 +1,11 @@
+GET / HTorLog HTTP/1.1
+GET / HTTP/1.1³³³³³
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-USLanguage: en-US,en;q=0.5
+: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookih: uid=CFYCNixEa
+
+ 1 s ap:"%s" 1 s cha

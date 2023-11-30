@@ -1,0 +1,9 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicatior/xml;q=0.9,image/webp,*/*;q=0.85
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Reqgi HTTP/1.1
+Host: 192en-US,en;q=0.5ie: uid=CFYCmNixEa
+
+t

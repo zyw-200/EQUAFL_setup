@@ -1,0 +1,11 @@
+GET / HTTP/1.1	
+Host: 19te
+Conn/1.1
+Host: 0.
+ection: keep-alive
+: ui
+Con†ec: clost
+Content-Length:1
+Cookie: ui
+Connealivection: cst
+

@@ -1,0 +1,9 @@
+GET /Log HTTP/1.1
+Host: 192.168.0.1
+If-Range:p,*/*;q=0.@
+Accept-Language: e:ffff:Accept: text/html,application/xhtml+xml,application/xml;q=09,image/webp,*/*;q=0.@
+Accept-Language: en-US,en;q=0.5
+Accept-Encdding: zip, deflateConnection: keep-aliAccept:rade-Insecure-Requests: 1.
+Cookie: uid=CFYCmNixEa
+
+t

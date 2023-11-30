@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+H: text/html,appli
+Connection: keep-alive
+Up/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lapt-Encodingzip, deflate
+Connection:g: gzip, deflate
+Connection: keep-alive
+Upgrookie: uid
+

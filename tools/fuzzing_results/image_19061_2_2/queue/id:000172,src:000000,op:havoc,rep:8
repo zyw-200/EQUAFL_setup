@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicauion/xml;q=0.9,image/p,*/*;q=0.8
+Accept-Language:en-US,e
+Connection: keep-ading: gzip, deslate
+Connection: keep-alive
+Upgrade-8n[ecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+teNOTIFYst=test
+

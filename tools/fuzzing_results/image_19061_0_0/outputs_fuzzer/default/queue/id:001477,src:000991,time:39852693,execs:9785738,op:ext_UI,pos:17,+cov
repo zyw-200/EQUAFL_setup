@@ -1,0 +1,5 @@
+GET  HTTP/1.1
+
+POST to file rejectedost / HTTP/1.1
+Content-Length: 0GE1
+

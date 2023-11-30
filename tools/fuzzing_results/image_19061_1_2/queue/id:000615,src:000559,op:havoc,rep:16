@@ -1,0 +1,11 @@
+GET /Log HTTP/1.1
+Host: 92.168.0.1
+Range:bytes ffff:Accept: text/html,applicatHEADion/xhtml+xml,applicaÎÎtionNxml;q=0.9,image/weOp,*/*;q=0.8
+Accept-L@nguage: en-USHenL@nguageLocation0.5
+AccEncoding: gzip, deflate
+Conn`ction: keep-aSince:live
+Upgrade-Insecure-Requests: 1
+Cookie: uiÿÿÿÿYCmNix2.168.0.
+s: 1
+Cookie: uid=RaEa
+

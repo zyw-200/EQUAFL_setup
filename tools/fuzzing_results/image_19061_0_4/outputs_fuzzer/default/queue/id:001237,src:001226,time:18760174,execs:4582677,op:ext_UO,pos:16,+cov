@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+If-Modified-Since: ced
+ 1
+H: xm,i
+Acc1:"n
+Connection: keep-alive
+t
+

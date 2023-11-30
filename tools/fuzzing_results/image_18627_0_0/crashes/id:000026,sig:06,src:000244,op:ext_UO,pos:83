@@ -1,0 +1,5 @@
+POST /HNAP1// HTTP/1.1
+pt-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Connection: Keep-AliveiceReadyngth: 20
+Cookie: test=test
+

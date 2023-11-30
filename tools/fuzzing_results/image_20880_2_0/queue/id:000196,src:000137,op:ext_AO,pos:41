@@ -1,0 +1,4 @@
+GET / HT.1
+Authorization:Basic login.cgiUpgrade-Insecure-Requests: 1
+SOAPAction:HNAP1
+

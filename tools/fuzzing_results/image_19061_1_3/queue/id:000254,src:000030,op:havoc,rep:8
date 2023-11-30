@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Hflate
+Connection: keeost: 192.168.0.1
+Accept: text/html,applicaèon/xhtml+xml,applfcation/xml±q=0.9,image/webp,*/*;q=A.8
+Accept-Language: e.-US,en;q=0.5
+Accept-Encoding gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uidflate
+Connection: =CFYCmNixEa
+
+testbasic 
+

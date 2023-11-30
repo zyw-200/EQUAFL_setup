@@ -1,0 +1,4 @@
+GET / HTTP/1.1
+
+Allow: GET, HEADost0.5
+Con

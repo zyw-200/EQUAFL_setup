@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application<script language=javascript type=text/javascript>function cancelevent(){location.href='/cgi-bin/ptimeout.html'}</script>Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

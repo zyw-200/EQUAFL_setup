@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/h  3     1         tml+xml,applica680
+Accept: text/htmltion/xml;q=0.9,imge/webp,*/*AliasFileccept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflateradD-ÿÿÿcure-Requests: 168.0.e-Insecure-Requests: 168.0.1
+Accept: htmlti
+Cookie: uid=/html,applic
+test=test
+

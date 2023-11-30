@@ -1,0 +1,2 @@
+GET %new_requwsts@%ds;%s;,s/y;%s;1s;%s/~%d@%%d@%sww%s/ HTTP/1.1
+H

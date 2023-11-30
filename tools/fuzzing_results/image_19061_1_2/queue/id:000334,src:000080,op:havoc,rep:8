@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.::ffff:168.0.1
+Ascept: text/html,application/xhtmxmion/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-La~guage: en-Uost: 192.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requesps: 1
+Cookie: uid=CFYCmNixEa
+
+test=teT / HTTControlP/1.1
+Host: 1st
+

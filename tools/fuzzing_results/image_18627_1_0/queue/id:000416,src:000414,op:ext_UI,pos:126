@@ -1,0 +1,6 @@
+POST / HTTP/1.1
+SOAPACTIONAt-Enng: hzywwzywzywzywzywzyw
+SOAPACTIONHost: 192.168.0.50
+SOAPACTIONContent_Length: 20
+SOAPACTIONCookie: uid=zy
+

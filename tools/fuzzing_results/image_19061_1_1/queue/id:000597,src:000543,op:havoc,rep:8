@@ -1,0 +1,8 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:basic Accept: t127.022222222222222222222222222222222ml,application/xnlupload_stunnel_cert;q=0.9,image/webp,*/*;q=0.8
+
+Accept-EncodiWg: gzip, deflate
+Connection: keep-aliBufSizerade-upload_stunnel_keyInsecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+ 

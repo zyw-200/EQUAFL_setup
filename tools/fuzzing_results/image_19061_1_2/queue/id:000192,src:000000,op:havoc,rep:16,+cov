@@ -1,0 +1,10 @@
+GET / HTTP/1.2
+Host;q=0.9,image/webp,*/*;: 192.168.0.1
+Accept: text/Upgrade-Insecure-Requestsl,application/xmle/webp,*/*;q=0.8
+Accept-LanguagB: en-U[TeBind=.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alrve
+Upgrade-InsƒcurM-Requests: 1
+Cookie: uid=CFwCmNixEagzip, deflat: gzip, deflate
+Coon=test
+

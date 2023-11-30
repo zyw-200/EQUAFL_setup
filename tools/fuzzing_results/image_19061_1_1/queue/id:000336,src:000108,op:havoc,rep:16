@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AccepZ: text/html,applicati¢n/xhtml+xml,Xpplication/x
+	
+test=temage/webp,*/*;q=0.8
+Accept-Lgng.5
+Accept-Encoding: gzip, defonte
+Connection: kUep-alfvene-Requests: 1
+Cookie: uid=CFYCmDixEa
+	
+test=test
+est=test
+
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1	
+Tot: 19te
+Connection: keep-alive
+If-Range:  / HTTP/101	
+Host:alive
+If-Range:  / HTTP/1 ui
+Connectio: cst
+

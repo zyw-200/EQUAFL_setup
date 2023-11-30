@@ -1,0 +1,6 @@
+GET /Cane.xgi HTTP/1.1
+Host: 191
+If-Unmodified-Since: k1
+Cookie:eEa
+
+te

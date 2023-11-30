@@ -1,0 +1,15 @@
+GET / HTorLpg HTTP/1.1
+.1
+Host: 19st
+If-Modified-Since:.HTTP/1.1
+
+
+
+GET / HTTP/1.1 
+Host:t:
+Acc: en=
+Host:0te
+Connection: keep-alive
+-Reqs: 1
+Cookie: ui
+

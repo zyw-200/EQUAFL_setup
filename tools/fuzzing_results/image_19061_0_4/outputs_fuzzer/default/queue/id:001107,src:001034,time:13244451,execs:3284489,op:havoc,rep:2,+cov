@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 19te
+Connection: kTP/1.1
+Host: 19te
+Connecteep-alive
+s: 1
+CookP/1.1
+
+
+GET/ HTTP/1.11
+Hostent-Length: tesst
+

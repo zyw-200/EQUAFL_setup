@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1ÎÎÎÎÎÎÎÎÎÎ
+AcBept: tgdt/html,appliation/xhtml xml,application/xml;p=K.9,image/webp,*/*;q=0.8
+Acuid=CFYCmNixen;q=0.5
+Accept-Encoding: gzip, deflate
+ConnTction: keAcceptep-alivS
+Upgrade-Insecure-RequestYCmNix3a
+
+test=teidst
+

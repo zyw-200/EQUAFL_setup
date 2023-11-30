@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host::ffff:: 192.168.192.168.0.10.1
+Accept: text/html,application/xhtml+xml,applicytion/xml;q=0.9,image/w,*/*;=0.8
+AcceET / HTTP/1.1
+Host::ffff:: 
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-InsecAddressuests: 1
+Cookie: uid=CFYCmNixEaõ
+test=test
+

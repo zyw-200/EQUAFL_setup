@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accep÷: text/html,application/xhtml+xml,application/xml;q=0.9,im\ge/webp,*/sys/snmptrap/switch/apMtWorkModeChgTrapSwitch/*;q=0.8
+Accepapplication/t-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alisnmptrap -v 1 -c %s %s %s "" 6 %d "gzip, deflatetest=test
+

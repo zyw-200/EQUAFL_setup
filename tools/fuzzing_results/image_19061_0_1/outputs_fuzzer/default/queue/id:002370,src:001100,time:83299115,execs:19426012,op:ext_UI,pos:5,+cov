@@ -1,0 +1,13 @@
+GET / %4d HTTP/1.1
+ost: 192
+ 1,ap“0.8
+If-Range:Co: sh.1
+Host: 19
+8
+AineGET %
+
+GET / HTTP/1.1
+Host: 0.1
+
+
+

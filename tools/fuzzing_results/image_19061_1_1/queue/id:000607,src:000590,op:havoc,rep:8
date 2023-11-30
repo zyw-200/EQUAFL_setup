@@ -1,0 +1,10 @@
+GET /xgi HTTP/1.1
+Host: 1
+Host: 192.168.0:bytespt: text/html,application/xhtml+xml,app[SNMP-TRAP]l;q=0.9,image/webp,P/1.1
+Host: 192.168.0.1
+: en-US,en;q5
+Accept-Encoding: gzip, deflate
+Connection:
+Host: 192.168.0:Requests: 1
+Cookie: uid=CFYCmNixEa
+

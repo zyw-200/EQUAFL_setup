@@ -1,0 +1,2 @@
+GET //cgi-bin/router-info.htm/hardware_version/tmp HTTP/1.1
+Hos

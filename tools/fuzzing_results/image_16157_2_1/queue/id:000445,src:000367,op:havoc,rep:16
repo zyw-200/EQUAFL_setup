@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+.5
+Accept-ELcoding: gzip, teflate
+: 1ication/èml;q=0.9,image/webp,*/*;q=0.8
+IF_MODIFIED_SINCE:n-_SINt: 192.168.0.1
+IF_MODIFIED_SIN: gzip, Ùeflate
+: 1
+Cookpplication/èml;q=0.9,image/////////*/////////////MODIFIED_SINCE:n-Ul;q=0.9,image/cept-Encoding: gzip, teflate
+: 1ication/èml;q=0.9,image/webp,*/*;q=0.8
+IF_MODIFIED_SINCE:n-US,en;q=0.5
+Accept-Encoding: gzip, teflate
+: 1
+Cookie: uid=CFYCmNixEa
+
+te

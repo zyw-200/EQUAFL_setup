@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+:  / HTTP/1.1
+:   te
+Connection:ep-alive
+s: 1
+Cooke:ui
+
+t
+

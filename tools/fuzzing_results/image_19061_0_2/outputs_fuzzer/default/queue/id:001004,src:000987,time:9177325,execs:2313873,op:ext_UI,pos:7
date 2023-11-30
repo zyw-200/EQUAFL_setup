@@ -1,0 +1,4 @@
+GET TP//var/proc/web//xgi HTTP/1.1
+Host: .
+Cot: 19ËË
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:t: t1.1
+Host: ceÿÿÿve
+Upgts:1
+Cookie: uxEa
+
+t
+

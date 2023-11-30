@@ -1,0 +1,9 @@
+GET * HTTP/1.1
+Homt:e
+Range:1.1CGI HTxP/1
+i
+
+GET /TP/1.1
+Host: $i
+
+

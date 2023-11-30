@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xUpgrade-Insecure-Requestsq=0.9,iage/webp,*/*;q=/1.1
+Host: 192.168.0.en-MS,en;q=0.5
+AcceptEncBytesWritten deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+C/xhtml+xml,application/
+test=test
+

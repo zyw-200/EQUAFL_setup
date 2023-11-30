@@ -1,0 +1,5 @@
+POST / HTTP/1.1
+SOAPACTIONAccept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+soapaction isn't IsDeviceReadyngth: 20
+Cookie: test=test
+

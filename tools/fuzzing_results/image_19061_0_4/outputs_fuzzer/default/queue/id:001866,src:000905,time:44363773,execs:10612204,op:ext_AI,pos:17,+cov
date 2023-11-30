@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Expect:Host: 0
+ço
+
+teb / HTTP/1.1
+Host:teb1.1
+HosT5
+

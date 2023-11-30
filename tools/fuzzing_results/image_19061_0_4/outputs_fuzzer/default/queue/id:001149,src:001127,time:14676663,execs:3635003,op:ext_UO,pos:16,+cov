@@ -1,0 +1,7 @@
+GET / HTTP/1.1	
+warning: fail to create unix socket at %s
+Con†ec: clost
+Content-Length:1
+Cookie: ui
+Connection: cst
+

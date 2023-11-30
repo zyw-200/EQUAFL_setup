@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+H{st: 192.168.0.1
+Accept: text/hUml,application/xhtml+xml,a,,,Vcation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,±n;q=0.5
+Accept-Encoding: gzip, deflate
+Connection:"keep-alive/xhtml+xml,a,,,ication/xml;q=0.
+Cookie: uid=CFYCmNixEa
+
+test=test
+

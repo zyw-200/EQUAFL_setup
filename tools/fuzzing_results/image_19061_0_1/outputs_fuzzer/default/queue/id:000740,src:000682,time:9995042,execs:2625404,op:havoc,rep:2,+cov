@@ -1,0 +1,10 @@
+GET %s / HTTP/1.1
+8
+Ain‹
+ gzite
+Connection: keep-alGve
+If-Range: ui
+Cookie: uid=CFYC
+
+t
+

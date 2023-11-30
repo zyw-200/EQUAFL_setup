@@ -1,0 +1,8 @@
+GET TTP/N HTTP/1.1
+Content-Type: %s
+Co: 
+
+GET  HTTP/1.1
+Host: uage: ;
+
+G

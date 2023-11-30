@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+x\l,application/xml;e/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accrpt-Encoding: gzip, deflate
+ConnectiUn: keep-alive
+Upgrade-Inseuests: 1
+Co@kie: uid=CFYCmNixEa
+
+n/x / HTTP/1.1
+Host: 1html+xtest=test
+

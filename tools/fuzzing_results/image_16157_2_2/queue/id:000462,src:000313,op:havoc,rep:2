@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+1
+Host: 191
+>
+Ac-image/we: 		=0.5
+ACcept-Encodi: 1
+Cookie/we: 		=0.5
+Acst: 191
+>
+Ac-image/we: 		=0.5
+ACcept-Encodi: 1
+Cookie/we: 		=0.5
+Acc

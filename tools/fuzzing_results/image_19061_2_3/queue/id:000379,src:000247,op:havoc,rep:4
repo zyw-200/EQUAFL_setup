@@ -1,0 +1,11 @@
+GET h://www/logout.php HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xmlq=0.9,image/webp,*/*;q=01
+Cookie: uid=CFYCmNixEphp HTTP/1.1
+Host: 192.168.0.aS,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alivD
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tes

@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accc/html,application/xhtml+Šml,application/xml;q 192.168.0.1
+Accc/htm=0.9,image/webp,*/*;q=0.8
+AcceptConnection en-US,en;q=0.5
+Accept-Encodinip, deflate
+Connection: 
+eep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYC
+eep-alive
+Upgradt
+

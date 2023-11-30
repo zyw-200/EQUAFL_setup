@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+H19te
+Connection: keep-alive
+s: 1ú	Cookie: ui
+Connection: close
+Content-Length: tesst
+

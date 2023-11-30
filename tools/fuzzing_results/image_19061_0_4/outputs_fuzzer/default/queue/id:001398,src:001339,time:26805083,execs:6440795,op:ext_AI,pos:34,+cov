@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+
+HEA / HTTP/1.1
+A
+Connection:c
+s: 1
+Expect:c1:"n
+st
+
+te

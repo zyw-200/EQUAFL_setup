@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+: 
+Connection: keep-ali#e
+s:   te
+Connection: keep-alive/webp,*/*;q=0.8
+Acc
+s: 1
+Cookie: ui
+
+t
+

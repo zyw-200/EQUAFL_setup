@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+:keep-alive 192.168.0.1
+Accept: text/htmn,applicatio&/xhtml+èml,ipplicatio./xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Tanguage: en-US,en;q=0.5
+AcIf-Unmodified-Sincecepl-Encoding* gz.., deflate
+Conne
+Accept-Tanguage: ection: keep-aliveËpgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tesq=test
+

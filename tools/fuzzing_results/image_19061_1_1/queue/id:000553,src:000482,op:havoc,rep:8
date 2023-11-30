@@ -1,0 +1,12 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:Accept: Sel+xml,application/xml;q=0.9,image/webpStatus,*/*;q=0.8
+Accept-Language\ion: keep-alive
+Upg: en-US,en;q=0.5
+Accept-Encoding:ExtraHeaderste
+Connec\ion: keep-alive
+Upgrade-Inse1
+If-Range::ffff:Accept:=cure-Requests: 1
+Cookie: uid8.0.1
+If-Range::ffff:Accept:=CFYCmNixEa
+

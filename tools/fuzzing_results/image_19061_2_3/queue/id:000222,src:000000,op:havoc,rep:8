@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: texv/html,_pplication/xhtml+xml,application/xml;q=0.9mNixEawebp,*/*;q=0.8
+Accept-/anguage: en-US,en;q=0.5
+Accept-Encoding: gzipeflate
+Connection: keeñ-alive, deflate
+Connection: keeñ-alive
+Upgpade-Insecure-Requests: 1
+Cook127.0.0.1ie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+CONTENT_TYPE:service:Host: 192.168.0.1
+CONTENT_TYPE:html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+CONTENT_TYPE:ge: en-US,en;q=0.5
+CONTENT_TYPE:ng: gzip, deflate
+CONTENT_TYPE:eep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+tes

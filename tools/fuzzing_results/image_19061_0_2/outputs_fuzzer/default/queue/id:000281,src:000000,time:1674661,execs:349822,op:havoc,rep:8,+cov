@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,applicaade-Insecure-R,image/webp,*/*;q=0.8
+Accept-Language:en-USInsecuting: gzip, deflate
+Connection: keep-al†ve
+Upgrtion/xml;q=0.9equests:  en-US,en;1
+Coonnection: keep-al†ve
+Upgra=test
+

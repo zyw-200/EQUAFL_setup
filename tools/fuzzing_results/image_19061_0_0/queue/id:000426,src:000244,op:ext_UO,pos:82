@@ -1,0 +1,7 @@
+GET  HTTP/1.1
+Host: 192.168.0.1
+At: text/ate
+Connection: keep-alt/html,ap9,imaSun,Mon,Tue,Wed,Thu,Fri,Sat,Sun,Mon,Tue,Wed,Thu,Fri,Sat,id=CFYCmNixEa
+
+testing: gzip, deflate
+C

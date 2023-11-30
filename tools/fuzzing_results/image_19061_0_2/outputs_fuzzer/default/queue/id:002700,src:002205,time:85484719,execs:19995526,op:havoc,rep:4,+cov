@@ -1,0 +1,10 @@
+GET /vr/ HTTP/1.1
+Host:ee
+s0 1
+i
+
+GET //1.1_int HTTP/1.1
+HxP/1.1_int fTTP/1.1
+Host: $i
+
+

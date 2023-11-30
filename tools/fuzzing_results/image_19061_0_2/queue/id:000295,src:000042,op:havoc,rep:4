@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+text/html,application/xht1
+Accext: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-EncodinFYCmNixEa
+	
+tte
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+	
+test=test
+

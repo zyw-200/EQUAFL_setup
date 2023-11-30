@@ -1,0 +1,8 @@
+GET § HTTP/1.1
+    .1
+: 1
+
+
+GET  u//var/mnt HTTP/1.1
+
+Con

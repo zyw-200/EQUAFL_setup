@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host[ 192.168.0.1
+Accept: text/html,application/xh/www/logout.phptml+xml,a
+
+
+test=test
+;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-EncodingP gzip, deflate
+ConnectiOn: keep-alive
+Upgradee-Rfquests: 1
+Cookie: uid=CFYCmNixEa
+
+
+test=test
+

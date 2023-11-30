@@ -1,0 +1,5 @@
+GET / HT.1T %absoluteURI "%s" should contain a net_loc / HTTP/1.1
+Host: 1o
+t
+
+co

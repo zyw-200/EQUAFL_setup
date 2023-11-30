@@ -1,0 +1,6 @@
+GET / HTTP/9.91
+:1xEa
+
+HEAD / HTTP/1.911
+Content-Length: Cot
+

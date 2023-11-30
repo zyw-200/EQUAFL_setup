@@ -1,0 +1,8 @@
+POST / HTTP/1.1
+Accept-e: uid=zywzywzy
+LocEncoding: gzip,ddchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.Ô0
+Content_Lengtr: 20
+Cookie: uid=zywzywzy
+Location:9
+

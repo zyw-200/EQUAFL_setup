@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.16K.0.1
+Accept: tept-En€l,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-En€o@ing: gzip, deflate
+Connection: k‚ep-a,,,,,,,,,,,,snmptrap -v 1 -c %s %s %s "" 6 *d "" 1 s %s %s ,,,,,,,,a,,,,,,,,,,,,,,,,,: 1eeeeeeeeeeeeeeeeeeeeeeeeee
+test=test
+

@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 19te
+Connection: keep-alivea
+
+teb / HTTP/1.1
+H
+Host: 19te
+Connectiui
+Connection: close
+Content-Length: tesst
+

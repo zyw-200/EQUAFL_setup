@@ -1,0 +1,6 @@
+GET                                HGET/ HTTP  HGET/ HTTP/1.11
+Host: 0.
+t/1.11
+Host: 0.Content-Length:
+t
+

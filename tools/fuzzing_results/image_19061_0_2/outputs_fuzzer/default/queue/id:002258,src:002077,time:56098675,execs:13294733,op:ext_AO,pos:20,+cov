@@ -1,0 +1,8 @@
+GET *** n/ HTTP/1.1
+User-agent:: 1
+i
+
+GET /.1 HTTPT ? HTTP/1.91
+:$
+Host: $i
+

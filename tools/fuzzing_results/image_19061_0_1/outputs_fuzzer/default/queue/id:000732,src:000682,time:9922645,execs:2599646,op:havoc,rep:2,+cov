@@ -1,0 +1,20 @@
+GET %s  / HTTP/1.1
+8
+Ain‹
+ gzit
+
+
+
+
+
+
+
+
+
+
+
+-aliveAllow: GET, HEADtion: keep-alGve
+If-Range: ui
+
+t
+

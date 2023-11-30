@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Connection: gzate
+Connection:close,*/*,image/web ,s: 1
+Cookie: uiì
+t
+

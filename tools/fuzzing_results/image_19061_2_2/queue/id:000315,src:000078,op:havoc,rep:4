@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Hkeepost: 192.::ffff:168.0.1
+Accept: texten;q=0.5
+Accept-Encoding: gziplica1
+Accept: textimage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connectfon: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

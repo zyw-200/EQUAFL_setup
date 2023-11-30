@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host:e
+Range:bytes
+GET /xP/1.1CGI HTTP/1.1
+Host: $i
+
+

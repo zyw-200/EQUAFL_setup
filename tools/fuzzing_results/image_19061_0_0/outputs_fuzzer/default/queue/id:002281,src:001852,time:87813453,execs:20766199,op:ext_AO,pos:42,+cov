@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:: g
+Connection:,
+/,s
+Connection: uiì
+.
+Connection:closE
+Host:'H
+

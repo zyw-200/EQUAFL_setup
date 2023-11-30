@@ -1,0 +1,2 @@
+POST /bin:/usr/bin:/usr/local/bin/%HTTP/1.1
+Acc

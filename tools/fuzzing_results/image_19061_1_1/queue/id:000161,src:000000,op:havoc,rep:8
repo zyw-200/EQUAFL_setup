@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicaapplication/xml;q=0.9,image/webp,*/€ÿq=0.8
+Accept-0000000000Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-adive
+Upgrad-Insecure-Requesis: 1=test
+

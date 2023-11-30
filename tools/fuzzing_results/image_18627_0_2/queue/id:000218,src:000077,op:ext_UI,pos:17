@@ -1,0 +1,4 @@
+POST / HTTP/1.1
+SOAPACTIONAccept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+soapAction in header and body are differerntie: test=test
+

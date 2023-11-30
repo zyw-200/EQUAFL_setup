@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/ebp,*/*;q=0.8
+Accept-Languade-Ins{cure-Reque5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive,Upg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,rade-Ins{cure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

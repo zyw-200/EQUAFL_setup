@@ -1,0 +1,3 @@
+# environment variables:
+# command line:
+'./afl-fuzz' '-m' 'none' '-D' '-Q' '-i' './inputs' '-o' './outputs_fuzzer' '-x' 'keywords' './sbin/httpd' '-E' 'USER=root' '-E' 'SHELL=/bin/sh' '-E' 'PATH=/sbin:/usr/sbin:/bin:/usr/bin' '-E' 'user_debug=31' '-E' 'LD_PRELOAD=/firmadyne/libnvram.so' '-E' 'TERM=vt102' '-E' 'HOME=/' '-s' 'wapn24_dkbs_dap2330' '-f' '/var/etc/httpd.cfg' '@@'

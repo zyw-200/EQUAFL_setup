@@ -1,0 +1,8 @@
+GET *** tingn/ HTTP/1.1
+HoIf-Modified-Sincest:ee
+s: 1
+i
+
+GET /x/runtime/sys/fw_sizet:  / HTTP/1.1
+If-Range:100 Continue
+

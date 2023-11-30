@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: 192.178.0.1
+Accept: text/html,applicp, deflate
+Connection: keep, deflate
+Connection: keep-ali
+Accept-Language:en-US,en;q=0.5
+Hccept-Encoding: g[ip, deflate
+Connection: keep-alive
+UFYCmNixEa
+
+tesRequests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

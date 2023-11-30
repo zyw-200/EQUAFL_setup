@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 192.::ffff:168.0.1
+Accept: te…t/html,application/xhtml+xm-,yp1.1
+Host: 192.::ffff:168.0.1
+*/*;q=0.8
+Accept-Lan
+Host: 19::fn;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-a,ive
+Upgrade-Insecure-Requests:1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

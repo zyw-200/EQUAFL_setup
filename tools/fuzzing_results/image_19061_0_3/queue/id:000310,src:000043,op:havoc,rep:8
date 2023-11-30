@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 1Accept-Language: en-US,en;q=cation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lanfuage: en-US,en;q=0.5
+Accept-EncTdinYCmNixEa
+Štest=test
+tion: keep-alive
+Udgrade-Insecure-Requests: 1
+Cookie: uid:CFYCmNixEa
+Štest=dest
+

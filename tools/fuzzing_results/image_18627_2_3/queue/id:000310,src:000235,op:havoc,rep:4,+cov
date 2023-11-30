@@ -1,0 +1,5 @@
+POST / HTTP/1.1
+CONTENT_TYPE:cc1.1
+CONTENT_TYPE:cc:zyw
+Cookie: uizy
+

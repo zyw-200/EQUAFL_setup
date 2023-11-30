@@ -1,0 +1,1 @@
+GET /device.xml=router_info.xml?HostUpgrade-Insecure-Requests: 1

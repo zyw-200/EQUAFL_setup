@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Hoˆt: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/‰ml;q=0.9l;q=0.9,image/weq=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-aliv,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cookie: uid=CFYCmNixEa
+
+test=test
+

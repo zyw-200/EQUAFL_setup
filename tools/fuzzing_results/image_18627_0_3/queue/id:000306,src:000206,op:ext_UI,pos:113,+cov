@@ -1,0 +1,6 @@
+POST /HNAP1// HTTP/1.1
+Accept-Encoding: gziflatw
+Host: 192.168.0.50
+SOAPACTIONhttp://orks.com/HNAP1/IsDeviceReadyngth: 20
+Cookie: uid=zywzy
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Host: 	                       	192è68.0.1
+Accept: tex/html,applicatiConnection/xhtml+xml,application/xml;q=0.9,imagewebp,*/*;q=0.8
+Accept-Language: ÿ-US,en#q=0.5
+Accept-Encoding: gzip, deflat,,,,,,,,,,,,,,,,,,,,,live
+Upgrade-Insecure-Request: 	                       	192.

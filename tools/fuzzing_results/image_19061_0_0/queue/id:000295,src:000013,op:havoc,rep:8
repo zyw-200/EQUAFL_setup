@@ -1,0 +1,11 @@
+GET / HTTP/9.1
+Host: 19: en-US,en2.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0ncoding: gzip, deflate
+Conn / HTTP/9.1
+Host: 19: en-US,eection: keep-alive
+Host: 192.16Upgrade-Insecure-Requests: 1
+Cookie: f1a=CFYCmÎixEa
+
+test=test
+

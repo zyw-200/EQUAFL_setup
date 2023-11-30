@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,ima%smulti/index:%d/acl/mode-Language: en-US,en;q=0.5
+Accept-Encoding:ests: 1
+Cookie:Connection: keep-alive
+Upgrade-Insecure-Requ gzip, deflate
+ uid=CFYCmNixEa
+
+test=test
+

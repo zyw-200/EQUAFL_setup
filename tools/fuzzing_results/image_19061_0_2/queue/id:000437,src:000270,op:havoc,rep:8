@@ -1,0 +1,9 @@
+GET / HTTP/1.9
+Host: socketpair
+Accept: text/html,application/xhtmlge/webp,*/*;q=0.8
+Accept-Languagn-US,en;q=0.5s: 1gzip, deflate
+Connectve
+Upgrade-Insecure-Reqkests: 1
+Cookie: uInsecureid=CFYCmNixEa
+
+test=test

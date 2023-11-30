@@ -1,0 +1,11 @@
+GET %s  / HTTP/1.1
+RAnge: ui
+8
+Ae
+If-RAnge: uiin‹
+ gzite
+Connec,%stion: keep-alGve
+If-RAnge: ui
+
+t
+

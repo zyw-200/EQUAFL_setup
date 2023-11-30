@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept
+Host: 192.168.: text/html,application/xhtml+xml,aplication/xmlq=0.9,image/webp,*/*;q=0.'
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Bonnection: teep-alive
+UQgrade-Insecure-Requests: 1
+Cookie: uid=CFYCs: 1
+Cookie: uid=CFYCmNimNixEa
+
+test=test
+

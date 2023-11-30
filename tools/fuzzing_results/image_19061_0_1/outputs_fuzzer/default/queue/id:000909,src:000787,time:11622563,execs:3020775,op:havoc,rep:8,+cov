@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:.................
+Host:.../sys/snmptrap/switch/radioDownTrapSwitch: 0.1
+Accejt: tex3.8dlink_uid
+AHost:d
+
+
+c

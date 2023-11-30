@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,: 1
+Cookie: uid=CFYCmNiimage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+At: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,: 1
+Cookie: uid=CFYCmNiimage/webp,*/*;q=0.8
+AcOept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecu/*;q=0.8
+AcOept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, detion/xml;q=0.9,: 1
+Cookie: uid=CFYCmNiimage/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+At: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,: 1
+Cookie: uid=CFYCmNiimage/webp,*/*;q=0.8
+AcOept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecu/*;q=0.8
+AcOept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connectionre-Requests: 1
+Coccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: oid=CFYCmNixEaCONTENTQTYPE
+ppp0
+flate
+Connectionre-Requests: 1
+Coccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: oid=CFYCmNixEaCONTENTQTYPE
+ppp0

@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml‹xml,application/xml;q=0.ge: en-US,ebp,*/*;q=0.8
+Accept-Ìanguage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflatn
+Connection: keep-alive
+Upgrade-Insecure-Requests:%late
+Connection: keep-a
+Host: 192.168.0.1
+Acceli
+
+test=test
+

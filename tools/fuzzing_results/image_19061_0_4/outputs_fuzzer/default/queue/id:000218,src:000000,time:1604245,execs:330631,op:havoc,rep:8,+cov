@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,apVlication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Ldeflate
+Connection: keep-aliveanguage: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Ins@cpre-Requests: 1
+Cookie: uid=Cprepare_reply failed in FYCmNixEa::::::::::::é
+test=uest
+

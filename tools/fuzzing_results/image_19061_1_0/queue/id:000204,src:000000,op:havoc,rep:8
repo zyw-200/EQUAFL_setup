@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicaion/xhtml+xml,application/xml;q=0.9,image/webp,*/=0.5
+Accepept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflat%
+Connection: ke
+Upgrade-Insecure-Requests: 1
+Cooki
+
+Šest=test
+

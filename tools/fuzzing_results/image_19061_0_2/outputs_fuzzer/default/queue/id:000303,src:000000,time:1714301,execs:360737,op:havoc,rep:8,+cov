@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Hosu: 192.1/sys/snmptrap/switch/otherDevInterfClearTrapSwitch68.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webpe: en-US,8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-aliparse_expect_header failedfor "%s"cept-Language: en-US,en;
+test=test
+

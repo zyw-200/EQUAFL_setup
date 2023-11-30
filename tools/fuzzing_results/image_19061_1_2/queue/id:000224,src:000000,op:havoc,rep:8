@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+H.1
+Accept: text6html,oki
+Ac
+Accept-Encoding: gzik, deflate
+Connection: kiep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=9FYCmNixEa
+
+test=test
+

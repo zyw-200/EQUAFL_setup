@@ -1,0 +1,8 @@
+POST / HTTP/1.1
+Accept-ding: gzip,dywzywzywzywzyw
+Host: 192.168.0.50
+Content_Length: 20
+Cookie: uid=zywzywzy
+Connection: Keep-Alive
+test=test
+

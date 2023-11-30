@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/hYml,applicatÅon/xhtml+xml,aquoted string overflowmage/webp,*/*;q=0.8
+Accept-LanguaConnectio,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cznnection: keep-alive
+Upgrˇde-Insecure-Requests: 1
+Cookie: 											
+Cookie: 																									router-info						=test
+

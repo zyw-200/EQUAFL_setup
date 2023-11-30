@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AcceptS text/html,application/xhtng: gzip, deflate
+Connection:ml+xml,application/xml;q=0.9,image/webp,  1 s ap:"%s" 1 s ssid1:"%s" 1 s client:"%s" ccept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

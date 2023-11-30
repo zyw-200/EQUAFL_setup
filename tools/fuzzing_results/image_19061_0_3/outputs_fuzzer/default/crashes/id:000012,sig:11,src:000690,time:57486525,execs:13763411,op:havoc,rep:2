@@ -1,0 +1,6 @@
+GET /upload_captivalgacl_int HTTP/1.1
+Host: ¹98e
+Connection: keep-alive
+s: 1
+Cookie: uit
+

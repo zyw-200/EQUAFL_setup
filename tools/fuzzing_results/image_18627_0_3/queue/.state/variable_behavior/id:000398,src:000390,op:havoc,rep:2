@@ -1,0 +1,6 @@
+GET  /.ASP HTTP/1.1
+:ccyw
+Host: 198.0.50
+?ontent_Length: 20
+CookieSet-Cookie:&quot; SESSIONID=SIONID=%s;: uid=quot; quot; SESS%s;: uid=quot; quot; SESSIONID=%s;: uid=SE%s;: uid=zywy
+

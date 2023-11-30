@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: texU/ation/xhtml+xml,applicTtion/xml;q=0.9ÿÿmage/web^,*/*;q=0.8
+AcceptFLanguage: en-US,
+Cookie:dlink_uid Xid=rade-Ien;q=0.5
+Accept-Encoding: gzip, dflate
+Connection: keep-alive
+U<groupname>pgests: 1
+Cookie:dlink_uid Xid=rade-Insecure-Requests:1
+Cookie:dlink_uid Xid=CFYCmNixEa
+
+test=test

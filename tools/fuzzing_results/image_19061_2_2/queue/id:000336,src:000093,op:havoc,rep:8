@@ -1,0 +1,11 @@
+GET / HTTP/9.1
+Host: 192.168.0.1
+Accept:!text/html,appliIation/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Lanve
+Upgrade-Insecure-Requcept-Enn: keepcoding: gzip, deflate
+ConnectionGET: keep-alive
+ÿpgrade-Insecureddddddddd: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.1	
+Host: 19te 1 s ap:"%s" 1 s monitor_now:"%s" 1 s monitor_prev:"%s" 
+
+GET/ HTTP/1.11
+Host: 0.
+t
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+: 1C1
+If-Modified-Since:<?xml version="1.0" encoding="UTF-8"?> 19teui
+
+t

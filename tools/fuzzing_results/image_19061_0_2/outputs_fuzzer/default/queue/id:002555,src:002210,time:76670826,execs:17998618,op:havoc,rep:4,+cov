@@ -1,0 +1,10 @@
+GET /CGI HTTP/1.1
+Host:eeContent-Range: bytes %ju-%ju/%j^
+%ju/%j^
+s: D
+i
+
+GET /int HTTP/1.1
+Host: $i
+
+

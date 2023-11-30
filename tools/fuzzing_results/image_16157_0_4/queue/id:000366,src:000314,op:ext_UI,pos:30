@@ -1,0 +1,2 @@
+GET //cgi-bin/router-info.htm/<script>window.top.location.replace("http://www.mywifiext.com/")</script>tmp HTTP/1.1
+Hos

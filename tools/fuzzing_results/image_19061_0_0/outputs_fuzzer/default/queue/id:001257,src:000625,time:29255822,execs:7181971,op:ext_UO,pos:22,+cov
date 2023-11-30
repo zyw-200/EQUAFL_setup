@@ -1,0 +1,6 @@
+GET / HTTP/1.1
+Host:  1 s ap:"%s" 1 s cpu:"%s" on: keep-alive
+Connection:e: ui
+Connection: close
+tesst
+

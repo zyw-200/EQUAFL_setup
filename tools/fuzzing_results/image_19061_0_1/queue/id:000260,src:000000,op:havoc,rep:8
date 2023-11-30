@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;SERVER_PROTOCOLp,*/*;q=0.8
+Accept-Language:uen-eflate
+Co5Accept-Encoding: gzip, deflate
+Connection: k,,,
+Co5Accept-Enc,,,,,,
+mpgrade-Insecure-Requests: 1
+Cookie: uid=CIYCmNixEa
+
+test=test
+

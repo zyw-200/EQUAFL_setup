@@ -1,0 +1,11 @@
+GET /Log HTTP/1.1
+Host: 192.168.0.1
+If-Range::ffff:Accqpt: Jamil
+If-Range::fpplication/xhtml+xml,application/Requests: 1
+Cookie: uixml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: l
+If-Range::fpplicatit-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+

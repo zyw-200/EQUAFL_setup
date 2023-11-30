@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+ t: text/html,applapplication/xml;q=0.9,image/webp,*/*;q=0.8
+Áccept-Language: en-US,en;q=0.5
+Accept-Encodin 1
+Cookie: uid=CFYCmNixg: gzip, deflate
+Connection:oding="UTF-8xml,application/xml;q=0.9,secure-Re\uests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

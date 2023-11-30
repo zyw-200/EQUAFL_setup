@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Length:1
+Coo: gaiqe
+Coeose
+tesst
+

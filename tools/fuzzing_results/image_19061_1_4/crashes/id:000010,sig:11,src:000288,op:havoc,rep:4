@@ -1,0 +1,9 @@
+GET /upload_captival_átml_int HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Ac‹‹‹‹cept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests:SUBSCRIBE 1
+Cookre: uid=CF=test
+

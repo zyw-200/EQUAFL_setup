@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 19 HTTP/1.1
+Host: 192.168.ept:ion/xhtäl+xml,appli	ation/xml;q=0.9,ima
+Accept-;q=0.5
+Accept-Encogzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

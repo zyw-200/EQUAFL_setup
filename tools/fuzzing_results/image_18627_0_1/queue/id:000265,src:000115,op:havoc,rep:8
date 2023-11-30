@@ -1,0 +1,7 @@
+POST / HTTP/1.1
+pipe readAccept-ding: gzywzywzywzyÿÿost: 192.168.0.50
+Content~Lengt------------h: 20
+Cookie: uid=zywzywzy
+Connection: Keep-Alive
+nEst=test
+

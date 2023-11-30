@@ -1,0 +1,7 @@
+GET / HTTP/1.1
+Host: 198
+Content-Length:  te
+Connection: keep-alive
+s: 1
+Cookie:   1 s ap:"%s" 1 s ssid1:"%s" 1 s client:"%s" uit
+

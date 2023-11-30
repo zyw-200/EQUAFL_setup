@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host:192.168.0.1
+Accept: text/html,application/en-US,en;q=0.5xhtml+xen;q=0.5xhml,appli¦atÍÍÍÍÍÍÍÍÍÍÍ.9,ima€ÿ/webp,*/*;q=0.8
+Acce|t-Language: ev-zip, deflaUS,n;q=0.5
+Accept-Encoding: gzip, defl£teÎ
+Connection: keep-alive
+Upgrade-Insecure-Rts:¨1
+Cookie:
+
+test=tesgzip, deflatet
+

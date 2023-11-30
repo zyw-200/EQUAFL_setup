@@ -1,0 +1,2 @@
+GET http://%s%s//cgi-bin// HTTP/1.1
+Hos

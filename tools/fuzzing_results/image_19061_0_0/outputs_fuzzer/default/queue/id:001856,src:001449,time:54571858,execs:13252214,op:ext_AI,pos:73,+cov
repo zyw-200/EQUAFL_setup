@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host:: g
+Connection:,*/*,image/webp,s: 1
+Cookie: uiì
+Host:.
+Connection:closE
+Host:'H
+

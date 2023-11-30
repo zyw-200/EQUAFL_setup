@@ -1,0 +1,10 @@
+GET / HTTP/1.5
+.0.1
+Accept: Vext/html,í
+Accept-Language: en-US,en;q=0.5
+Accept-Encodkeep-alive
+Upgrade-Insecure€Requests: 1
+Cookie: uiS=CFYCmNixEa
+
+test=test
+

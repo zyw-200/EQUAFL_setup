@@ -1,0 +1,15 @@
+GET /GET / HTTP/1.1
+H
+Host: t
+Uÿÿÿ
+
+
+
+1GET  HTTP/1.1
+Host: 192.168.0.1
+8cceptº text/html,application/xhtml+xml,applic k1ation/xml;q=0.9,image/webp,*/*;q=.8
+Accept-Language: en-UGET  HTTP/1.1
+
+ost / HTTP/ gzip, deflate
+Connection  keep-alive
+Upgrade-Insecure-Req

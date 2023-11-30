@@ -1,0 +1,6 @@
+GET /xgi HTTP/1.1
+Host: 1W1
+A,image/webp,*/*;q=0.8
+Accept-:eEa
+
+tee

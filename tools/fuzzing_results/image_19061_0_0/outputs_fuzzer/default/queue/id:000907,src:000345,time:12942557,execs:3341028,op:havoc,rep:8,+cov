@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 191alivf
+At:var/qroc/web/session:%d/user/ac_auth keep-alive
+U:e
+Connect
+ 1
+Cookie: ,a
+
+
+ / HTTP/1.1
+HostCot
+

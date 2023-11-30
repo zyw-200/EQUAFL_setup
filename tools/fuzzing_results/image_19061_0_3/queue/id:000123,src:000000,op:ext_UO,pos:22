@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: [SYSACT]Fail to get the file, please check the IP address and check the file name.ebp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+ion/xhtml+xml,aÅplicatipt:Ëext/html,application/xhtml+xml,aÅplication/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en US,en;q=0.5
+Accept-Eacoding: gzip, deflate
+Connection: keep-alivÏ	Upgrade-Insecure-Requests: 1
+C[SNMP-TRAP][Specific=2]
+test=test
+

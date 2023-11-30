@@ -1,0 +1,11 @@
+GET /sys_stanne~_process.php?reboot=1 HTTP/1.1
+Host: 19,.168.0,1
+Accept: texl,acation/xml;q=0.9,image/we@p,*/;j=0.8
+Acept-ianguage: en-U ,en;q=0.5
+Accept-Encoding: gzip, deflate
+Conns: 1
+Cookie: uid=CFYCONt
+ection: keep-ali_e
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNt
+

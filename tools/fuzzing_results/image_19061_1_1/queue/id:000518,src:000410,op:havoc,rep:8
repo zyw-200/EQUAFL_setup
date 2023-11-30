@@ -1,0 +1,11 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Modified-Since:ive
+Upgrade-Insec/html,application=0.9,image/w€bp,*/*;q0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, eeflate
+Connection: keep-alive
+Upgrade-InsVcure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+r

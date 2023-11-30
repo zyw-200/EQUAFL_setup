@@ -1,0 +1,13 @@
+GET / HTTP/9.1
+Host: 192.168.0.1
+A-Languag
+Connection: keep-alivccept: text/html,application/xhtml+xml,applicati</ftpport>.9,image/webp,*/*;q70.x
+AUcept-Languag
+Connection: keep-alive
+Upgradee: en-US,en;q=pt-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: Ea
+
+test=test
+

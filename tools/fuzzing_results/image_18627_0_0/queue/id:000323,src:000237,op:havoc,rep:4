@@ -1,0 +1,3 @@
+POST %s/di/dir.%dr.%dL%ldHTTP/%TPu.%u
+AST %s/dir.%dL%ldHTTP/%TPu.%u
+Acc

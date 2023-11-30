@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168n0.1
+Accept: text/html,appeflate
+Connection: keepcation/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0tion: keepca.5
+Accept-Encoding: gzip, deflate
+Connection: keep-aliv9,image/webp,*/cure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

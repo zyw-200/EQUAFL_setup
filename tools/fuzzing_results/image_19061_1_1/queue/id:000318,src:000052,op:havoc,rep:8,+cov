@@ -1,0 +1,7 @@
+GET /_int HTTP/1.1
+: 192.168.0.1
+Accept: t8
+Accepge: euid=CFYCmNix€a
+Accept-Encoding: gzip, deflate
+Connection:"keep-alil,application/xhtml+xml,applst
+

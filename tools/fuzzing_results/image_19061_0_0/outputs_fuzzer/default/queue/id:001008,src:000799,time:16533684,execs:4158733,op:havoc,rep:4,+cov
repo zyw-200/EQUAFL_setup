@@ -1,0 +1,7 @@
+GET HTTP/1.1
+
+optist /!HTTP/1.1 HTTP/1.1
+
+ost / HTTP/1.1
+0GE1
+

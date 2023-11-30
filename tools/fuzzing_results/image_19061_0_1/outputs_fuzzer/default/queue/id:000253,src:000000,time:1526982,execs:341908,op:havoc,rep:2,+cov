@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatiÿÿÿÿhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-ET / HTTP/1.1
+Host: :coding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,6 @@
+GET /upload_captivql_picture_int HTTP/1.1
+Host: /etc/templates/upload.sh198
+Aing: e
+ConnecTion: keep-aebp,*/*;q=0.8
+Acc: uit
+

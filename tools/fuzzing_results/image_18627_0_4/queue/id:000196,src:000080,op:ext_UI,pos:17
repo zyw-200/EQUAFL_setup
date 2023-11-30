@@ -1,0 +1,6 @@
+POST / HTTP/1.1
+SOAPACTIONAccept-Encoding: gzip,deflate,sdchzywzywzywzywzywzywzywzywzyw
+Host: 192.168.0.50
+SOAPActionsgth: 20
+Cookie: uid=zywzywzy
+

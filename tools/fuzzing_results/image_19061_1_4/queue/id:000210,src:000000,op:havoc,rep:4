@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host:0basic 192.168.0.1
+Accept: text/html,applicatio deflate
+Connection: keen/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cooki : uid=CFYCmNixEa
+
+test=test
+

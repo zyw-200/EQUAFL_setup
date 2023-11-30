@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,applicatication/xml$q=0.9,image/RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRwebp,*/*;q=0.sCFYCmNixEa
+tsAccÿpt-Encon;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-RequesCFYCmNixEa
+tsAccÿpt-Encoding: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,9 @@
+GET %s  / HTTP/1.1
+8
+Aion: kzite
+Transfer-Encoding: chunkedn‹
+ ve
+If-Range: ui
+
+e
+

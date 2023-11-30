@@ -1,0 +1,11 @@
+GET %s  / HTTP/1.1
+8
+Ain‹
+ gzite
+Connection: 
+ gzite
+Connection:  keep
+If-Range: ui
+
+t
+

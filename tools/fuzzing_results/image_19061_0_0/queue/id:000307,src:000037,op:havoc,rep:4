@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Hosm: 192.168.0.1
+Accept: text/html,ap lication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+ConneFtion: keep,alive
+Upgrade-Insecure-Requests: 1
+Coing: gzip, deflate
+Connecokie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Authorizat:  keeive
+Upgts:1
+Cookie1
+Authorization: té=0.5
+If-Un: ua
+
+tes

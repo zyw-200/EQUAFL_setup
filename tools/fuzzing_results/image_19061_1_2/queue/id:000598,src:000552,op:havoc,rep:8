@@ -1,0 +1,12 @@
+GET % HTTP/1.1
+Host: 92.168.0.1
+ccept: text/html,application/xhtml+xml,application/xml;q=0ÿÿ,image/webp,*/*;q=0.
+If-Unmodified-Since:US,en;q=0.5
+Accept-Encodiag: gzip,Zdeflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+NOTIFY                       /CGI HTTP/1.1
+Host: 92.168=teŽt
+

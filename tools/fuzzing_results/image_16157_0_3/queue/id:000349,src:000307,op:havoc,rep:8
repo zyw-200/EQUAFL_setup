@@ -1,0 +1,8 @@
+GET / HTTP/1.1¾
+Host: 198.0.1
+Accept: text/n;q=zip, deflate
+SOAPACTION: keep-
+SOAPACTION: keep-alive
+Upgrade-Ins               uid=CFYCmNixEa
+
+te

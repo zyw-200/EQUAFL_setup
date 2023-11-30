@@ -1,0 +1,7 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+If-Range:::Acceml,9127.0.0.19999999999999999999999999999999n/xm=0.8
+Accept-Language: eq=05
+Accept-Encoding: alive
+UixEa
+

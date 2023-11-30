@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: tåxt/html,application/xhtml+xml,ation/xml;q=0.9,image/we
+Accept-Language: en-US,en;q=0.5
+Accept-Enzoding: gzip, deflate
+Connection: e
+Upgrade-Insecure-Requests: 1
+Cookiel/xml;q=0.9,image/wetest=test
+

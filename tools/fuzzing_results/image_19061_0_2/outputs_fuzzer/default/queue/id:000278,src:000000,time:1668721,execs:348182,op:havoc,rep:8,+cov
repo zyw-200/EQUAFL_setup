@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0bp,*/*;q=t: text/html,applicatioõ;q=0.9,image/we.1
+Accep0.8
+Accept-Language: 9n-US,en;q=0.5
+Accept-Encoding: gzip, d/1.1
+Host:eflate
+Connection: keep-alive
+Upgrade-InsecTTP-^equestsalive: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

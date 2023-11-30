@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+AÅcept: text/html,application/xhtml+xml,application/xml;q=0.9,6maIe/webp,*/*;q=0.8
+Accept-Language: edinguage: en: keep-alive
+Upgade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

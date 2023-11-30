@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.168.0.1Accept: text/html,applicauion/xhtml+xml,application/xml;q=0.9,imag-Language: en0.8
+Accepte/webp,*/*;q=-US,en;q=0.5
+Acalivecept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrader-Encodingquests: 
+Connection: keep-axEa
+
+test=test
+

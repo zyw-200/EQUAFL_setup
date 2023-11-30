@@ -1,0 +1,5 @@
+POST /cgi-bin/index.asp/oot/FWUploadProcess.asp/ HTTP/1.1
+Accept-Encoding: late
+Host: 192.168.0.50
+Content_Length: 2/boarloadProcess.asp
+

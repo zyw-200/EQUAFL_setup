@@ -1,0 +1,9 @@
+GET /wlan/inf:1/channel/ HTTP/1.1
+Host:e
+Range:1
+i
+
+GET /xP/1.1HGI HTTP/1.0
+Host: $i
+
+T /x/ P/1.1CGI

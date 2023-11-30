@@ -1,0 +1,8 @@
+GET %s//www/index.php/ HTTP/1.1
+Host: 192
+: e
+Connection: keep-alive
+U: 1
+Cookie: ua
+
+t

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtmlte
+Connection: keep-al+xml,application/xml,q=0.9,image/webp,*/*
+Ac.8;q=0cepte
+ConnectNon: keep-alive
+Upcept-Encodinguage:9en-US,en;q=0.5
+Acgrade-Insecure-Requests: 1
+CooLie: uid=CFYCmNixEa
+
+test=test
+

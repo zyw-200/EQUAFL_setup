@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: texx/html,application/xhtml+xml,application/xml;q=0.9,image/we.168.0.1.1
+Accept: texx/grade en-US,en;q=0.5
+Accept-Encoding: gzip1
+Host: 192.168.0.1.1
+Accept: texx/grade-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test
+

@@ -1,0 +1,10 @@
+GET /xgi HTTP/1.1
+Host: 192.168.0.1
+Accept: te1
+Accept: te: en-US,en;q=0.=
+Adeflate
+Connertion:: gzip, deflate
+Connertion: keep-alive
+Upgrade-InseYCmNixa
+
+t

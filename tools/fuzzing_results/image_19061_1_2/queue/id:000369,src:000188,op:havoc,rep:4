@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: 192.168.0.1
+Accept: text/html,application/xhtml+xml,appli]ation/xml;q=0.9,image/webp,*/*;q=0.8
+Accep-Language: en-US,en;q=0.5
+Acc{pt-Encoding: gzip, deflate
+Connectio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-e-Insecure-Requests: 1
+Cookie: uid=CFYCmNixEa
+
+test=test

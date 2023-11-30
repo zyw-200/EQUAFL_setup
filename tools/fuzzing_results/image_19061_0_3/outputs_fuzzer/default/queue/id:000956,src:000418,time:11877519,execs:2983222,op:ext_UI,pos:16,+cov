@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+If-Range:1
+Coo: gaiqe
+Coeose
+tesst
+

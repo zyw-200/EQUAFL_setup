@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: 1=1
+Accept: t8
+SOAPACTION:::service:: t8
+SOAPACTION:::service:  dq=0.5
+bccept-Enaoding: gzite
+USER_AGENT: keep-alive
+Upg/cgi-bin/current.htm

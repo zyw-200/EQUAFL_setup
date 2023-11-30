@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host0 191
+Content-Type: %slte
+Connection: keep-live
+s: 1·Cookie: uilive
+
+t
+

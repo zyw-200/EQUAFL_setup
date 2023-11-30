@@ -1,0 +1,6 @@
+GET / HTTP/1.1	
+Host: 1
+Cookie:dlink_uid 1.11
+Host: 0.
+t
+

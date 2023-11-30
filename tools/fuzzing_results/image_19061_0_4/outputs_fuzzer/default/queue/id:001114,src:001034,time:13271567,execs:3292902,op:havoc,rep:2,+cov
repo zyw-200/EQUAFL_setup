@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Hoskie: ui
+Connection: close
+Cont: 19te
+Connection: keep-alive
+s: 1
+Cookie: ui
+Connection: clseo
+Content-Length: tesst
+

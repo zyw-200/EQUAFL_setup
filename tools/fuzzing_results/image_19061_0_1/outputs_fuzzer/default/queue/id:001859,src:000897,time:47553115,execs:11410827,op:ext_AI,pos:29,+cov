@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Ho1
+8
+Ain‹
+Expect: gui
+
+GET / HTTP/1.1
+Host: 0.1
+pt: tex0
+õ	
+
+
+
+

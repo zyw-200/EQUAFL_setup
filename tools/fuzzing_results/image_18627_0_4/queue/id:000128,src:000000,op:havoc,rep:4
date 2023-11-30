@@ -1,0 +1,5 @@
+POST / HTTP/1.1ip,dgzip,def^ate,wzywzyw
+Host: 192.168.0.50
+Ctent_Length: 20
+Cookie: uist=test
+

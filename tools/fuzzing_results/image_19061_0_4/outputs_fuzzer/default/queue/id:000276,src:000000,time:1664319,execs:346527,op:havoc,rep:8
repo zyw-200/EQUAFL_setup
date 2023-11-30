@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: 192.16(.0.1
+Accept: keep-alive text/html,application/xhtml+xml,application/xml;qD0.9,image/webp,*/*;q=0.8 text/html,ap
+Accept-Language: en-US,en;q=0.5
+Ascept-Encoding: gzip, deflate
+Connection: keep-aliv 
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYClNixEa
+
+test
+est=t

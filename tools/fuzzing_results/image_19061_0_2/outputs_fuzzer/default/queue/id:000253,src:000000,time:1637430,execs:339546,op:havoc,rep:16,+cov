@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Host: 192.1680.1
+Accept: text/ht€l,application/xhtml+xml,ajpliage/webp,*/*;q=0.8JAccept-Language: en-US,e
+AccepT-Encoding: gzip, deflparse_http_version failed for "%s"de-Rnsecure-Reauests: 1
+Cooure-Requests: 1
+Cookie: uid=kie:1
+Host: 192.1680.1/runtime/sys/fw_size
+ uide: en-US,en;q
+test=test
+

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Hosection: keep-alivccept: CFYCmNixEa
+
+test=test	
+
+tFxt/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8500 Internal Server Error
+Accept-Langukge: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cookie: uid=CFYC1
+Host: 192.16e
+U8.0.1
+AcmNixEa
+
+ÿest=test
+

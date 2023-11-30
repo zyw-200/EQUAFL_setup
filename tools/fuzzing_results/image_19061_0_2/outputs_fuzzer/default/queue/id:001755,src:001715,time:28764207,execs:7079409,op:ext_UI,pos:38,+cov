@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Host:ee
+s: 1
+i
+
+GET /var/mnt/xP/1.1 HTTP/1.1
+Host: $i
+
+
