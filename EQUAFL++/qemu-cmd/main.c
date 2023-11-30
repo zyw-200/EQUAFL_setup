@@ -47,7 +47,7 @@
 #include "trace/control.h"
 #include "glib-compat.h"
 
-int print_debug = 1;
+int print_debug = 0;
 
 char *exec_path;
 
@@ -1805,28 +1805,30 @@ void command_check(int syscall_num, CPUArchState *env)
     target_ulong a1 = env->active_tc.gpr[5];
     target_ulong a2 = env->active_tc.gpr[6];
     target_ulong a3 = env->active_tc.gpr[7];
+    // FILE * fp = fopen("/xxxxx", "a+");
     // refer to linux-user/mips/syscall_nr.h
-    printf("syscall: %d\n", syscall_num);
+    // fprintf(fp, "syscall: %d\n", syscall_num);
     if(syscall_num == 11)
     {
         char exec_prog_0[100];
         cpu_memory_rw_debug(ENV_GET_CPU(env), a0, exec_prog_0, 100, 0);
-        printf("arg0 ", exec_prog_0);  
-        char exec_prog_1[100];
-        cpu_memory_rw_debug(ENV_GET_CPU(env), a1, exec_prog_1, 100, 0);
-        printf("arg1 ", exec_prog_1); 
-        char exec_prog_2[100];
-        cpu_memory_rw_debug(ENV_GET_CPU(env), a2, exec_prog_2, 100, 0);
-        printf("arg2 ", exec_prog_2);
-        char exec_prog_3[100];
-        cpu_memory_rw_debug(ENV_GET_CPU(env), a3, exec_prog_3, 100, 0);
-        printf("arg3 ", exec_prog_3);        
+        // fprintf(fp, "arg0 %s\n", exec_prog_0);  
+        // char exec_prog_1[100];
+        // cpu_memory_rw_debug(ENV_GET_CPU(env), a1, exec_prog_1, 100, 0);
+        // fprintf(fp, "arg1 %s\n", exec_prog_1); 
+        // char exec_prog_2[100];
+        // cpu_memory_rw_debug(ENV_GET_CPU(env), a2, exec_prog_2, 100, 0);
+        // fprintf(fp, "arg2 %s\n", exec_prog_2);
+        // char exec_prog_3[100];
+        // cpu_memory_rw_debug(ENV_GET_CPU(env), a3, exec_prog_3, 100, 0);
+        // fprintf(fp, "arg3 %s\n", exec_prog_3);        
         if(strstr(exec_prog_0, "xxxxxx"))
         {
             printf("trigger the command injection");
             exit(1);
         }
     }
+    // fclose(fp);
 
 #endif
 
@@ -4098,9 +4100,8 @@ void cpu_loop(CPUMIPSState *env)
             env->active_tc.PC += 4;
 # ifdef TARGET_ABI_MIPSO32
             syscall_num = env->active_tc.gpr[2] - 4000;
-            exit(1);
             //print_info(syscall_num, env);
-            command_check(syscall_num, env);
+            // command_check(syscall_num, env);
             if (syscall_num >= sizeof(mips_syscall_args)) {
                 ret = -TARGET_ENOSYS;
             } else {
