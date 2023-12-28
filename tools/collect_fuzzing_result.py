@@ -28,6 +28,7 @@ if __name__ == "__main__":
         cmd_str = command.split(" ")
         image_id = cmd_str[4]
         copy_id = cmd_str[5]
+        fuzzer_num = cmd_str[6]
         keyword_num = cmd_str[7]
         print(image_id, copy_id, keyword_num)
 
@@ -41,7 +42,7 @@ if __name__ == "__main__":
             source_path = '/home/yaowen/firmadyne/image_%s_httpd/outputs_fuzzer' %(image_id)
 
         # Replace '/path/to/destination/' with the actual destination directory path
-        destination_path = '/root/image_%s_%s_%s' %(image_id, keyword_num, copy_id)
+        destination_path = '/root/image_%s_%s_%s_%s' %(image_id, keyword_num, fuzzer_num, copy_id)
 
         # Perform the copy operation within the container
         copy_operation_in_container(container_id, source_path, destination_path)

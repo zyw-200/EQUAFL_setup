@@ -158,9 +158,20 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	# python3 EQUAFL_test_parallel.py 5 20880 3
 	# python3 EQUAFL_test_parallel.py 5 19061 4
 
-	#10.30 second round, in the first round, the speed for mode 2 is slow (reason may be qemu-cmd or the server)
+	#11.30 second round, in the first round, the speed for mode 2 is slow (reason may be qemu-cmd or the server)
 	# python3 EQUAFL_test_parallel.py 5 19061 2
 	# python3 EQUAFL_test_parallel.py 5 18627 2
+
+	# 12.13
+	# python3 EQUAFL_test_parallel.py 5 16157 2
+	# python3 EQUAFL_test_parallel.py 5 20880 2
+
+	docker run -it -v /mnt/ramdisk/config:/config -v /mnt/ramdisk/modules:/lib/modules  -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 2 2 0"
+
+	docker run -it  -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 2 2 0"
+	
+	12.28
+	python3 EQUAFL_test_parallel_ramdisk.py 5 20880 2
 
 
 # COMMAND INJECTION INFO
