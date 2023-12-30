@@ -126,7 +126,7 @@ def parse_args_envs(image_id, type_name):
 
 
 
-def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_id, fuzzer_num, keywords_num, qemu_num):
+def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_id, fuzzer_num, keywords_num, qemu_num, run_core_base):
 	#no_args: without using the results of generate_args_envs
 	#no_files: without using the results of prepare_files
 	#pure_qemu: without using the qemu in USER_FUZZ, useing qemu in AFL instead.
@@ -140,7 +140,7 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 			cmdstr = "cp -r image_%s/* %s/" %(image_id, image_dir)
 			os.system(cmdstr)
 	else:
-		if cmp(copy_id, "0") == 0:
+		if copy_id == 0:
 			image_dir = "image_%s_%s" %(image_id, type_name)
 			res = os.path.exists(image_dir)
 			if res == 0:
@@ -148,7 +148,7 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 				return
 		else:
 			ori_image_dir = "image_%s_%s" %(image_id, type_name)
-			image_dir = "image_%s_%s_%s" %(image_id, type_name, copy_id)
+			image_dir = "image_%s_%s_%d" %(image_id, type_name, copy_id)
 			cmdstr = "mkdir %s" %image_dir
 			os.system(cmdstr)
 			cmdstr = "cp -r %s/* %s/" %(ori_image_dir, image_dir)
@@ -241,20 +241,21 @@ def run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_i
 	else:
 		#cmd = "chroot . ./afl-fuzz -m none -t 800000+ -Q -i ./inputs -o ./outputs -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
 		if fuzzer_num == 0 or fuzzer_num == 3: #afl
-			cmd = "chroot . ./afl-fuzz -m none -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
+			cmd = "AFL_CPU_BINDING=%d chroot . ./afl-fuzz -m none -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(copy_id + run_core_base, full_name, env_list_text, arg_list_text)
 		elif fuzzer_num == 1 or fuzzer_num == 2: #afl++, enable deterministic 
-			cmd = "chroot . ./afl-fuzz -m none -D -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(full_name, env_list_text, arg_list_text)
+			cmd = "AFL_CPU_BINDING=%d chroot . ./afl-fuzz -m none -D -Q -i ./inputs -o ./outputs_fuzzer -x keywords   %s %s %s @@" %(copy_id + run_core_base, full_name, env_list_text, arg_list_text)
 	os.system(cmd)
 
 	os.chdir("../")
 
-assert(len(sys.argv)==7)
+assert(len(sys.argv)==8)
 image_id = sys.argv[1]
 test_name = sys.argv[2]
-copy_id = sys.argv[3]
+copy_id = int(sys.argv[3])
 fuzzer_num = int(sys.argv[4])
 keywords_num = int(sys.argv[5])
 qemu_num = int(sys.argv[6])
+run_core_base = int(sys.argv[7])
 
 image_ori_dir = "image_%s" %image_id
 res = os.path.exists(image_ori_dir)
@@ -269,6 +270,6 @@ else:
 	no_files = 0
 	pure_qemu = 0
 
-	run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_id, fuzzer_num ,keywords_num, qemu_num)
+	run_afl(image_id, full_name, type_name, no_args, no_files, pure_qemu, copy_id, fuzzer_num ,keywords_num, qemu_num, run_core_base)
 
 

@@ -25,6 +25,8 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	docker pull zyw200/equafl_full
 	docker run -it -v `pwd`:/root -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full /bin/bash
 
+	docker run -it -v `pwd`:/root -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_test /bin/bash
+
 
 
 	cd /home/yaowen/firmadyne
@@ -102,19 +104,23 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	ps -aux | grep qemu |awk '{print $2}'| xargs kill -9
 
-# EQUAFL++
+# EQUAFL++ keywords
 	ida_open_program.py
 	analysis.py
 	require lib_arg_num, which stores the argument number of the library function
 	keywords: keywords/httpd/19061 (original keyords) keywords/httpd/19061_static (keywords after static analysis)
 
-# AFLPlusplus
-	firmadyne_scripts/afl-fuzz.c  used for IoT program testing   modification: change_argv before execv()
+# AFL/AFL++ 
+	1. firmadyne_scripts/afl-fuzz.c  used for IoT program testing   modification: change_argv before execv()
 	for AFLplusplus/src/afl-forkserver.c, also add change_argv, can find in EQUAFL++
 
-	move macro, eff_map and DICTIONARY STUFF in the front. Note that there are two in both fuzz_one_original and mopt_common_fuzzing.
-
+	2. move macro, eff_map and DICTIONARY STUFF in the front. Note that there are two in both fuzz_one_original and mopt_common_fuzzing.
 	EQUAFL++/afl-fuzz-one-dict.c is the modification of afl-fuzz-one.c, which put the dictionary stuff in front of other mutation strategy
+	afl-fuzz.c -> afl-fuzz-new.c
+	
+	3. besides make afl inside docker bind different CPU, we add bind_to_cpu insteand bind_to_free_cpu to specify the cpu core num we want to bind.
+	The reason is that AFL in different docker cannot see other AFL process, so defaultly bind to the first CPU core, and the speed will slow down
+	We also tried using docker --cpuset-cpus=xx, but it cannot work.
 	
 
 	Compilation: make STATIC=1
@@ -126,7 +132,7 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 # Server
 
-	10.96.183.253 csl-conti-dell7858
+	10.96.181.101 csl-conti-dell7858
 	10.96.183.230 csl-conti-dell7859
 
 	ps -aux | grep qemu |awk '{print $2}'| xargs kill -9
@@ -166,12 +172,33 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	# python3 EQUAFL_test_parallel.py 5 16157 2
 	# python3 EQUAFL_test_parallel.py 5 20880 2
 
+
 	docker run -it -v /mnt/ramdisk/config:/config -v /mnt/ramdisk/modules:/lib/modules  -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 2 2 0"
 
-	docker run -it  -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 2 2 0"
+	docker run -it  -w /home/yaowen/firmadyne --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 3 2 0"
 	
+	docker run -it  -w /home/yaowen/firmadyne  --cpuset-cpus=1 --env USER=root --privileged zyw200/equafl_full sh -c "python vul_run.py 19061 0 3 2 0"
+	
+
+	EQUAFL_setup/tools/fuzzing_results_new
+	image_19061_1_3_0  image_(image_id)_(keyword_num)_(fuzzing_num)_instance
+	keyword_num 0 original 1 static 2 sorted
+	fuzzer_num 0 afl, 1 afl++, 2
+
+
 	12.28
-	python3 EQUAFL_test_parallel_ramdisk.py 5 20880 2
+	python3 EQUAFL_test_parallel.py 5 19061 2
+	python3 EQUAFL_test_parallel_ramdisk.py 5 20880 2  # need -v `pwd`:/root,  python collect_fuzzing_result.py need copy /root to current dir
+
+	12.29
+	python3 EQUAFL_test_parallel.py 5 18627 2
+	python3 EQUAFL_test_parallel.py 5 20880 2
+
+	docker stop $(docker ps -a -q)
+
+	start 5 instance, the last argument is the start core
+	python3 EQUAFL_test_parallel.py 5 19061 0 0
+	python3 EQUAFL_test_parallel.py 5 19061 2 5
 
 
 # COMMAND INJECTION INFO
@@ -203,3 +230,6 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 # root cause analysis
 
 	CVE-2016-1555  cmd sbin/lighttpd -> boardDataWW.php -> exec(wr_mfg_data) -> system
+
+# results explanation
+

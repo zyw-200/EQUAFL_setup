@@ -531,6 +531,28 @@ static void bind_to_free_cpu(void) {
 
 }
 
+
+void bind_to_cpu(void) {
+    // 获取环境变量 AFL_CPU_BINDING 的值
+    const char* cpu_binding = getenv("AFL_CPU_BINDING");
+
+    if (cpu_binding) {
+        int cpu_list[4] = {0};
+        int cpu_count = sscanf(cpu_binding, "%d,%d,%d,%d",
+                               &cpu_list[0], &cpu_list[1], &cpu_list[2], &cpu_list[3]);
+        cpu_set_t cpu_set;
+        CPU_ZERO(&cpu_set);
+        for (int i = 0; i < cpu_count; i++) {
+            CPU_SET(cpu_list[i], &cpu_set);
+        }
+        sched_setaffinity(0, sizeof(cpu_set), &cpu_set);
+    } else {
+        // 默认情况下，绑定到空闲的 CPU 核心
+        bind_to_free_cpu();
+    }
+}
+
+
 #endif /* HAVE_AFFINITY */
 
 #ifndef IGNORE_FINDS
@@ -8075,7 +8097,8 @@ int main(int argc, char** argv) {
   get_core_count();
 
 #ifdef HAVE_AFFINITY
-  bind_to_free_cpu();
+  // bind_to_free_cpu();
+  bind_to_cpu();
 #endif /* HAVE_AFFINITY */
 
   check_crash_handling();

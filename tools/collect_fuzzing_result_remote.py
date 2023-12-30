@@ -21,10 +21,20 @@ def collect_result_option_remote(ip, option):
 			os.system(cmd)
 			time.sleep(5)
 
+def collect_result_option_remote_new(ip):
+	output_dir = "/home1/yaowen/firmadyne/tools/image_*" 
+	cmd = "scp -r root@%s:%s fuzzing_results_new/" %(ip, output_dir)
+	os.system(cmd)
+	time.sleep(5)
+
 
 # collect_result_remote("10.96.183.253")
 # collect_result_remote("10.96.183.230")
 
 # collect_result_option_remote("10.96.183.253", 0)
-collect_result_option_remote("10.96.183.230", 1)
+# collect_result_option_remote("10.96.183.230", 1)
+
+# collect_result_option_remote_new("10.96.183.253")
+collect_result_option_remote_new("10.96.183.230")
+
 
