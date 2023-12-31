@@ -703,8 +703,8 @@ def obtain_str(output_file):
 			print i, new_line
 			ori_fp.write(new_line)
 			i=i+1
-	cmd_line = "cmd_str=\"xxxxxx\"\n"
-	ori_fp.write(cmd_line)
+	# cmd_line = "cmd_str=\"xxxxxx\"\n"
+	# ori_fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	ori_fp.write(final_line)
 	ori_fp.close()
@@ -757,6 +757,10 @@ def filter_str_w_static(code_name, output_file, output_info_file):
 				# keywords_dict[pair[0]] = pair[1]
 				keywords_dict[pair[0]] = res
 
+				# output_file_debug = output_file + "ssssss"
+				# fp_debug = open(output_file_debug, "a+")
+				# fp_debug.write(pair[0]+"\n")
+
 	fp = open(output_file, "w+")
 	i = 0
 	for keyword in keywords_dict:
@@ -766,8 +770,8 @@ def filter_str_w_static(code_name, output_file, output_info_file):
 		new_line+= "\"\n"
 		fp.write(new_line)
 		i = i + 1
-	cmd_line = "cmd_str=\"xxxxxx\"\n"
-	fp.write(cmd_line)
+	# cmd_line = "cmd_str=\"xxxxxx\"\n"
+	# fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -934,8 +938,8 @@ def filter_str_w_static_sorted(code_name, input_file, output_file):
 		new_line+= "\"%d\n" %call_len
 		fp.write(new_line)
 		i = i + 1
-	cmd_line = "cmd_str=\"xxxxxx\"\n"
-	fp.write(cmd_line)
+	# cmd_line = "cmd_str=\"xxxxxx\"\n"
+	# fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -1091,8 +1095,8 @@ def filter_str_w_static_dep_debug(code_name, input_file, output_file, recv_addr)
 		new_line+= "\"%d\n" %call_len
 		fp.write(new_line)
 		i = i + 1
-	cmd_line = "cmd_str=\"xxxxxx\"\n"
-	fp.write(cmd_line)
+	# cmd_line = "cmd_str=\"xxxxxx\"\n"
+	# fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -1135,8 +1139,8 @@ def filter_str_w_static_dep(code_name, input_file, output_file, recv_addr):
 			new_line+= "\"\n"
 			fp.write(new_line)
 			i = i + 1
-	cmd_line = "cmd_str=\"xxxxxx\"\n"
-	fp.write(cmd_line)
+	# cmd_line = "cmd_str=\"xxxxxx\"\n"
+	# fp.write(cmd_line)
 	final_line = "long_string=\"zywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzywzyw\""
 	fp.write(final_line)
 	fp.close()
@@ -1159,9 +1163,13 @@ elif int(image_id) == 20880:
 	recv_addr = 0x408f60
 	code_seg_name = ".text"
 elif int(image_id) == 108076:
-	recv_addr = 0
-elif int(image_id) == 16835:
-	recv_addr = 0
+	#/usr/sbin/uhttpd
+	recv_addr = 0x40b000
+	code_seg_name = "LOAD"
+elif int(image_id) == 16385:
+	#/usr/bin/lighttpd
+	recv_addr = 0x40AB38
+	code_seg_name = ".text"
 else:
 	print(recv_addr)
 
@@ -1175,7 +1183,7 @@ else:
 	obtain_str(output_file)
 	filter_str_w_static(code_seg_name, output_file_static, output_info_file)
 	filter_str_w_static_dep(code_seg_name, output_info_file, output_file_sorted, recv_addr)
-	filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
+	# filter_str_w_static_dep_debug(code_seg_name, output_info_file, output_file_sorted_debug, recv_addr)
 
 
 # cfs = get_ancestor_functions(0x4137c0) 

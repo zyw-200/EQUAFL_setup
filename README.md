@@ -11,6 +11,7 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	docker pull zyw200/equafl_artifact:0.5
 	docker run -it --env USER=root --privileged zyw200/equafl_artifact:0.5 /bin/bash
+	docker run -it -v `pwd`:/root --env USER=root --privileged zyw200/equafl_artifact:0.5 /bin/bash
 
 
 	apt-get install -y pkg-config libglib2.0-dev autoconf automake libtool
@@ -46,8 +47,7 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	python vul_run.py 19061 9 3 2 0 #dir 8 afl-new keywords_static_sorted  560
 	python vul_run.py 19061 10 3 2 0 #dir 8 afl-new keywords_static_sorted  1062
 
-	get the pc trace before recv
-	python vul_run.py 19061 1 0 0 1
+
 
 	## 18627 userfs/bin/boa  /HNAP1
 	python EQUAFL_setup.py 18627
@@ -105,6 +105,18 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	ps -aux | grep qemu |awk '{print $2}'| xargs kill -9
 
 # EQUAFL++ keywords
+ 	dpkg --add-architecture i386
+	apt-get install libglib2.0-0:i386
+	apt-get install -y libx11-6:i386
+	apt install libgtk3-nocsd0:i386 libqt5gui5:i386
+
+
+	the code for retreiving the PC before recv is in EQUAFL_setup/EQUAFL++/qemu-recv-addr
+	!!!!get the pc trace before recv
+	python vul_run.py 16385 1 0 0 1 0
+	sometimes, like 16385, due to the dup, some pc cannot be printed, you should refer to "trace_before_recv" file
+
+	
 	ida_open_program.py
 	analysis.py
 	require lib_arg_num, which stores the argument number of the library function
@@ -121,7 +133,7 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	3. besides make afl inside docker bind different CPU, we add bind_to_cpu insteand bind_to_free_cpu to specify the cpu core num we want to bind.
 	The reason is that AFL in different docker cannot see other AFL process, so defaultly bind to the first CPU core, and the speed will slow down
 	We also tried using docker --cpuset-cpus=xx, but it cannot work.
-	
+
 
 	Compilation: make STATIC=1
 
@@ -198,7 +210,24 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 
 	start 5 instance, the last argument is the start core
 	python3 EQUAFL_test_parallel.py 5 19061 0 0
-	python3 EQUAFL_test_parallel.py 5 19061 2 5
+	python3 EQUAFL_test_parallel.py 5 19061 1 5
+
+	12.30 10 instance option 0 , exit abnormally
+	python3 EQUAFL_test_parallel_all.py 10 0
+	python3 EQUAFL_test_parallel_all.py 10 2
+
+	12.31
+	python3 EQUAFL_test_parallel.py 10 19061 0 0
+	python3 EQUAFL_test_parallel.py 10 19061 2 10
+
+	python3 EQUAFL_test_parallel.py 10 18627 0 0
+	python3 EQUAFL_test_parallel.py 10 18627 2 10
+
+
+
+
+
+
 
 
 # COMMAND INJECTION INFO
