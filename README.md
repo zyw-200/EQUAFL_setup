@@ -134,6 +134,8 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	The reason is that AFL in different docker cannot see other AFL process, so defaultly bind to the first CPU core, and the speed will slow down
 	We also tried using docker --cpuset-cpus=xx, but it cannot work.
 
+	afl-fuzz-++  thare are three files that modify the bind_to_cpu for afl++
+
 
 	Compilation: make STATIC=1
 
@@ -220,8 +222,22 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	python3 EQUAFL_test_parallel.py 10 19061 0 0
 	python3 EQUAFL_test_parallel.py 10 19061 2 10
 
+	will crash
 	python3 EQUAFL_test_parallel.py 10 18627 0 0
 	python3 EQUAFL_test_parallel.py 10 18627 2 10
+
+	2024.1.1
+	27T
+	python3 EQUAFL_test_parallel.py 10 16157 0 0 
+	python3 EQUAFL_test_parallel.py 10 16157 2 10
+
+	19T
+	python3 EQUAFL_test_parallel.py 10 20880 0 0
+	python3 EQUAFL_test_parallel.py 10 20880 2 10
+
+	python3 EQUAFL_test_parallel_full.py 2 19061 0
+	python3 EQUAFL_test_parallel_firmafl.py 2 19061 0
+
 
 
 

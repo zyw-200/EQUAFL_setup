@@ -3,7 +3,7 @@ import shutil
 
 def get_container_ids_and_cmds():
     # Run the docker ps command and capture the output
-    result = subprocess.run(['docker', 'ps', '--format', '{{.ID}}:{{.Command}}', '-f', 'ancestor=zyw200/equafl_full', '--no-trunc'], capture_output=True, text=True)
+    result = subprocess.run(['docker', 'ps', '--format', '{{.ID}}:{{.Command}}', '-f', 'ancestor=zyw200/equafl_test', '--no-trunc'], capture_output=True, text=True)
     return result.stdout.strip().split('\n')
 
 def log_into_container(container_id):
