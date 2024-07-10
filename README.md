@@ -227,23 +227,129 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	python3 EQUAFL_test_parallel.py 10 18627 2 10
 
 	2024.1.1
-	27T
+	27T->24T->22T
 	python3 EQUAFL_test_parallel.py 10 16157 0 0 
 	python3 EQUAFL_test_parallel.py 10 16157 2 10
 
-	19T
+	19T->19T
 	python3 EQUAFL_test_parallel.py 10 20880 0 0
 	python3 EQUAFL_test_parallel.py 10 20880 2 10
 
+	2024.1.2
+	python3 EQUAFL_test_parallel.py 10 16385 0 0 
+	python3 EQUAFL_test_parallel.py 10 16385 2 10
+
+	try again
+	19T->18T
+	python3 EQUAFL_test_parallel.py 10 18627 0 0 
+	python3 EQUAFL_test_parallel.py 10 18627 2 10
+
+
+	2024.1.3
+
+	python3 EQUAFL_test_parallel.py 10 108076 0 0 
+	python3 EQUAFL_test_parallel.py 10 108076 2 10
+
+	python3 EQUAFL_test_parallel_full.py 10 16157 0  50/s
+	python3 EQUAFL_test_parallel_full.py 10 20880 10 4/s, stuck all
+
+
+	2024.1.4
+	start afl++ 27T
+	python3 EQUAFL_test_parallel.py 10 19061 3 0
+	python3 EQUAFL_test_parallel.py 10 19061 4 10
+
+
+	python3 EQUAFL_test_parallel_full.py 10 16385 0  
+	python3 EQUAFL_test_parallel_full.py 10 18627 10
+
+
+	2024.1.6
+	27T->21T
+	python3 EQUAFL_test_parallel.py 10 16157 3 0
+	python3 EQUAFL_test_parallel.py 10 16157 4 10
+
+	failed
+	python3 EQUAFL_test_parallel_firmafl.py 10 16385 0  
+	python3 EQUAFL_test_parallel_firmafl.py 10 18627 10
+
+
+	2024.1.7
+	re-run missing some results
+	python3 EQUAFL_test_parallel.py 10 20880 0 0
+	python3 EQUAFL_test_parallel.py 10 20880 2 10
+
+
+	python3 EQUAFL_test_parallel_full.py 10 16157 0  
+	python3 EQUAFL_test_parallel_full.py 10 20880 10 hang
+
+	2024.1.8
+	python3 EQUAFL_test_parallel.py 10 20880 3 0
+	python3 EQUAFL_test_parallel.py 10 20880 4 10
+
+	python3 EQUAFL_test_parallel_full.py 10 108076 0  
+	python3 EQUAFL_test_parallel_full.py 10 19061 10 
+
+	2024.1.9
+	->26T
+	python3 EQUAFL_test_parallel.py 10 18627 3 0
+	python3 EQUAFL_test_parallel.py 10 18627 4 10
+
+	python3 EQUAFL_test_parallel_firmafl.py 10 16157 0    many hang
+	python3 EQUAFL_test_parallel_firmafl.py 10 108076 10 
+
+	2014.1.11
+	python3 EQUAFL_test_parallel.py 10 108076 3 0
+	python3 EQUAFL_test_parallel.py 10 108076 4 10
+
+	???? python3 EQUAFL_test_parallel_firmafl.py 10 20880 0   make server not available
+	python3 EQUAFL_test_parallel_firmafl.py 10 19061 10 
+
+	2014.1.13
+	python3 EQUAFL_test_parallel.py 10 16385 3 0
+	python3 EQUAFL_test_parallel.py 10 16385 4 10
+
+	python3 EQUAFL_test_parallel_firmafl.py 10 19061 10
+	
+
+
+failure:
+	firmafl 20880  16157 16385(some failed) 18627(most failed) 19061(most failed)
+	full image_18627_4_full-> image_18627_5_full
+
+
+2024.2.1 local machine
+	python3 EQUAFL_test_parallel_firmafl.py 10 19061 0
+	python3 EQUAFL_test_parallel_firmafl.py 10 16157 0
+
+
+
+
+
+
+some data not well collected
+cp -r image_20880_0_0_0/ image_20880_0_0_1/
+cp -r image_20880_0_0_0/ image_20880_0_0_5
+cp -r image_20880_2_3_0/ image_20880_2_3_3
+
+
+16157 WN2000RPTv1	
+108076 WNDRMACv2 few seconds
+20880 dir-825
+16835 DSP-W215 few seconds
+18627 dsl-2740r test 
+19061 dap-2330 test
+
+
+
+10.96.181.101 csl-conti-dell7858
+10.96.183.230 csl-conti-dell7859
+
+
+
+# full/firmafl
 	python3 EQUAFL_test_parallel_full.py 2 19061 0
 	python3 EQUAFL_test_parallel_firmafl.py 2 19061 0
-
-
-
-
-
-
-
 
 
 # COMMAND INJECTION INFO
@@ -277,4 +383,15 @@ pg_dump -U firmadyne -h localhost -t image_new -f EQUAFL_IMAGE_NEW firmware
 	CVE-2016-1555  cmd sbin/lighttpd -> boardDataWW.php -> exec(wr_mfg_data) -> system
 
 # results explanation
+
+
+# Demo for conti (the target is 18627 DSL-2740 userfs/bin/boa  /HNAP1)
+
+	docker pull zyw200/equafl_full
+
+	tmux new -s xxx
+	cd tools/
+
+	python3 EQUAFL_test_parallel.py 1 18627 0 0  # original version of EQUAFL
+	python3 EQUAFL_test_parallel.py 1 18627 4 0  # EQUAFL++
 
